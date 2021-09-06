@@ -36,3 +36,7 @@ Editores scorm
 [scorm reload editor ejemplo de uso](https://www.subitus.com/empaquetar_en_scorm_reload_editor/)
 
 [Qué es scorm](https://www.ispring.es/blog/que-es-scorm)
+
+[Subir presentaciones de genially en scorm](https://www.youtube.com/watch?v=L05Tja6kfK0)
+
+[Crear contenido interactivo con hp5.org](https://h5p.org)
