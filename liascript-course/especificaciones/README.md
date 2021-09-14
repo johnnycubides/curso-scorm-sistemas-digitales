@@ -49,4 +49,7 @@ El proceso de prototipado consiste en la realización física del sistema, final
 iniciales. Como puede verse en el flujo de diseño existen realimentaciones, estas permiten depurar el resultado de pasos anteriores en el caso de no cumplirse con las 
 especificaciones iniciales. 
 
+![Flujo de diseño de un sistema embebido](flujo_diseno_sistema_embebido.jpg)
+
+
 
