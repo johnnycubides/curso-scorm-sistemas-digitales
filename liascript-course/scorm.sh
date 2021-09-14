@@ -9,8 +9,8 @@ status=$?
 
 declare -a lecciones
 lecciones=(
-litex
 zephyr
+recursosHerramientas
 )
 # declare -a lecciones=(uno dos)
 
