@@ -5,14 +5,14 @@
 En este video se especifica el proceso de fabricación, empezando por la obtención de la materia prima a partir de la arena, al extraer de esta el Silicio
 componente que conforma el 25% de la capa terresetre de la tierra y utilizado para la creación de los semiconductores.
 
-https://www.youtube.com/watch?v=nBB_7RpQ9d0
+!?[Fabricación circuito impreso](https://www.youtube.com/watch?v=nBB_7RpQ9d0)
 
 ## Proceso de producción de una computadora
 
 A continuación, se aprecia el proceso industrial sobre la creación y ensamble de las placas electrónicas que contienen las computadoras portatiles. Como lo son memorias, 
 tarjeta madre y cargadores de alimentación.
 
-https://www.youtube.com/watch?v=iExX3T70878
+!?[Producción de una computadora](https://www.youtube.com/watch?v=iExX3T70878)
 
 Se pueden apreciar varias etapas:
 - Creación de circuito impreso a partir de una baquela virgen.
