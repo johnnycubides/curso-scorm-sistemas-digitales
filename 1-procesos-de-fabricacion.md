@@ -24,5 +24,4 @@ Se pueden apreciar varias etapas:
 - Test de envejecimiento, donde se lleva a la exigencia máxima del equipo para comprobar su fiabilidad.
 - Área de empaque, para su posterior distribución.
 
-# Herramientas de diseño
 
