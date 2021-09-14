@@ -3,7 +3,7 @@
 ## Etapas de fabricación de un circuito impreso
 
 En este video se especifica el proceso de fabricación, empezando por la obtención de la materia prima a partir de la arena, al extraer de esta el Silicio
-componente que conforma el 25% de la capa terresetre de la tierra.
+componente que conforma el 25% de la capa terresetre de la tierra y utilizado para la creación de los semiconductores.
 
 https://www.youtube.com/watch?v=nBB_7RpQ9d0
 
