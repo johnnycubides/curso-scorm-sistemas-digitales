@@ -13,6 +13,7 @@ zephyr
 recursosHerramientas
 soc
 metodologiasDiseno
+litexRiscVbaremetal
 )
 # declare -a lecciones=(uno dos)
 
