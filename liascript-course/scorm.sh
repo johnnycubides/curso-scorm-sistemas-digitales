@@ -11,6 +11,8 @@ declare -a lecciones
 lecciones=(
 zephyr
 recursosHerramientas
+soc
+metodologiasDiseno
 )
 # declare -a lecciones=(uno dos)
 
