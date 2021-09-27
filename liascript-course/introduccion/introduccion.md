@@ -28,6 +28,10 @@ Vídeo sobre industria digital CC-by-sa
 
 ##### Kicad
 
+##### QCAD
+
+##### OpenSCAD
+
 #### Análisis y simulación de circuitos
 
 ##### QUCS
