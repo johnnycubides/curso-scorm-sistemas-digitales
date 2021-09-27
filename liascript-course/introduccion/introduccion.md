@@ -24,30 +24,30 @@ Vídeo sobre industria digital CC-by-sa
 
 #### Librerías
 
-#### Herramientas de CAD
+### Herramientas de CAD
 
-##### Kicad
+#### Kicad
 
-##### QCAD
+#### QCAD
 
-##### OpenSCAD
+#### OpenSCAD
 
-#### Análisis y simulación de circuitos
+### Análisis y simulación de circuitos
 
-##### QUCS
+#### QUCS
 
-#### Simulación y verificación digital
+### Simulación y verificación digital
 
-##### Icarus
+#### Icarus
 
-##### GTKWAVE
+#### GTKWAVE
 
-#### Herramientas de Síntesis
+### Herramientas de Síntesis
 
-##### LiteX
+#### LiteX
 
-#### Documentación y manejo de proyectos
+### Documentación y manejo de proyectos
 
-##### GIT
+#### GIT
 
-##### Wiki
+#### Wiki
