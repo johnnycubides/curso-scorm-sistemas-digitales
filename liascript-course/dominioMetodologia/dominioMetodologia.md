@@ -33,9 +33,25 @@ Los niveles de abstracción, se describen por medio de la siguiente tabla:
 
 ## Metodologías de diseño
 
-Introducción...
+El diseño de software es un proceso para conceptualizar los requisitos de software en la implementación de software. El diseño de software toma los requisitos del usuario como desafíos y trata de encontrar una solución óptima. Mientras se conceptualiza el software, se elabora un plan para encontrar el mejor diseño posible para implementar la solución deseada.
 
-Algunas metodologías de diseño de software como metodología agil o Modularidad
+**1. Metodología ágil**
+
+El desarrollo ágil de software envuelve un enfoque para la toma de decisiones en los proyectos de software, que se refiere a métodos de ingeniería del software basados en el desarrollo iterativo e incremental, donde los requisitos y soluciones evolucionan con el tiempo según la necesidad del proyecto.
+
+* Wikipedia: https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software
+
+![Metodología ágil](img/agile.png)
+
+* Fuente: https://excelencemanagement.wordpress.com/2021/03/01/metodologias-agiles-cuestion-de-principios-y-de-valores/
+
+**2. Modularidad**
+
+La modularidad es la capacidad que tiene un sistema de ser estudiado, visto o entendido como la unión de varias partes que interactúan entre sí y que trabajan para alcanzar un objetivo común, realizando cada una de ellas una tarea necesaria para la consecución de dicho objetivo. Cada una de esas partes en que se encuentre dividido el sistema recibe el nombre de módulo. Idealmente un módulo debe poder cumplir las condiciones de caja negra, es decir, ser independiente del resto de los módulos y comunicarse con ellos (con todos o sólo con una parte) a través de unas entradas y salidas bien definidas.
+
+* Fuente: https://www.fing.edu.uy/tecnoinf/maldonado/cursos/eda/material/teo/EDA-teorico2.pdf
+
+![Modularidad](img/modularidad.jpg)
 
 ### Metodología Top-Down
 
