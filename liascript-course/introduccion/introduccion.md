@@ -42,6 +42,8 @@ El GNU Compiler Collection normalmente llamado GCC, es un grupo de compiladores 
 
 ![GCC](img/gcc.jpg)
 
+* Fuente: https://architecnologia.es/programacion-el-compilador-gcc 
+
 ********************************************************************************
 
 
