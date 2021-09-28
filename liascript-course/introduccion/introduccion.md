@@ -31,7 +31,7 @@ Vídeo sobre industria digital CC-by-sa
 --{{0}}--
 En este apartado se describirán las herramientas abiertas necesarias para el desarrollo de aplicaciones software en sistemas digitales. Todas las aplicaciones mencionadas a continuación hacen parte de la cadena de herramientas GNU, que son parte de los recursos suministrados por la comunidad de software libre.
 
-{{1}}
+ {{1}}
 ********************************************************************************
 
 **Compiladores:**
@@ -132,7 +132,7 @@ Es necesario contar con las librerías standard de C: stdio, stdlib, math, etc; 
 
 Para la elaboración de las cajas que contendrán las tarjetas electrónicas y servirán de soporte fı́sico a los dispositivos electrónicos, se utilizará la herramienta QCAD disponible para los sistemas operativos más utilizados; con esta aplicación se puede generar la forma de la placa de circuito impreso con los orificios necesarios para ajustarse a la caja y a la aplicación; este archivo puede ser exportado a la herramienta KICAD lo que facilita la colocación de componentes.
 
-{{1}}
+ {{1}}
 ********************************************************************************
 
 **KiCad:**
@@ -187,7 +187,7 @@ En la mayorı́a de centros de formación se utilizan herramientas que utilizan 
 
 * Fuente: https://www.tina.com/es/spice-simulation/
 
-{{1}}
+ {{1}}
 ********************************************************************************
 
 **QUCS:**
@@ -242,10 +242,10 @@ Como herramienta de simulación se utilizará GTKWAVE, la cual acepta como entra
 
 --{{0}}--
 
-Para la sı́ntesis digital a partir de lenguajes de descripción de hardware se utilizan las herramientas gratuitas suministradas por los fabricantes de FPGAs, webpack de Xilinx y Quartus de Altera; debido a que la estructura interna de las FPGAs solo la conocen los fabricantes 3 , es obligatorio utilizar sus herramientas para obtener el archivo de configuración. 
+Para la síntesis digital a partir de lenguajes de descripción de hardware se utilizan las herramientas gratuitas suministradas por los fabricantes de FPGAs, webpack de Xilinx y Quartus de Altera; debido a que la estructura interna de las FPGAs solo la conocen los fabricantes 3 , es obligatorio utilizar sus herramientas para obtener el archivo de configuración. 
 
 
-{{1}}
+ {{1}}
 ********************************************************************************
 
 **LiteX:**
