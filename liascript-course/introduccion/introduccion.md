@@ -57,7 +57,6 @@ Para la elaboración de las cajas que contendrán las tarjetas electrónicas y s
 
 {{1}}
 **LiaScript-DevServer:**
---{{1}}--
 
 
 
