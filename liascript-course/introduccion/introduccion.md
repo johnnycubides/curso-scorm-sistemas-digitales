@@ -76,7 +76,7 @@ Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al 
 
 ********************************************************************************
 
- {{2}}
+{{2}}
 ********************************************************************************
 
 **QCAD:**
@@ -89,13 +89,14 @@ QCAD es una aplicación informática de diseño asistido por computadora para di
 {{3}}
 ********************************************************************************
 
-**QCAD:**
+**OpenSCAD:**
 
                            --{{3}}--
 
 OpenSCAD es una aplicación libre para crear objetos sólidos de CAD. No es un editor interactivo sino un compilador 3D basado en un lenguaje de descripción textual. Un documento de OpenSCAD especifica primitivas geométricas y define como son modificadas y manipuladas para reproducir un modelo 3D. 
 
 ![OpenSCAD](img/openscad.png)
+
 ********************************************************************************
 
 ### Análisis y simulación de circuitos
