@@ -29,7 +29,7 @@ Vídeo sobre industria digital CC-by-sa
 
 En este apartado se describirán las herramientas abiertas necesarias para el desarrollo de aplicaciones software en sistemas sistemas digitales. Todas las aplicaciones mencionadas a continuación hacen parte de la cadena de herramientas GNU, que son parte de los recursos suministrados por la comunidad de software libre.
 
- {{1}}
+{{1}}
 ********************************************************************************
 
 **Compiladores:**
