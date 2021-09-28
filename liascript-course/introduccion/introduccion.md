@@ -54,7 +54,13 @@ Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al 
 
 #### QCAD
 
+QCAD es una aplicación informática de diseño asistido por computadora para diseño 2D. Funciona en los sistemas operativos Windows, Mac OS X y Linux. QCAD tiene una licencia de software GNU General Public License, concretamente, el código fuente de las versiones 3.1 y posteriores tienen licencia GPLv3.
+
 #### OpenSCAD
+
+OpenSCAD es una aplicación libre para crear objetos sólidos de CAD. No es un editor interactivo sino un compilador 3D basado en un lenguaje de descripción textual. Un documento de OpenSCAD especifica primitivas geométricas y define como son modificadas y manipuladas para reproducir un modelo 3D. Wikipedia
+
+![OpenSCAD](img/openscad.png)
 
 ### Análisis y simulación de circuitos
 
