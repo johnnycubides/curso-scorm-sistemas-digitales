@@ -18,12 +18,18 @@ El dominio Físico, o nivel lógico, se usa para describir circuitos en término
 
 * bibing: http://bibing.us.es/proyectos/abreproy/12112/fichero/Documento_por_capitulos%252F2_Cap%C3%ADtulo_2.pdf
 
-Como podemos observar, cada uno de los niveles de abstracción se ocupa de unos determinados valores, que posteriormente las herramientas de síntesis y optimización se encargarán de ajustar y optimizar, usando algoritmos de iteración sobre cada uno de los elementos. Como se observa en la siguiente figura:
 
 dominio-descriptivo.png
 
 ![Dominio descriptivo](img/dominio-descriptivo.png)
 
+Como podemos observar, cada uno de los niveles de abstracción se ocupa de unos determinados valores, que posteriormente las herramientas de síntesis y optimización se encargarán de ajustar y optimizar, usando algoritmos de iteración sobre cada uno de los elementos. 
+
+![Niveles abstracción](img/niveles-abstraccion.png)
+
+Los niveles de abstracción, se describen por medio de la siguiente tabla:
+
+![Tabla niveles abstracción](img/tabla-niveles.png)
 
 ## Metodologías de diseño
 
