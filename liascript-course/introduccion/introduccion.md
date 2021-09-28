@@ -325,8 +325,14 @@ Sistema de trabajo informático utilizado en los sitios web que permite a los us
 
 ** TODO **: 
 
-- ¿Donde crear una WiKi?**
-- ¿Cómo crear una Wiki?
-- ¿Wikis creadas con Markdown?
+¿Donde crear una WiKi?
+=====================
+
+¿Cómo crear una Wiki?
+=====================
+
+¿Wikis creadas con Markdown?
+=====================
+
 
 ********************************************************************************
