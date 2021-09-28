@@ -4,8 +4,10 @@
 
 ## Metodologías de diseño
 
-## Introducción
+Introducción...
+
+Algunas metodologías de diseño de software como metodología agil o Modularidad
 
 ### Metodología Top-Down
 
-### Modularidad
+
