@@ -4,6 +4,10 @@ author: Carlos Camargo, Johnny Cubides
 
 comment: Sesión
 
+script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
+          https://felixhao28.github.io/JSCPP/dist/JSCPP.es5.min.js
+
+
 -->
 
 # Introducción de Sistemas Digitales
