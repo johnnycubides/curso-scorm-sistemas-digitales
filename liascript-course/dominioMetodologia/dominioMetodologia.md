@@ -23,7 +23,7 @@ dominio-descriptivo.png
 
 ![Dominio descriptivo](img/dominio-descriptivo.png)
 
-Como podemos observar, cada uno de los niveles de abstracción se ocupa de unos determinados valores, que posteriormente las herramientas de síntesis y optimización se encargarán de ajustar y optimizar, usando algoritmos de iteración sobre cada uno de los elementos. 
+Como se puede observar, cada uno de los niveles de abstracción se ocupa de unos determinados valores, que posteriormente las herramientas de síntesis y optimización se encargarán de ajustar y optimizar, usando algoritmos de iteración sobre cada uno de los elementos. 
 
 ![Niveles abstracción](img/niveles-abstraccion.png)
 
