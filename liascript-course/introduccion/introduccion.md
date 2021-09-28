@@ -183,6 +183,10 @@ OpenSCAD es un software CAD gratuito y de código abierto destinado a crear mode
 
 En la mayorı́a de centros de formación se utilizan herramientas que utilizan el simulador SPICE (Simulation Program with Integrated Circuits Emphasis) el cual ha demostrado ser una herramienta muy útil en diferentes áreas (electrónica análoga, electrónica digital, diseño VLSI, electrónica de potencia, entre otras) ya que proporciona diferentes formas y niveles de simulación; permitiendo el uso de modelos para representar de la mejor forma posible un dispositivo real. SPICE fue desarrollado por el departamento de ingenierı́a eléctrica y ciencias de la computación de la universidad de Berkeley 2 y su código fuente es distribuido bajo la licencia BSD (Berkeley Software Distribution), la última versión disponible es la 3f5, gracias a esto se han desarrollado una serie de herramientas que utilizan este potente simulador y proporcionan una interfaz amigable para el usuario.
 
+![SPICE](img/spice.jpg)
+
+* Fuente: https://www.tina.com/es/spice-simulation/
+
 {{1}}
 ********************************************************************************
 
@@ -193,6 +197,8 @@ En la mayorı́a de centros de formación se utilizan herramientas que utilizan 
 En esta propuesta se utiliza QUCS (Quite Universal Circuit Simulator) desarrollado en QT y permite ser ejecutado en cual sistema operativo. QUCS permite realizar análisis AC, DC, transitorio, de balance armónico y soporta dispositivos lineales, no lineales, micro-cintas, coplanares, lı́neas de transmisión y representados por modelos SPICE. En la figura, se muestra la captura de esta aplicación.
 
 ![QUCS](img/qucs.png)
+
+* Fuente: https://es.wikipedia.org/wiki/Quite_Universal_Circuit_Simulator
 
 ********************************************************************************
 
@@ -211,6 +217,10 @@ Para la sı́ntesis digital a partir de lenguajes de descripción de hardware se
 
 Para la simulación de sistemas digitales que utilizan como entrada de diseño lenguajes de descripción de hardware existen los simuladores ICARUS para verilog y GHDL para vhdl; los dos pueden ser utilizados para realizar simulaciones funcionales, post sı́ntesis o post place & route (trabajando en conjunto con las herramientas de los fabricantes) y ambos soportan el formato de salida VCD (definido junto con el lenguaje de descripción de hardware verilog por el estándar IEEE 1364-2001). Adicionalmente, estas herramientas pueden ser utilizadas en los sistemas operativos más utilizados.
 
+![Icarus](img/icarus.jpg)
+
+* Fuente: http://iverilog.icarus.com/
+
 ********************************************************************************
 
 
@@ -225,6 +235,8 @@ Como herramienta de simulación se utilizará GTKWAVE, la cual acepta como entra
 
 ![GTKWave](img/gtkwave.png)
 
+* Fuente: https://wiki.tcl-lang.org/page/GTKWave
+
 ********************************************************************************
 
 ### Herramientas de Síntesis
@@ -238,6 +250,9 @@ Como herramienta de simulación se utilizará GTKWAVE, la cual acepta como entra
 
                            --{{1}}--
 
+Hola soy LiteX
+
+********************************************************************************
 
 ### Documentación y manejo de proyectos
 
