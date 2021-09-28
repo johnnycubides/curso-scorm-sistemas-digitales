@@ -65,6 +65,38 @@ El depurador oficial de GNU (GDB) al igual que GCC, soporta múltiples lenguajes
 
                            --{{3}}--
 
+GNU Binutils es una colección de herramientas que pueden usarse junto a GNU GCC para inspeccionar y editar binarios. La mayoría de estas herramientas operan con ELFs, y para Linux, así como para la mayoría del software embebido, tanto los archivos de objetos individuales (.o) como la salida final enlazada (el ELF) están en este formato.
+
+Dicha colección de utilidades para archivos binarios están compuestas por:
+
+**addr2line:** Convierte direcciones de un programa en nombres de archivos y números de lı́nea. Dada una dirección y un ejecutable, usa la información de depuración en el ejecutable para determinar que nombre de archivo y número de lı́nea está asociado con la dirección dada.
+
+**ar:** Esta utilidad crea, modifica y extrae desde ficheros; un fichero es una colección de otros archivos en una estructura que hace posible obtener los archivos individuales.
+
+**as:** Utilidad que compila la salida del compilador de C (GCC).
+
+**c++filt:** Este programa realiza un mapeo inverso: Decodifica nombres de bajo-nivel en nombres a nivel de usuario, de tal forma que el linker pueda mantener estas funciones sobrecargadas (overloaded) “from clashing”.
+
+**gasp:** GNU Assembler Macro Preprocessor.
+
+**ld:** El linker GNU combina un número de objetos y ficheros, re-localiza sus datos y los relaciona con referencias. Normalmente el último paso en la construcción de un nuevo programa es el llamado a ld.
+
+**nm:** Realiza un listado de sı́mbolos de archivos tipo objeto.
+
+**objcopy:** Copia los contenidos de un archivo tipo objeto a otro. objcopy utiliza la librerı́a GNU BFD para leer y escribir el archivo tipo objeto. Permite escribir el archivo destino en un formato diferente al del archivo fuente.
+
+**objdump:** Despliega información sobre archivos tipo objeto.
+
+**ranlib:** Genera un ı́ndice de contenidos de un fichero, y lo almacena en él. 
+
+**readelf:** Interpreta encabezados de un archivo ELF.
+
+**size:** Lista el tamaño de las secciones y el tamaño total de un archivo tipo objeto.
+
+**strings:** Imprime las secuencias de caracteres imprimibles de al menos 4 caracteres de longitud.
+
+**strip:** Elimina todos los sı́mbolos de un archivo tipo objeto.
+
 ********************************************************************************
 
  {{4}}
