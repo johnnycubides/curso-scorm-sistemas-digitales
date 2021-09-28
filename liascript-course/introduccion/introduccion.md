@@ -28,7 +28,14 @@ El GNU Compiler Collection normalmente llamado GCC, es un grupo de compiladores 
 
 El depurador oficial de GNU (GDB) al igual que GCC, soporta múltiples lenguajes y plataformas; permite monitorear y modificar las variables internas del programa y hacer llamado a funciones de forma independiente a la ejecución normal del mismo. Además, permite establecer sesiones remotas utilizando el puerto serie o TCP/IP. Aunque GDB es una aplicación que se ejecuta en consola de comandos, se han desarrollado varios front-ends como DDD o GDB/Insight.
 
-#### Manipulación de código Objeto
+##### DDD
+
+
+##### GDB Frontend
+
+[Repositorio de gdb-frontend](https://github.com/rohanrhu/gdb-frontend)
+
+#### GNU binutils: manipulación de código Objeto 
 
 #### Librerías
 
