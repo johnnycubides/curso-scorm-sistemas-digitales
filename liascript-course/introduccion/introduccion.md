@@ -19,14 +19,16 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 Vídeo sobre industria digital CC-by-sa
 
 ## Etapas de fabricación
+
 --{{0}}--
 
 ## Herramientas de Diseño
+
 --{{0}}--
 
 ### Herramientas de desarrollo de software
---{{0}}--
 
+--{{0}}--
 En este apartado se describirán las herramientas abiertas necesarias para el desarrollo de aplicaciones software en sistemas sistemas digitales. Todas las aplicaciones mencionadas a continuación hacen parte de la cadena de herramientas GNU, que son parte de los recursos suministrados por la comunidad de software libre.
 
 {{1}}
