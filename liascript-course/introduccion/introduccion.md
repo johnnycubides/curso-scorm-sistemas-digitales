@@ -61,7 +61,6 @@ El GNU Compiler Collection normalmente llamado GCC, es un grupo de compiladores 
 ![GCC](img/gcc.jpg)
 
 * Repositorio de GCC: https://github.com/gcc-mirror/gcc
-* Fuente: https://i1.wp.com/architecnologia.es/wp-content/uploads/2019/08/gnu-gcc.jpg?resize=800%2C445&ssl=1 
 
 ********************************************************************************
 
@@ -78,7 +77,6 @@ El depurador oficial de GNU (GDB) al igual que GCC, soporta múltiples lenguajes
 ![GDB](img/gdb.jpg)
 
 * Repositorio oficial del proyecto GDB: https://www.gnu.org/software/gdb/current/
-* Fuente: https://i0.wp.com/architecnologia.es/wp-content/uploads/2019/09/gnu-gdb-logo.jpg?resize=800%2C445&ssl=1
 
 ********************************************************************************
 
@@ -139,7 +137,7 @@ Es necesario contar con las librerías standard de C: stdio, stdlib, math, etc; 
 **glibc** Es la librería C oficial del proyecto GNU; el principal inconveniente al trabajar con esta librería en sistemas embebidos es que genera ejecutables de mayor tamaño que los generados a partir de otras librerías, lo cual no la hace muy atractiva para este tipo de aplicaciones.
 
 **uClibc** Es una librería diseñada especialmente para sistemas embebidos, es mucho más pequeña que **glibc**. 
-* uclib: https://www.uclibc.org
+* uClibc: https://www.uclibc.org
 
 **newlib** Al igual que **uClibc**, está diseñada para sistemas embebidos. El típico “Hello, world!” ocupa menos de 30k en un entorno basado en newlib, mientras que en uno basado en glibc, puede ocupar 380k.
 
@@ -171,7 +169,6 @@ Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al 
 
 * Sitio oficial de kicad: https://www.kicad.org
 * Repositorio de fuentes de kicad: https://github.com/KiCad
-* Fuente: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/KiCad_Pcbnew_OpenGL.png/250px-KiCad_Pcbnew_OpenGL.png
 
 ********************************************************************************
 
@@ -183,7 +180,7 @@ Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al 
                            --{{2}}--
 QCAD es una aplicación informática de diseño asistido por computadora para diseño 2D. Funciona en los sistemas operativos Windows, Mac OS X y Linux. QCAD tiene una licencia de software GNU General Public License, concretamente, el código fuente de las versiones 3.1 y posteriores tienen licencia GPLv3.
 
-* Fuente: https://es.wikipedia.org/wiki/QCad
+* Wikipedia: https://es.wikipedia.org/wiki/QCad
 
 ********************************************************************************
 
@@ -200,8 +197,6 @@ OpenSCAD es un software CAD gratuito y de código abierto destinado a crear mode
 
 ![OpenSCAD](img/openscad.png)
 
-* Fuente: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Openscad_screen_english.png/300px-Openscad_screen_english.png
-
 ********************************************************************************
 
 ### Análisis y simulación de circuitos
@@ -210,9 +205,9 @@ OpenSCAD es un software CAD gratuito y de código abierto destinado a crear mode
 
 En la mayorı́a de centros de formación se utilizan herramientas que utilizan el simulador SPICE (Simulation Program with Integrated Circuits Emphasis) el cual ha demostrado ser una herramienta muy útil en diferentes áreas (electrónica análoga, electrónica digital, diseño VLSI, electrónica de potencia, entre otras) ya que proporciona diferentes formas y niveles de simulación; permitiendo el uso de modelos para representar de la mejor forma posible un dispositivo real. SPICE fue desarrollado por el departamento de ingenierı́a eléctrica y ciencias de la computación de la universidad de Berkeley 2 y su código fuente es distribuido bajo la licencia BSD (Berkeley Software Distribution), la última versión disponible es la 3f5, gracias a esto se han desarrollado una serie de herramientas que utilizan este potente simulador y proporcionan una interfaz amigable para el usuario.
 
-![SPICE](img/spice.jpg)
+* tina: https://www.tina.com/es/spice-simulation/
 
-* Fuente: https://www.tina.com/es/spice-simulation/
+![SPICE](img/spice.jpg)
 
  {{1}}
 ********************************************************************************
@@ -223,9 +218,9 @@ En la mayorı́a de centros de formación se utilizan herramientas que utilizan 
 
 En esta propuesta se utiliza QUCS (Quite Universal Circuit Simulator) desarrollado en QT y permite ser ejecutado en cual sistema operativo. QUCS permite realizar análisis AC, DC, transitorio, de balance armónico y soporta dispositivos lineales, no lineales, micro-cintas, coplanares, lı́neas de transmisión y representados por modelos SPICE. En la figura, se muestra la captura de esta aplicación.
 
-![QUCS](img/qucs.png)
+* Wikipedia: https://es.wikipedia.org/wiki/Quite_Universal_Circuit_Simulator
 
-* Fuente: https://es.wikipedia.org/wiki/Quite_Universal_Circuit_Simulator
+![QUCS](img/qucs.png)
 
 ********************************************************************************
 
@@ -246,7 +241,6 @@ Para la simulación de sistemas digitales que utilizan como entrada de diseño l
 ![Icarus](img/icarus.png)
 
 * Sitio oficial de icarus: http://iverilog.icarus.com
-* Fuente: http://iverilog.icarus.com/
 
 ********************************************************************************
 
@@ -262,7 +256,8 @@ Como herramienta de simulación se utilizará GTKWAVE, la cual acepta como entra
 
 ![GTKWave](img/gtkwave.png)
 
-* Fuente: https://wiki.tcl-lang.org/page/GTKWave
+* Sitio oficial de GitHub: https://github.com/gtkwave/gtkwave
+* Wiki: https://wiki.tcl-lang.org/page/GTKWave
 
 ********************************************************************************
 
@@ -282,11 +277,9 @@ Para la síntesis digital a partir de lenguajes de descripción de hardware se u
 
 El marco de trabajo de LiteX proporciona una infraestructura cómoda y eficiente para crear FPGA Cores/SoCs, para explorar varias arquitecturas de diseño digital y crear sistemas completos basados en FPGA.
 
-* GitHub: https://github.com/enjoy-digital/litex
+* Sitio oficial de GitHub: https://github.com/enjoy-digital/litex
 
 ![LiteX](img/litex.png)
-
-* Fuente: https://github.com/enjoy-digital/litex
 
 ********************************************************************************
 
@@ -313,8 +306,6 @@ Es un software de control de versiones diseñado por Linus Torvalds, pensando en
 * Wikipedia: https://es.wikipedia.org/wiki/Git
 
 ![Git](img/git.png)
-
-* Fuente: https://es.wikipedia.org/wiki/Git
 
 ********************************************************************************
 
