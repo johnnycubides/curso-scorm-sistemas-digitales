@@ -8,6 +8,9 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
           https://felixhao28.github.io/JSCPP/dist/JSCPP.es5.min.js
 
 
+link: https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
+
+link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 -->
 
 # Introducción de Sistemas Digitales
