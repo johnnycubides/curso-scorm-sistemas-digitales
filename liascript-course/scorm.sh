@@ -9,6 +9,8 @@ status=$?
 
 declare -a lecciones
 lecciones=(
+introduccion
+dominioMetodologia
 zephyr
 recursosHerramientas
 soc
