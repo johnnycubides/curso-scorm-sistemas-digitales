@@ -268,9 +268,9 @@ El marco de trabajo de LiteX proporciona una infraestructura cómoda y eficiente
 
 La gestión de proyectos es un conjunto de metodologías para planificar y dirigir los procesos de un proyecto. Un proyecto comprende un cúmulo específico de operaciones diseñadas para lograr un objetivo con un alcance, recursos, inicio y final establecidos. Los objetivos de la gestión de proyectos son:
 
-- Gestionar el inicio y la evolución de un proyecto;
-- Controlar y responder ante problemas que surjan durante un proyecto;
-- Facilitar la finalización y aprobación del proyecto.
+1. Gestionar el inicio y la evolución de un proyecto;
+2. Controlar y responder ante problemas que surjan durante un proyecto;
+3. Facilitar la finalización y aprobación del proyecto.
 
 * ticportal: https://www.ticportal.es/glosario-tic/gestion-proyectos
 
