@@ -2,11 +2,11 @@
 
 ## Dominio descriptivo
 
-VHDL soporta varios estilos para la descripción de diseños. Estos, denominados dominios descriptivos, son distintos en cuanto al nivel de abstracción que manejan, y son: 
+Existen varios estilos para la descripción de diseños. Estos, denominados dominios descriptivos, son distintos en cuanto al nivel de abstracción que manejan, y son: 
 
 1. Dominio de Comportamiento.
 
-El dominio de Comportamiento o algorítmico es el nivel de abstracción más elevado que soporta VHDL. Cuando se describe usando este nivel de abstracción, el circuito se modela en términos de su funcionalidad, sin preocuparse de los componentes internos del mismo o de qué forma física se llevará a cabo esta funcionalidad.
+El dominio de Comportamiento o algorítmico es el nivel de abstracción más elevado. Cuando se describe usando este nivel de abstracción, el circuito se modela en términos de su funcionalidad, sin preocuparse de los componentes internos del mismo o de qué forma física se llevará a cabo esta funcionalidad.
 
 2. Dominio de Flujo de Datos (RTL).
 
