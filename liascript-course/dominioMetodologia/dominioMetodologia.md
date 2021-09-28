@@ -55,4 +55,6 @@ La modularidad es la capacidad que tiene un sistema de ser estudiado, visto o en
 
 ### Metodología Top-Down
 
+El diseño de arriba hacia abajo toma todo el sistema de software como una entidad y luego lo descompone para lograr más de un subsistema o componente basado en algunas características. Cada subsistema o componente se trata como un sistema y se descompone más adelante. Este proceso se mantiene en ejecución hasta que se alcanza el nivel más bajo del sistema en la jerarquía descendente.
+
 
