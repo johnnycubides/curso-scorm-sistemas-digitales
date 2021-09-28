@@ -52,7 +52,6 @@ Es necesario contar con las librerías standard de C: stdio, stdlib, math, etc; 
 Para la elaboración de las cajas que contendrán las tarjetas electrónicas y servirán de soporte fı́sico a los dispositivos electrónicos, se utilizará la herramienta QCAD disponible para los sistemas operativos más utilizados; con esta aplicación se puede generar la forma de la placa de circuito impreso con los orificios necesarios para ajustarse a la caja y a la aplicación; este archivo puede ser exportado a la herramienta KICAD lo que facilita la colocación de componentes.
 
 {{1}}
-********************************************************************************
 
 **LiaScript-DevServer:**
 
