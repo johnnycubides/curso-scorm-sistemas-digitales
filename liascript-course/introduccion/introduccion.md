@@ -29,7 +29,7 @@ Vídeo sobre industria digital CC-by-sa
 ### Herramientas de desarrollo de software
 
 --{{0}}--
-En este apartado se describirán las herramientas abiertas necesarias para el desarrollo de aplicaciones software en sistemas sistemas digitales. Todas las aplicaciones mencionadas a continuación hacen parte de la cadena de herramientas GNU, que son parte de los recursos suministrados por la comunidad de software libre.
+En este apartado se describirán las herramientas abiertas necesarias para el desarrollo de aplicaciones software en sistemas digitales. Todas las aplicaciones mencionadas a continuación hacen parte de la cadena de herramientas GNU, que son parte de los recursos suministrados por la comunidad de software libre.
 
 {{1}}
 ********************************************************************************
@@ -42,7 +42,7 @@ El GNU Compiler Collection normalmente llamado GCC, es un grupo de compiladores 
 
 ![GCC](img/gcc.jpg)
 
-* Fuente: https://architecnologia.es/programacion-el-compilador-gcc 
+* Fuente: https://i1.wp.com/architecnologia.es/wp-content/uploads/2019/08/gnu-gcc.jpg?resize=800%2C445&ssl=1 
 
 ********************************************************************************
 
@@ -58,6 +58,8 @@ El depurador oficial de GNU (GDB) al igual que GCC, soporta múltiples lenguajes
 
 ![GDB](img/gdb.jpg)
 
+* Fuente: https://i0.wp.com/architecnologia.es/wp-content/uploads/2019/09/gnu-gdb-logo.jpg?resize=800%2C445&ssl=1
+
 ********************************************************************************
 
  {{3}}
@@ -68,6 +70,8 @@ El depurador oficial de GNU (GDB) al igual que GCC, soporta múltiples lenguajes
                            --{{3}}--
 
 GNU Binutils es una colección de herramientas que pueden usarse junto a GNU GCC para inspeccionar y editar binarios. La mayoría de estas herramientas operan con ELFs, y para Linux, así como para la mayoría del software embebido, tanto los archivos de objetos individuales (.o) como la salida final enlazada (el ELF) están en este formato.
+
+* Interrupt: https://interrupt.memfault.com/blog/gnu-binutils
 
 Dicha colección de utilidades para archivos binarios están compuestas por:
 
@@ -140,6 +144,8 @@ Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al 
 
 ![KiCad](img/kicad.png)
 
+* Fuente: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/KiCad_Pcbnew_OpenGL.png/250px-KiCad_Pcbnew_OpenGL.png
+
 ********************************************************************************
 
 {{2}}
@@ -150,6 +156,8 @@ Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al 
                            --{{2}}--
 QCAD es una aplicación informática de diseño asistido por computadora para diseño 2D. Funciona en los sistemas operativos Windows, Mac OS X y Linux. QCAD tiene una licencia de software GNU General Public License, concretamente, el código fuente de las versiones 3.1 y posteriores tienen licencia GPLv3.
 
+* Fuente: https://es.wikipedia.org/wiki/QCad
+
 ********************************************************************************
 
 {{3}}
@@ -159,9 +167,13 @@ QCAD es una aplicación informática de diseño asistido por computadora para di
 
                            --{{3}}--
 
-OpenSCAD es una aplicación libre para crear objetos sólidos de CAD. No es un editor interactivo sino un compilador 3D basado en un lenguaje de descripción textual. Un documento de OpenSCAD especifica primitivas geométricas y define como son modificadas y manipuladas para reproducir un modelo 3D. 
+OpenSCAD es un software CAD gratuito y de código abierto destinado a crear modelos 3D sólidos. Este software CAD es adecuado para usuarios experimentados que se sienten cómodos con la programación. Esto se debe a que una de las características clave de OpenSCAD es que es un modelador 3D basado en scripts que utiliza su propio lenguaje de descripción.
+
+* 3dnatives: https://www.3dnatives.com/es/openscad-modelador-3d/
 
 ![OpenSCAD](img/openscad.png)
+
+* Fuente: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Openscad_screen_english.png/300px-Openscad_screen_english.png
 
 ********************************************************************************
 
