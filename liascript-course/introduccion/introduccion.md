@@ -274,7 +274,7 @@ La gestión de proyectos es un conjunto de metodologías para planificar y dirig
 
 * ticportal: https://www.ticportal.es/glosario-tic/gestion-proyectos
 
- {{1}}
+{{1}}
 ********************************************************************************
 
 **GIT:**
@@ -291,7 +291,7 @@ Es un software de control de versiones diseñado por Linus Torvalds, pensando en
 ********************************************************************************
 
 
- {{2}}
+{{2}}
 ********************************************************************************
 
 **Wiki:**
