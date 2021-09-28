@@ -42,6 +42,7 @@ El GNU Compiler Collection normalmente llamado GCC, es un grupo de compiladores 
 
 ![GCC](img/gcc.jpg)
 
+* Repositorio de GCC: https://github.com/gcc-mirror/gcc
 * Fuente: https://i1.wp.com/architecnologia.es/wp-content/uploads/2019/08/gnu-gcc.jpg?resize=800%2C445&ssl=1 
 
 ********************************************************************************
@@ -58,6 +59,7 @@ El depurador oficial de GNU (GDB) al igual que GCC, soporta múltiples lenguajes
 
 ![GDB](img/gdb.jpg)
 
+* Repositorio oficial del proyecto GDB: https://www.gnu.org/software/gdb/current/
 * Fuente: https://i0.wp.com/architecnologia.es/wp-content/uploads/2019/09/gnu-gdb-logo.jpg?resize=800%2C445&ssl=1
 
 ********************************************************************************
@@ -71,6 +73,7 @@ El depurador oficial de GNU (GDB) al igual que GCC, soporta múltiples lenguajes
 
 GNU Binutils es una colección de herramientas que pueden usarse junto a GNU GCC para inspeccionar y editar binarios. La mayoría de estas herramientas operan con ELFs, y para Linux, así como para la mayoría del software embebido, tanto los archivos de objetos individuales (.o) como la salida final enlazada (el ELF) están en este formato.
 
+* Sitio oficial del proyecto GNU Binutils: https://www.gnu.org/software/binutils/
 * Interrupt: https://interrupt.memfault.com/blog/gnu-binutils
 
 Dicha colección de utilidades para archivos binarios están compuestas por:
@@ -118,11 +121,15 @@ Es necesario contar con las librerías standard de C: stdio, stdlib, math, etc; 
 **glibc** Es la librería C oficial del proyecto GNU; el principal inconveniente al trabajar con esta librería en sistemas embebidos es que genera ejecutables de mayor tamaño que los generados a partir de otras librerías, lo cual no la hace muy atractiva para este tipo de aplicaciones.
 
 **uClibc** Es una librería diseñada especialmente para sistemas embebidos, es mucho más pequeña que **glibc**. 
+* uclib: https://www.uclibc.org
 
 **newlib** Al igual que **uClibc**, está diseñada para sistemas embebidos. El típico “Hello, world!” ocupa menos de 30k en un entorno basado en newlib, mientras que en uno basado en glibc, puede ocupar 380k.
 
+* newclib: https://sourceware.org/newlib/
+
 **diet libc** Es una versión de libc optimizada en tama˜ no, puede ser utilizada para crear ejecutables estáticamente enlazados para Linux en plataformas alpha, arm, hppa, ia64, i386, mips, s390, sparc, sparc64, ppc y x86 64.
 
+* diet libc: https://www.fefe.de/dietlibc/
 ********************************************************************************
 
 ### Herramientas de CAD
@@ -144,6 +151,8 @@ Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al 
 
 ![KiCad](img/kicad.png)
 
+* Sitio oficial de kicad: https://www.kicad.org
+* Repositorio de fuentes de kicad: https://github.com/KiCad
 * Fuente: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/KiCad_Pcbnew_OpenGL.png/250px-KiCad_Pcbnew_OpenGL.png
 
 ********************************************************************************
@@ -218,6 +227,7 @@ Para la simulación de sistemas digitales que utilizan como entrada de diseño l
 
 ![Icarus](img/icarus.png)
 
+* Sitio oficial de icarus: http://iverilog.icarus.com
 * Fuente: http://iverilog.icarus.com/
 
 ********************************************************************************
@@ -303,5 +313,11 @@ Sistema de trabajo informático utilizado en los sitios web que permite a los us
 ![wiki](img/wiki.jpg)
 
 * Fuente: https://www.arsys.es/blog/soluciones/wiki-empresa/
+
+** TODO **: 
+
+- ¿Donde crear una WiKi?**
+- ¿Cómo crear una Wiki?
+- ¿Wikis creadas con Markdown?
 
 ********************************************************************************
