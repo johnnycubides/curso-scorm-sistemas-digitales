@@ -217,7 +217,7 @@ Para la sı́ntesis digital a partir de lenguajes de descripción de hardware se
 
 Para la simulación de sistemas digitales que utilizan como entrada de diseño lenguajes de descripción de hardware existen los simuladores ICARUS para verilog y GHDL para vhdl; los dos pueden ser utilizados para realizar simulaciones funcionales, post sı́ntesis o post place & route (trabajando en conjunto con las herramientas de los fabricantes) y ambos soportan el formato de salida VCD (definido junto con el lenguaje de descripción de hardware verilog por el estándar IEEE 1364-2001). Adicionalmente, estas herramientas pueden ser utilizadas en los sistemas operativos más utilizados.
 
-![Icarus](img/icarus.jpg)
+![Icarus](img/icarus.png)
 
 * Fuente: http://iverilog.icarus.com/
 
