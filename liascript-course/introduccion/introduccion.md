@@ -250,7 +250,13 @@ Como herramienta de simulación se utilizará GTKWAVE, la cual acepta como entra
 
                            --{{1}}--
 
-Hola soy LiteX
+El marco de trabajo de LiteX proporciona una infraestructura cómoda y eficiente para crear FPGA Cores/SoCs, para explorar varias arquitecturas de diseño digital y crear sistemas completos basados en FPGA.
+
+* GitHub: https://github.com/enjoy-digital/litex
+
+![LiteX](img/litex.png)
+
+* Fuente: https://github.com/enjoy-digital/litex
 
 ********************************************************************************
 
@@ -265,7 +271,13 @@ Hola soy LiteX
 
                            --{{1}}--
 
-Hola soy GIT
+Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.
+
+* Wikipedia: https://es.wikipedia.org/wiki/Git
+
+![Git](img/git.png)
+
+* Fuente: https://es.wikipedia.org/wiki/Git
 
 ********************************************************************************
 
@@ -277,6 +289,10 @@ Hola soy GIT
 
                            --{{2}}--
 
-Hola soy Wiki
+Sistema de trabajo informático utilizado en los sitios web que permite a los usuarios modificar o crear su contenido de forma rápida y sencilla.
+
+![wiki](img/wiki.jpg)
+
+* Fuente: https://www.arsys.es/blog/soluciones/wiki-empresa/
 
 ********************************************************************************
