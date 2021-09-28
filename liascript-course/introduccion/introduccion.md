@@ -206,7 +206,6 @@ En esta propuesta se utiliza QUCS (Quite Universal Circuit Simulator) desarrolla
 
 --{{0}}--
 
-Para la sı́ntesis digital a partir de lenguajes de descripción de hardware se utilizan las herramientas gratuitas suministradas por los fabricantes de FPGAs, webpack de Xilinx y Quartus de Altera; debido a que la estructura interna de las FPGAs solo la conocen los fabricantes 3 , es obligatorio utilizar sus herramientas para obtener el archivo de configuración. 
 
  {{1}}
 ********************************************************************************
@@ -242,6 +241,9 @@ Como herramienta de simulación se utilizará GTKWAVE, la cual acepta como entra
 ### Herramientas de Síntesis
 
 --{{0}}--
+
+Para la sı́ntesis digital a partir de lenguajes de descripción de hardware se utilizan las herramientas gratuitas suministradas por los fabricantes de FPGAs, webpack de Xilinx y Quartus de Altera; debido a que la estructura interna de las FPGAs solo la conocen los fabricantes 3 , es obligatorio utilizar sus herramientas para obtener el archivo de configuración. 
+
 
 {{1}}
 ********************************************************************************
