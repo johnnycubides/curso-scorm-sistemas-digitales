@@ -46,11 +46,15 @@ Es necesario contar con las librerías standard de C: stdio, stdlib, math, etc; 
 
 Para la elaboración de las cajas que contendrán las tarjetas electrónicas y servirán de soporte fı́sico a los dispositivos electrónicos, se utilizará la herramienta QCAD disponible para los sistemas operativos más utilizados; con esta aplicación se puede generar la forma de la placa de circuito impreso con los orificios necesarios para ajustarse a la caja y a la aplicación; este archivo puede ser exportado a la herramienta KICAD lo que facilita la colocación de componentes.
 
-#### Kicad
+{{1}}
+********************************************************************************
+**KiCad:**
+                           --{{1}}--
 
 Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al comienzo de este estudio no existı́a una herramienta que permitiera realizar de forma fácil la elaboración del esquemático, asignación de footprints, distribución y localización de componentes en el layout, ruteo de las señales, y verificación de reglas de diseño tanto en el esquemático como en el layout. En la actualidad, el proyecto KICAD ha alcanzado un nivel adecuado para ser utilizado en el desarrollo de aplicaciones comercializables y fue utilizado en todos los proyectos académicos durante la aplicación del presente plan de estudios; está formado por 5 aplicaciones: el editor de esquemáticos Eeschema; el editor de circuitos impresos Pcbnew; el visor de archivos gerber Gerbview; la utilidad para asignar footprints Cvpcb y el manejador de proyectos Kicad.
 
 ![KiCad](img/kicad.png)
+
 
 #### QCAD
 
@@ -58,7 +62,7 @@ QCAD es una aplicación informática de diseño asistido por computadora para di
 
 #### OpenSCAD
 
-OpenSCAD es una aplicación libre para crear objetos sólidos de CAD. No es un editor interactivo sino un compilador 3D basado en un lenguaje de descripción textual. Un documento de OpenSCAD especifica primitivas geométricas y define como son modificadas y manipuladas para reproducir un modelo 3D. Wikipedia
+OpenSCAD es una aplicación libre para crear objetos sólidos de CAD. No es un editor interactivo sino un compilador 3D basado en un lenguaje de descripción textual. Un documento de OpenSCAD especifica primitivas geométricas y define como son modificadas y manipuladas para reproducir un modelo 3D. 
 
 ![OpenSCAD](img/openscad.png)
 
@@ -68,15 +72,23 @@ En la mayorı́a de centros de formación se utilizan herramientas que utilizan 
 
 #### QUCS
 
-En esta propuesta se utiliza QUCS (Quite Universal Circuit Simulator) desarrollado en QT y permite ser ejecutado en cual sistema operativo. QUCS permite realizar análisis AC, DC, transitorio, de balance armónico y soporta dispositivos lineales, no lineales, micro-cintas, coplanares, lı́neas de transmisión y representados por modelos SPICE. En la figura A.1 se muestra la captura de esta aplicación.
+En esta propuesta se utiliza QUCS (Quite Universal Circuit Simulator) desarrollado en QT y permite ser ejecutado en cual sistema operativo. QUCS permite realizar análisis AC, DC, transitorio, de balance armónico y soporta dispositivos lineales, no lineales, micro-cintas, coplanares, lı́neas de transmisión y representados por modelos SPICE. En la figura, se muestra la captura de esta aplicación.
 
 ![QUCS](img/qucs.png)
 
 ### Simulación y verificación digital
 
+Para la sı́ntesis digital a partir de lenguajes de descripción de hardware se utilizan las herramientas gratuitas suministradas por los fabricantes de FPGAs, webpack de Xilinx y Quartus de Altera; debido a que la estructura interna de las FPGAs solo la conocen los fabricantes 3 , es obligatorio utilizar sus herramientas para obtener el archivo de configuración. 
+
+Para la simulación de sistemas digitales que utilizan como entrada de diseño lenguajes de descripción de hardware existen los simuladores ICARUS para verilog y GHDL para vhdl; los dos pueden ser utilizados para realizar simulaciones funcionales, post sı́ntesis o post place & route (trabajando en conjunto con las herramientas de los fabricantes) y ambos soportan el formato de salida VCD (definido junto con el lenguaje de descripción de hardware verilog por el estándar IEEE 1364-2001). Adicionalmente, estas herramientas pueden ser utilizadas en los sistemas operativos más utilizados.
+
 #### Icarus
 
 #### GTKWAVE
+
+Como herramienta de simulación se utilizará GTKWAVE, la cual acepta como entrada archivos en formato VCD y puede ser ejecutada en MAC, Linux y Windows. GTKWAVE realiza un manejo adecuado de la jerarquı́a del sistema bajo análisis, permitiendo observar todas las señales de los diferentes módulos que componen la jerarquı́a superior, lo que es muy útil en este tipo de simulaciones; en la figura se puede observar una captura de esta herramienta.
+
+![GTKWave](img/gtkwave.png)
 
 ### Herramientas de Síntesis
 
