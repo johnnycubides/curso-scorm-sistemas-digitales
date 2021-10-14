@@ -18,7 +18,6 @@ metodologiasDiseno
 especificaciones
 litexRiscVbaremetal
 )
-# declare -a lecciones=(uno dos)
 
 if [ "$1" = "" ];
 then
