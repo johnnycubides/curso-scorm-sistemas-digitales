@@ -1,5 +1,12 @@
 # Curso de Sistemas Digitales
 
+## Curso sistemas digitales
+
+* [Introducción](https://raw.githubusercontent.com/johnnycubides/curso-scorm-sistemas-digitales/main/liascript-course/introduccion/introduccion.md)
+* [Dominio y metodología](https://raw.githubusercontent.com/johnnycubides/curso-scorm-sistemas-digitales/main/liascript-course/dominioMetodologia/dominioMetodologia.md)
+* [LM32](https://raw.githubusercontent.com/johnnycubides/curso-scorm-sistemas-digitales/main/liascript-course/lm32/lm32.md)
+* [Litex](https://raw.githubusercontent.com/johnnycubides/curso-scorm-sistemas-digitales/main/liascript-course/litexRiscVbaremetal/riscv.md)
+
 ## liascript
 
 * `Lanzar servidor`
