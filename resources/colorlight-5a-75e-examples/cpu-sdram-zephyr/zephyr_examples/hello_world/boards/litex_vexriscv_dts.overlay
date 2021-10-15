@@ -1,0 +1,75 @@
+&ram0 {
+  device_type = "memory";
+  reg = <0x40000000 0x00400000>;
+};
+
+&uart0 {
+	status = "okay";
+	current-speed = <115200>;
+  compatible = "litex,uart0";
+  interrupt-parent = <&intc0>;
+  interrupts = <2 10>;
+  reg = <0xf0002000 0x18>;
+  reg-names = "control";
+  label = "uart0";
+};
+
+&timer0 {
+	status = "okay";
+  compatible = "litex,timer0";
+  interrupt-parent = <&intc0>;
+  interrupts = <1 0>;
+  reg = <0xf0002800 0x40>;
+  reg-names = "control";
+  label = "timer0";
+};
+
+&eth0 {
+	status = "disabled";
+};
+
+&dna0 {
+	status = "okay";
+  compatible = "litex,dna0";
+  /* DNA data is 57-bits long,
+  so it requires 8 bytes.
+  In LiteX each 32-bit register holds
+  only a single byte of meaningful data,
+  hence 8 registers. */
+  reg = <0xf0003800 0x20>;
+  reg-names = "mem";
+  label = "dna0";
+};
+
+&spi0 {
+	status = "disabled";
+};
+
+&prbs0 {
+	status = "disabled";
+};
+
+&i2c0 {
+	status = "disabled";
+	/* label = "I2C_0"; */
+};
+
+&pwm0 {
+	status = "disabled";
+};
+
+&gpio_out {
+	status = "disabled";
+};
+
+&gpio_in {
+	status = "disabled";
+};
+
+&i2s_rx {
+	status = "disabled";
+};
+
+&i2s_tx {
+	status = "disabled";
+};

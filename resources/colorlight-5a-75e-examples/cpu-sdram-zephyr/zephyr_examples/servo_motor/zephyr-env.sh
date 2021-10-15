@@ -1,0 +1,1 @@
+../tools/zephyr-env.sh
