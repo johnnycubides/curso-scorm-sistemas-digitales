@@ -17,6 +17,7 @@ soc
 metodologiasDiseno
 especificaciones
 litexRiscVbaremetal
+lm32
 )
 
 if [ "$1" = "" ];
