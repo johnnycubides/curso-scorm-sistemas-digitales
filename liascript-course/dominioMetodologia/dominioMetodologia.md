@@ -1,4 +1,4 @@
-#Dominio descriptivo y metodología de diseño
+# Dominio descriptivo y metodología de diseño
 
 --{{0}}--
 En este apartado se describira el dominio descriptivo clasificados por su nivel de abstracción y las metodologías de diseño indispensables para el desarrollo de software.
