@@ -18,6 +18,7 @@ metodologiasDiseno
 especificaciones
 litexRiscVbaremetal
 lm32
+sistemasEmbebidos
 )
 
 if [ "$1" = "" ];
