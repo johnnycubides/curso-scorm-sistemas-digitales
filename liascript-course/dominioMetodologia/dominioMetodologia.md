@@ -13,17 +13,14 @@ Dominio descriptivo
 Existen varios estilos para la descripción de diseños. Estos, denominados dominios descriptivos, son distintos en cuanto al nivel de abstracción que manejan, y son: 
 
 1. Dominio de Comportamiento.
-=====================
 
 El dominio de Comportamiento o algorítmico es el nivel de abstracción más elevado. Cuando se describe usando este nivel de abstracción, el circuito se modela en términos de su funcionalidad, sin preocuparse de los componentes internos del mismo o de qué forma física se llevará a cabo esta funcionalidad.
 
 2. Dominio de Flujo de Datos (RTL).
-=====================
 
 El dominio de Flujo de Datos describe el circuito en términos de cómo los datos se mueven a través del sistema y la forma en que la información fluye a través de los registros del circuito. El diseñador toma en cuenta las distintas señales que interactúan en un circuito, así como su comportamiento por medio de ecuaciones lógicas y sentencias de asignación. Este modelo es comúnmente llamado Transferencia Lógica de Registros (RTL, Register Transfer Logic). Es un nivel intermedio que permite simplificar la lógica combinacional, mientras que las partes más importantes del circuito, los registros, son especificados de acuerdo a la función a modelar.
 
 3. Dominio Físico.
-=====================
 
 El dominio Físico, o nivel lógico, se usa para describir circuitos en términos de sus componentes. Puede ser usado para crear una descripción de bajo nivel, como la descripción a nivel de transistor, o una descripción a nivel de diagrama de bloques. El diseñador emplea los recursos que el lenguaje proporciona para describir las interconexiones entre los distintos componentes de un circuito. 
 
@@ -44,13 +41,11 @@ Los niveles de abstracción, se describen por medio de la siguiente tabla:
 
 ****************************************************************************
 
-{{2}}
-
+ {{2}}
 ****************************************************************************
 
-Metodologías de diseño
-       
---{{2}}--
+Metodologías de diseño  
+                           --{{2}}--
 
 El diseño de software es un proceso para conceptualizar los requisitos de software en la implementación de software. El diseño de software toma los requisitos del usuario como desafíos y trata de encontrar una solución óptima. Mientras se conceptualiza el software, se elabora un plan para encontrar el mejor diseño posible para implementar la solución deseada.
 
@@ -78,7 +73,11 @@ Metodología Top-Down
 
 El diseño de arriba hacia abajo toma todo el sistema de software como una entidad y luego lo descompone para lograr más de un subsistema o componente basado en algunas características. Cada subsistema o componente se trata como un sistema y se descompone más adelante. Este proceso se mantiene en ejecución hasta que se alcanza el nivel más bajo del sistema en la jerarquía descendente.
 
-## Diseño de un sistema embebido
+ {{2}}
+****************************************************************************
+
+Diseño de un sistema embebido
+                           --{{2}}--
 
 ![Flujo de diseño de un sistema embebido](./img/flujo_diseno_sistema_embebido.jpg)
 
@@ -141,3 +140,6 @@ Análisis...
 ===========
 
 ![ubicar](./img/sdl.png)
+
+****************************************************************************
+
