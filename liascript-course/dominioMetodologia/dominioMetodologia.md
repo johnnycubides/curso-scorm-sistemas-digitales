@@ -1,12 +1,14 @@
 # Dominio descriptivo y metodología de diseño
 
---{{0}}--El dominio descriptivo y metodología de diseño
+--{{0}}--
 
  {{1}}
+
 ****************************************************************************
 
 Dominio descriptivo
-                           --{{1}}--
+                           
+--{{1}}--
 
 Existen varios estilos para la descripción de diseños. Estos, denominados dominios descriptivos, son distintos en cuanto al nivel de abstracción que manejan, y son: 
 
@@ -36,6 +38,7 @@ Como se puede observar, cada uno de los niveles de abstracción se ocupa de unos
 Los niveles de abstracción, se describen por medio de la siguiente tabla:
 
 ![Tabla niveles abstracción](img/tabla-niveles.png)
+
 
 ****************************************************************************
 
