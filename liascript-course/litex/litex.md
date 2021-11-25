@@ -21,6 +21,7 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
  
  {{1}}
 ********************************************************************************
+
 **Instalación de Herramientas usando CONDA**
 
                            --{{1}}--
