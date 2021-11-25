@@ -6,8 +6,10 @@
 
 ****************************************************************************
 
+
 Dominio descriptivo
-                           
+
+       
 --{{1}}--
 
 Existen varios estilos para la descripción de diseños. Estos, denominados dominios descriptivos, son distintos en cuanto al nivel de abstracción que manejan, y son: 
