@@ -19,12 +19,12 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 
 En este apartado se describira el dominio descriptivo clasificados por su nivel de abstracción y las metodologías de diseño indispensables para el desarrollo de software.
 
-{{1}}
+ {{1}}
 ********************************************************************************
 
-Dominio descriptivo      
+**Dominio descriptivo**
 
---{{1}}--
+                           --{{1}}--
 
 Existen varios estilos para la descripción de diseños. Estos, denominados dominios descriptivos, son distintos en cuanto al nivel de abstracción que manejan, y son: 
 
