@@ -91,7 +91,7 @@ en el curso y aquello que queda proyectado para una próxima iteración del desa
 * KiCAD
 ![KiCAD](./img/kicad.png)
 * Zephyr
-![Zephyr](./img/zephyr.png)
+![Zephyr](./img/zephyr.jpeg)
 * Drawio
 ![Drawio](./img/drawio.png)
 
