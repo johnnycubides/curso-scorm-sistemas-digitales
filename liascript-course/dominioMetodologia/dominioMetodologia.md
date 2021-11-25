@@ -2,13 +2,11 @@
 
 --{{0}}--
 
- {{1}}
+{{1}}
 
 ****************************************************************************
 
-
 Dominio descriptivo
-
        
 --{{1}}--
 
@@ -41,12 +39,15 @@ Los niveles de abstracción, se describen por medio de la siguiente tabla:
 
 ![Tabla niveles abstracción](img/tabla-niveles.png)
 
+****************************************************************************
+
+{{2}}
 
 ****************************************************************************
 
-
-
-## Metodologías de diseño
+Metodologías de diseño
+       
+--{{2}}--
 
 El diseño de software es un proceso para conceptualizar los requisitos de software en la implementación de software. El diseño de software toma los requisitos del usuario como desafíos y trata de encontrar una solución óptima. Mientras se conceptualiza el software, se elabora un plan para encontrar el mejor diseño posible para implementar la solución deseada.
 
@@ -68,7 +69,9 @@ La modularidad es la capacidad que tiene un sistema de ser estudiado, visto o en
 
 ![Modularidad](img/modularidad.jpg)
 
-### Metodología Top-Down
+****************************************************************************
+
+Metodología Top-Down
 
 El diseño de arriba hacia abajo toma todo el sistema de software como una entidad y luego lo descompone para lograr más de un subsistema o componente basado en algunas características. Cada subsistema o componente se trata como un sistema y se descompone más adelante. Este proceso se mantiene en ejecución hasta que se alcanza el nivel más bajo del sistema en la jerarquía descendente.
 
