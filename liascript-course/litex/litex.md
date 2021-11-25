@@ -78,7 +78,7 @@ la descarga de los archivos fuente **solo** para los softcore **lm32**, **pico32
 
 **Referencias**
 =====================
-                           
+
 [enjoy-digital/litex](https://github.com/enjoy-digital/litex)
 
 ********************************************************************************
