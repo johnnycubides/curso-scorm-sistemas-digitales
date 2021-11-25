@@ -1,6 +1,6 @@
 # Dominio descriptivo y metodología de diseño
 
---{{0}}--
+--{{0}}--El dominio descriptivo y metodología de diseño
 
  {{1}}
 ****************************************************************************
