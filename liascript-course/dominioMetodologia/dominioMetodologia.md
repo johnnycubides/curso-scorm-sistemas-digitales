@@ -13,7 +13,7 @@ link: https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 -->
 
-# Dominio descriptivo y metodología de diseño
+## Dominio descriptivo y metodología de diseño
 
 --{{0}}--
 En este apartado se describirá el dominio descriptivo clasificados por su nivel de abstracción y las metodologías de diseño indispensables para el desarrollo de software.
@@ -91,7 +91,7 @@ Metodología Top-Down
 El diseño de arriba hacia abajo toma todo el sistema de software como una entidad y luego lo descompone para lograr más de un subsistema o componente basado en algunas características. Cada subsistema o componente se trata como un sistema y se descompone más adelante. Este proceso se mantiene en ejecución hasta que se alcanza el nivel más bajo del sistema en la jerarquía descendente.
 
 
-# Diseño de un sistema embebido
+## Diseño de un sistema embebido
 
 --{{0}}--
 ![Flujo de diseño de un sistema embebido](./img/flujo_diseno_sistema_embebido.jpg)
