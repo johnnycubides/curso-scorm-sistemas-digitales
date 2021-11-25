@@ -93,16 +93,23 @@ El diseño de arriba hacia abajo toma todo el sistema de software como una entid
 
 # Diseño de un sistema embebido
 
+--{{0}}--
 ![Flujo de diseño de un sistema embebido](./img/flujo_diseno_sistema_embebido.jpg)
 
-Especificación del sistema
-==========================
+{{1}}
+********************************************************************************
+
+**Especificación del sistema**
+
+                           --{{1}}--
 
 El proceso de diseño de un sistema embebido comienza con la *especificación del sistema*, en este punto se describe la funcionalidad y se definen las restricciones mecanicas, 
 electricas y economicas del sistema. Esta especificaciOn debe ser muy general y no deben existir dependencias tecnologicas de ningun tipo, se suelen utilizar lenguajes de alto 
 nivel, como Unified Modeling Language (UML), Modeling and Analysis of Real-Time and Embedded Systems (MARTE) C++, System-C, Spec-C. La especificacion puede ser verificada a traves 
 de una serie de pasos de analisis cuyo objetivo es determinar la validez de los algoritmos seleccionados, por ejemplo, determinar si el algoritmo converge o si sus resultados 
 satisfacen las especificaciones. Desde el punto de vista de la re-utilizacion, algunas partes del funcionamiento global pueden tomarse de una librerfa de algoritmos existentes. 
+
+********************************************************************************
 
 Modelamiento
 ============
