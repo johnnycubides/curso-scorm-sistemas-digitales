@@ -186,7 +186,7 @@ leds-on
 leds-off
 ```
 
-**Referencias**
+**6. Referencias**
 
 [trabucayre/litexOnColorlightLab004](https://github.com/trabucayre/litexOnColorlightLab004)
 
