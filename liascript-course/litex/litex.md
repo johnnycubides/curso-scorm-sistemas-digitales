@@ -19,7 +19,7 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 
 **Instalación de herramientas**
 
-{{1}}
+ {{1}}
 ********************************************************************************
 
 **Instalación de Herramientas usando CONDA**
@@ -32,7 +32,7 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
  
 ********************************************************************************
 
-{{2}}
+ {{2}}
 ********************************************************************************
 
 **Instalación de Litex**
@@ -40,7 +40,6 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
                            --{{2}}--
                            
 **Litex para placa Colorlight 5A-75E**
-=====================
 
 Por ahora como no se tiene el esquemático de ésta placa, se está portando los pines de la placa Colorlight 5A-75B a las fuentes de LiteX a través de un fork que hemos realizado a litex_boards, las fuentes agregadas son:
 
@@ -51,7 +50,6 @@ Se reitera que éste soporte es de prueba y por tanto está en desarrollo, para 
 
 
 **Instalación de Litex con soporte para Colorlight 5A-75E**
-=====================
                            
 1. Escoja un un directorio en su PC para instalar LiteX
 2. Descargue el instalador de LiteX como se explica en el repositorio de [LiteX], ejemplo: wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py
@@ -70,14 +68,12 @@ la descarga de los archivos fuente **solo** para los softcore **lm32**, **pico32
 
 
 **Actualizar LiTeX**
-=====================
                            
 ```bash
 ./litex_setup.py update
 ```
 
 **Referencias**
-=====================
 
 [enjoy-digital/litex](https://github.com/enjoy-digital/litex)
 
