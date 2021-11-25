@@ -16,8 +16,7 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 # Dominio descriptivo y metodología de diseño
 
 --{{0}}--
-
-En este apartado se describira el dominio descriptivo clasificados por su nivel de abstracción y las metodologías de diseño indispensables para el desarrollo de software.
+En este apartado se describirá el dominio descriptivo clasificados por su nivel de abstracción y las metodologías de diseño indispensables para el desarrollo de software.
 
  {{1}}
 ********************************************************************************
@@ -57,10 +56,12 @@ Los niveles de abstracción, se describen por medio de la siguiente tabla:
 
 ****************************************************************************
 
+
  {{2}}
 ****************************************************************************
 
-Metodologías de diseño  
+**Metodologías de diseño**
+
                            --{{2}}--
 
 El diseño de software es un proceso para conceptualizar los requisitos de software en la implementación de software. El diseño de software toma los requisitos del usuario como desafíos y trata de encontrar una solución óptima. Mientras se conceptualiza el software, se elabora un plan para encontrar el mejor diseño posible para implementar la solución deseada.
