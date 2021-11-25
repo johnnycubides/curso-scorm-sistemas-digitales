@@ -87,9 +87,13 @@ en el curso y aquello que queda proyectado para una próxima iteración del desa
 ## Herramientas
 
 * GIT
+![Git](./img/git.png)
 * KiCAD
+![KiCAD](./img/kicad.png)
 * Zephyr
+![Zephyr](./img/zephyr.png)
 * Drawio
+![Drawio](./img/drawio.png)
 
 ### GNU/Linux
 
