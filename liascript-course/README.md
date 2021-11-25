@@ -5,7 +5,7 @@
 * [Introducción](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/curso-scorm-sistemas-digitales/main/liascript-course/introduccion/introduccion.md)
 * [Dominio y metodología](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/curso-scorm-sistemas-digitales/main/liascript-course/dominioMetodologia/dominioMetodologia.md)
 * [LM32](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/curso-scorm-sistemas-digitales/main/liascript-course/lm32/lm32.md)
-* [Litex](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/curso-scorm-sistemas-digitales/main/liascript-course/litexRiscVbaremetal/riscv.md)
+* [Litex](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/curso-scorm-sistemas-digitales/main/liascript-course/litex/litex.md)
 * [Sistemas Embebidos](https://liascript.github.io/course/?https://api.allorigins.win/raw?url=https://gitlab.com/johnnycubides/sistemas-embebidos-unal/-/raw/main/liascript/sistemasEmbebidos.md)
 
 ## liascript
