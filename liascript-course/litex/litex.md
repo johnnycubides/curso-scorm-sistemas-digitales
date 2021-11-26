@@ -101,7 +101,7 @@ riscv32-unknown-elf-gcc -v
 [litex-conda-packages](https://github.com/litex-hub/litex-conda-packages)
 
  
-## Instalación de Litex*
+## Instalación de Litex
                            
 Litex para placa Colorlight 5A-75E
 ===============
