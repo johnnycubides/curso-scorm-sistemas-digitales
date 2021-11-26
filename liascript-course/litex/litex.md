@@ -158,7 +158,7 @@ la descarga de los archivos fuente **solo** para los softcore **lm32**, **pico32
 
 **Actualizar LiTeX**
                            
-``` bash
+```python
 ./litex_setup.py update
 ``` 
 
@@ -224,7 +224,7 @@ En éste diagrama se puede apreciar la relación de los elementos que se contrui
 
 **1. Construir el gateware y el bios**
 
-```bash
+```python
 make gateware
 ```
 
@@ -237,13 +237,13 @@ de los siguientes métodos:
 
 * Enviar la imagen desde el pc a placa omega2 a través de ssh
 
-```bash
+```python
 make prog-f-o2
 ```
 
 * Programar fpga a través de omega2 por jtag
 
-```bash
+```python
 sh program.sh top-flash.svf
 ```
 
@@ -257,13 +257,13 @@ make firmware
 
 Lanzar el servidor litex:
 
-```bash
+```python
 make litex_term
 ```
 
 Cargar el firmware.bin desde el bios:
 
-```bash
+```python
 serialboot
 ```
 
@@ -272,7 +272,7 @@ serialboot
 
 Ejecutar los tokens:
 
-```bash
+```python
 leds-on
 leds-off
 ```
