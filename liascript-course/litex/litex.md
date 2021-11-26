@@ -50,7 +50,7 @@ Los comandos a usar son sencillos tanto para instalar, actualizar y ejecutar ent
 **1.2 Instalación de MINICONDA**
 
 Ejecute el siguiente comando y siga las instrucciones del instalador
-```bash
+```python
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
@@ -61,7 +61,7 @@ se recomienda revisar el estado de éste archivo donde miniconda3 agregó las l�
 
 **1.4 Actualizar miniconda**
 
-```bash
+```python
 conda update -n base -c defaults conda
 ```
 
@@ -77,19 +77,19 @@ podría saltarse éste paso teniendo encuenta éste hecho.
 
 Ejecute el siguiente comando para crear el entorno **FPGA**:
 
-```bash
+```python
 conda create --name fpga
 ```
 
 Para activar el entorno creado ejecute el siguiente comando:
 
-```bash
+```python
 conda activate fpga
 ```
 
 **2. Instalación de NEXTPNR, YOSYS y cross-compiladores**
 
-```bash
+```python
 conda install --channel "TimVideos" nextpnr-ecp5
 conda install --channel "TimVideos" nextpnr-ice40
 conda install --channel "TimVideos" gcc-riscv32-elf-newlib
@@ -98,7 +98,7 @@ conda install --channel "TimVideos" iceprog
 
 **Verificación de herramientas instaladas**
 
-```bash
+```python
 yosys -V
 nextpnr-ecp5 -V
 riscv32-unknown-elf-gcc -v
