@@ -50,7 +50,7 @@ Los comandos a usar son sencillos tanto para instalar, actualizar y ejecutar ent
 **1.2 Instalación de MINICONDA**
 
 Ejecute el siguiente comando y siga las instrucciones del instalador
-```sh
+``` bash
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
