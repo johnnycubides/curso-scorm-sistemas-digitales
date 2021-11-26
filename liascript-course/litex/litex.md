@@ -16,6 +16,7 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 # Herramientas opensource FPGAs Lattice
 
 --{{0}}--
+Desarrollo de proyectos de LITEX y Softcores mediante herramientas Open-Source para el diseño, implementación y pruebas.
 
  {{1}}
 ********************************************************************************
