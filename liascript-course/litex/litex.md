@@ -48,10 +48,7 @@ conda update -n base -c defaults conda
 
 * **Creación de entorno**
 
-Un entorno permite que conda presente las herramientas según nuestros
-intereses; por ejemplo si se crea el entorno FPGA y se instala las herramientas
-deseadas, cada vez que active ese entorno, conda agregará al PATH los binarios y
-librerías que se ha instalado para tal fin; es una manera de organizar nuestros recursos.
+Un entorno permite que conda presente las herramientas según nuestros intereses; por ejemplo si se crea el entorno FPGA y se instala las herramientas deseadas, cada vez que active ese entorno, conda agregará al PATH los binarios y librerías que se ha instalado para tal fin; es una manera de organizar nuestros recursos.
 
 **Nota**: en realidad conda crea un entorno `base` así que sino desea crear un entorno
 podría saltarse éste paso teniendo encuenta éste hecho.
