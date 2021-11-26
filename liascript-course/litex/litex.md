@@ -31,7 +31,8 @@ Pasos de instalación
 * **Instalación de MINICONDA**
 
 Ejecute el siguiente comando y siga las instrucciones del instalador
-``` bash
+
+```bash
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
