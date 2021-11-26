@@ -56,7 +56,6 @@ La modularidad es la capacidad que tiene un sistema de ser estudiado, visto o en
 
 ![Modularidad](img/modularidad.jpg)
 
-****************************************************************************
 
 **3. Metodología Top-Down**
 
