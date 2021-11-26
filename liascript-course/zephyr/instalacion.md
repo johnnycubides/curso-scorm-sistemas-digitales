@@ -16,7 +16,6 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 ## Zephyr O.S.
 
 --{{0}}--
-En este apartado se describirán las herramientas abiertas necesarias para el desarrollo de aplicaciones software en sistemas digitales. Todas las aplicaciones mencionadas a continuación hacen parte de la cadena de herramientas GNU, que son parte de los recursos suministrados por la comunidad de software libre.
 
  {{1}}
 ********************************************************************************
@@ -25,7 +24,6 @@ En este apartado se describirán las herramientas abiertas necesarias para el de
 
                            --{{1}}--
 
-********************************************************************************
 [Proceso de Instalación de Zephyr](https://docs.zephyrproject.org/latest/getting_started/index.html#getting-started-guide)
 
 [Guía para dar soporte a nuevas boards](https://docs.zephyrproject.org/latest/guides/porting/board_porting.html)
@@ -107,10 +105,17 @@ Ejemplo
 * Cuando configuramos nuestro proyecto para una board, si el proceso falla, elimina el directorio build creado, haz los ajustes e intena de nuevo; para remover el directorio y su contenido puedes usar el siguiente comando `rm -r build/`
 * Zephyr usa ccache para mantener una copia inmediata de las compilaciones realizadas con el fin de que en cada proceso de compilación no deba hacer todo desde cero, podrás encontrar el caché en `~/.cache/zephyr/`.
 
+********************************************************************************
 
-Depurar con Qemu-Riscv32 y GDB
+## Depurar con Qemu-Riscv32 y GDB
 
-## Compilar para Riscv32
+ {{2}}
+********************************************************************************
+
+**Compilar para Riscv32**
+
+                           --{{2}}--
+
 
 En el projecto de zephyr existen varios ejemplos; para nuestro interés compilaremos el referente a sincronizaciones el cual se encontrará en el directorio samples. Ejemplo: 
 
@@ -237,5 +242,5 @@ Si tienes problemas con dependencias de python, puedes probar el siguiente coman
 ```bash
 gdbgui --gdb ~/zephyr-sdk-0.11.3/riscv64-zephyr-elf/bin/riscv64-zephyr-elf-gdb-no-py --gdb-args='-ex "target remote localhost:1234" ./zephyr.elf'
 ```
-
+********************************************************************************
 
