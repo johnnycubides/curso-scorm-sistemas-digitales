@@ -46,7 +46,7 @@ se recomienda revisar el estado de éste archivo donde miniconda3 agregó las l�
 conda update -n base -c defaults conda
 ```
 
-**1.5 Creación de entorno**
+* **Creación de entorno**
 
 Un entorno permite que conda presente las herramientas según nuestros
 intereses; por ejemplo si se crea el entorno FPGA y se instala las herramientas
