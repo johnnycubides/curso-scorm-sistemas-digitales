@@ -13,12 +13,11 @@ link: https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 -->
 
-# Introducción de Sistemas Digitales
+## Introducción de Sistemas Digitales
 
 Industria electrónica
 =====================
 
---{{0}}--
 Vídeo sobre industria digital CC-by-sa
 
 La granja electrónica
@@ -38,23 +37,19 @@ contienen estos robots autónomos.
 
 ## Etapas de fabricación
 
---{{0}}--
 
-## Herramientas de Diseño
+Herramientas de Diseño
+=====================
 
---{{0}}--
+Herramientas de desarrollo de software
+=====================
 
-### Herramientas de desarrollo de software
 
---{{0}}--
 En este apartado se describirán las herramientas abiertas necesarias para el desarrollo de aplicaciones software en sistemas digitales. Todas las aplicaciones mencionadas a continuación hacen parte de la cadena de herramientas GNU, que son parte de los recursos suministrados por la comunidad de software libre.
 
- {{1}}
-********************************************************************************
+Compiladores:
+=====================
 
-**Compiladores:**
-
-                           --{{1}}--
 
 El GNU Compiler Collection normalmente llamado GCC, es un grupo de compiladores de lenguajes de programación producido por el proyecto GNU. Es el compilador estándar para el software libre, de los sistemas operativos basados en Unix y algunos propietarios como Mac OS de Apple. Soporta los lenguajes ADA, C, C++, Fortran, Java, Objective-C, Objective-C++ para las arquitecturas Alpha, ARM, Atmel AVR, Blackfin, H8/300, System/370, System/390, IA-32 (x86), x86-64, IA-64 i.e. the ”Itanium”, Motorola 68000, Motorola 88000, MIPS, PA-RISC, PDP-11, PowerPC, SuperH, SPARC, VAX, Renesas R8C/M16C/M32C y MorphoSys. Gracias a esto puede considerarse como una herramienta universal para el desarrollo de sistemas embebidos, el código escrito en una plataforma (en un lenguaje de alto nivel) puede ser implementado en otra sin mayores cambios, esto elimina la dependencia entre el código fuente y el procesador (re-utilización de código), lo que no es posible cuando se utiliza el lenguaje ensamblador.
 
@@ -62,15 +57,10 @@ El GNU Compiler Collection normalmente llamado GCC, es un grupo de compiladores 
 
 * Repositorio de GCC: https://github.com/gcc-mirror/gcc
 
-********************************************************************************
 
+Depuradores:
+=====================
 
- {{2}}
-********************************************************************************
-
-**Depuradores:**
-
-                           --{{2}}--
 
 El depurador oficial de GNU (GDB) al igual que GCC, soporta múltiples lenguajes y plataformas; permite monitorear y modificar las variables internas del programa y hacer llamado a funciones de forma independiente a la ejecución normal del mismo. Además, permite establecer sesiones remotas utilizando el puerto serie o TCP/IP. Aunque GDB es una aplicación que se ejecuta en consola de comandos, se han desarrollado varios front-ends como DDD o GDB/Insight.
 
@@ -78,14 +68,9 @@ El depurador oficial de GNU (GDB) al igual que GCC, soporta múltiples lenguajes
 
 * Repositorio oficial del proyecto GDB: https://www.gnu.org/software/gdb/current/
 
-********************************************************************************
 
- {{3}}
-********************************************************************************
-
-**Manipulación de código Objeto:**
-
-                           --{{3}}--
+Manipulación de código Objeto:
+=====================
 
 GNU Binutils es una colección de herramientas que pueden usarse junto a GNU GCC para inspeccionar y editar binarios. La mayoría de estas herramientas operan con ELFs, y para Linux, así como para la mayoría del software embebido, tanto los archivos de objetos individuales (.o) como la salida final enlazada (el ELF) están en este formato.
 
@@ -124,13 +109,9 @@ Dicha colección de utilidades para archivos binarios están compuestas por:
 
 ********************************************************************************
 
- {{4}}
-********************************************************************************
 
-**Librerías:**
-
-                           --{{4}}--
-                          
+Librerías:
+=====================
 
 Es necesario contar con las librerías standard de C: stdio, stdlib, math, etc; las más utilizadas en sistemas embebidos son:
 
@@ -147,20 +128,16 @@ Es necesario contar con las librerías standard de C: stdio, stdlib, math, etc; 
 
 * diet libc: https://www.fefe.de/dietlibc/
 ********************************************************************************
+ 
+## Herramientas de CAD
 
-### Herramientas de CAD
-
---{{0}}--
 
 
 Para la elaboración de las cajas que contendrán las tarjetas electrónicas y servirán de soporte fı́sico a los dispositivos electrónicos, se utilizará la herramienta QCAD disponible para los sistemas operativos más utilizados; con esta aplicación se puede generar la forma de la placa de circuito impreso con los orificios necesarios para ajustarse a la caja y a la aplicación; este archivo puede ser exportado a la herramienta KICAD lo que facilita la colocación de componentes.
 
- {{1}}
-********************************************************************************
 
-**KiCad:**
-
-                           --{{1}}--
+KiCad
+=====================
 
 
 Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al comienzo de este estudio no existı́a una herramienta que permitiera realizar de forma fácil la elaboración del esquemático, asignación de footprints, distribución y localización de componentes en el layout, ruteo de las señales, y verificación de reglas de diseño tanto en el esquemático como en el layout. En la actualidad, el proyecto KICAD ha alcanzado un nivel adecuado para ser utilizado en el desarrollo de aplicaciones comercializables y fue utilizado en todos los proyectos académicos durante la aplicación del presente plan de estudios; está formado por 5 aplicaciones: el editor de esquemáticos Eeschema; el editor de circuitos impresos Pcbnew; el visor de archivos gerber Gerbview; la utilidad para asignar footprints Cvpcb y el manejador de proyectos Kicad.
@@ -170,26 +147,15 @@ Este tipo de herramientas han sido las más difı́ciles de conseguir ya que al 
 * Sitio oficial de kicad: https://www.kicad.org
 * Repositorio de fuentes de kicad: https://github.com/KiCad
 
-********************************************************************************
+QCAD
+=====================
 
-{{2}}
-********************************************************************************
-
-**QCAD:**
-
-                           --{{2}}--
 QCAD es una aplicación informática de diseño asistido por computadora para diseño 2D. Funciona en los sistemas operativos Windows, Mac OS X y Linux. QCAD tiene una licencia de software GNU General Public License, concretamente, el código fuente de las versiones 3.1 y posteriores tienen licencia GPLv3.
 
 * Wikipedia: https://es.wikipedia.org/wiki/QCad
 
-********************************************************************************
-
-{{3}}
-********************************************************************************
-
-**OpenSCAD:**
-
-                           --{{3}}--
+OpenSCAD
+=====================
 
 OpenSCAD es un software CAD gratuito y de código abierto destinado a crear modelos 3D sólidos. Este software CAD es adecuado para usuarios experimentados que se sienten cómodos con la programación. Esto se debe a que una de las características clave de OpenSCAD es que es un modelador 3D basado en scripts que utiliza su propio lenguaje de descripción.
 
@@ -197,11 +163,7 @@ OpenSCAD es un software CAD gratuito y de código abierto destinado a crear mode
 
 ![OpenSCAD](img/openscad.png)
 
-********************************************************************************
-
-### Análisis y simulación de circuitos
-
---{{0}}--
+## Análisis y simulación de circuitos
 
 En la mayorı́a de centros de formación se utilizan herramientas que utilizan el simulador SPICE (Simulation Program with Integrated Circuits Emphasis) el cual ha demostrado ser una herramienta muy útil en diferentes áreas (electrónica análoga, electrónica digital, diseño VLSI, electrónica de potencia, entre otras) ya que proporciona diferentes formas y niveles de simulación; permitiendo el uso de modelos para representar de la mejor forma posible un dispositivo real. SPICE fue desarrollado por el departamento de ingenierı́a eléctrica y ciencias de la computación de la universidad de Berkeley 2 y su código fuente es distribuido bajo la licencia BSD (Berkeley Software Distribution), la última versión disponible es la 3f5, gracias a esto se han desarrollado una serie de herramientas que utilizan este potente simulador y proporcionan una interfaz amigable para el usuario.
 
@@ -209,12 +171,9 @@ En la mayorı́a de centros de formación se utilizan herramientas que utilizan 
 
 ![SPICE](img/spice.jpg)
 
- {{1}}
-********************************************************************************
-
-**QUCS:**
-
-                           --{{1}}--
+ 
+QUCS
+=====================
 
 En esta propuesta se utiliza QUCS (Quite Universal Circuit Simulator) desarrollado en QT y permite ser ejecutado en cual sistema operativo. QUCS permite realizar análisis AC, DC, transitorio, de balance armónico y soporta dispositivos lineales, no lineales, micro-cintas, coplanares, lı́neas de transmisión y representados por modelos SPICE. En la figura, se muestra la captura de esta aplicación.
 
@@ -222,19 +181,11 @@ En esta propuesta se utiliza QUCS (Quite Universal Circuit Simulator) desarrolla
 
 ![QUCS](img/qucs.png)
 
-********************************************************************************
+## Simulación y verificación digital
 
-### Simulación y verificación digital
+Icarus
+=====================
 
---{{0}}--
-
-
- {{1}}
-********************************************************************************
-
-**Icarus:**
-
-                           --{{1}}--
 
 Para la simulación de sistemas digitales que utilizan como entrada de diseño lenguajes de descripción de hardware existen los simuladores ICARUS para verilog y GHDL para vhdl; los dos pueden ser utilizados para realizar simulaciones funcionales, post sı́ntesis o post place & route (trabajando en conjunto con las herramientas de los fabricantes) y ambos soportan el formato de salida VCD (definido junto con el lenguaje de descripción de hardware verilog por el estándar IEEE 1364-2001). Adicionalmente, estas herramientas pueden ser utilizadas en los sistemas operativos más utilizados.
 
@@ -242,15 +193,8 @@ Para la simulación de sistemas digitales que utilizan como entrada de diseño l
 
 * Sitio oficial de icarus: http://iverilog.icarus.com
 
-********************************************************************************
-
-
-{{2}}
-********************************************************************************
-
-**GTKWAVE:**
-
-                           --{{2}}--
+GTKWAVE
+=====================
                            
 Como herramienta de simulación se utilizará GTKWAVE, la cual acepta como entrada archivos en formato VCD y puede ser ejecutada en MAC, Linux y Windows. GTKWAVE realiza un manejo adecuado de la jerarquı́a del sistema bajo análisis, permitiendo observar todas las señales de los diferentes módulos que componen la jerarquı́a superior, lo que es muy útil en este tipo de simulaciones; en la figura se puede observar una captura de esta herramienta.
 
@@ -261,19 +205,12 @@ Como herramienta de simulación se utilizará GTKWAVE, la cual acepta como entra
 
 ********************************************************************************
 
-### Herramientas de Síntesis
-
---{{0}}--
+## Herramientas de Síntesis
 
 Para la síntesis digital a partir de lenguajes de descripción de hardware se utilizan las herramientas gratuitas suministradas por los fabricantes de FPGAs, webpack de Xilinx y Quartus de Altera; debido a que la estructura interna de las FPGAs solo la conocen los fabricantes 3 , es obligatorio utilizar sus herramientas para obtener el archivo de configuración. 
 
-
- {{1}}
-********************************************************************************
-
-**LiteX:**
-
-                           --{{1}}--
+LiteX
+=====================
 
 El marco de trabajo de LiteX proporciona una infraestructura cómoda y eficiente para crear FPGA Cores/SoCs, para explorar varias arquitecturas de diseño digital y crear sistemas completos basados en FPGA.
 
@@ -281,11 +218,7 @@ El marco de trabajo de LiteX proporciona una infraestructura cómoda y eficiente
 
 ![LiteX](img/litex.png)
 
-********************************************************************************
-
-### Documentación y manejo de proyectos
-
---{{0}}--
+## Documentación y manejo de proyectos
 
 La gestión de proyectos es un conjunto de metodologías para planificar y dirigir los procesos de un proyecto. Un proyecto comprende un cúmulo específico de operaciones diseñadas para lograr un objetivo con un alcance, recursos, inicio y final establecidos. Los objetivos de la gestión de proyectos son:
 
@@ -295,10 +228,8 @@ La gestión de proyectos es un conjunto de metodologías para planificar y dirig
 
 * ticportal: https://www.ticportal.es/glosario-tic/gestion-proyectos
 
-{{1}}
-********************************************************************************
-
-**GIT:**
+GIT
+=====================
 
                            --{{1}}--
 Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.
@@ -307,15 +238,8 @@ Es un software de control de versiones diseñado por Linus Torvalds, pensando en
 
 ![Git](img/git.png)
 
-********************************************************************************
-
-
-{{2}}
-********************************************************************************
-
-**Wiki:**
-
-                           --{{2}}--
+Wiki
+=====================
 
 Sistema de trabajo informático utilizado en los sitios web que permite a los usuarios modificar o crear su contenido de forma rápida y sencilla.
 
@@ -323,7 +247,6 @@ Sistema de trabajo informático utilizado en los sitios web que permite a los us
 
 * Fuente: https://www.arsys.es/blog/soluciones/wiki-empresa/
 
-** TODO **: 
 
 ¿Donde crear una WiKi?
 =====================
@@ -334,4 +257,3 @@ Sistema de trabajo informático utilizado en los sitios web que permite a los us
 ¿Wikis creadas con Markdown?
 =====================
 
-********************************************************************************
