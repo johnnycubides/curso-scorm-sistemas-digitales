@@ -32,7 +32,7 @@ Pasos de instalación
 
 Ejecute el siguiente comando y siga las instrucciones del instalador
 
-```bash
+```sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
