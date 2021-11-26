@@ -1,7 +1,8 @@
-# Sistemas Embebidos
+## Sistemas Embebidos
 
 
-## Proyecto
+Proyecto
+===============
 
 ¿Qué queremos hacer?
 ====================
@@ -18,7 +19,7 @@ que esté orientado a la solución de una situación real.
 * **Brochure comercial**
 
 Sobre el sistema embebido
--------------------------
+===============
 
 ![ejemplo de sistema embebido](./img/ejemplo-sistema-embebido.png) ![omega modular](./img/omega-modular.jpg)
 
@@ -30,7 +31,7 @@ y además tener las siguientes características:
 * El sistema debe permitir la comunicación con otros dispositivos para monitoreo o control por parte del usuario final (puede ser a través de un medio guiado o no, lo cual depende de la aplicación).
 
 Sobre la caja
--------------
+===============
 
 ![piccolo](./img/piccolo.jpg) ![estacion](./img/estacion.jpg)
 
@@ -57,14 +58,14 @@ de proyectos anteriormente mencionados tienen la posibilidad de crear wikis asoc
 también puede hacer uso de un blog o crear páginas web staticas (gitlab y github tienen esa propiedad y por ahora es libre)
 
 Sobre el brochure
------------------
+===============
 
 Queremos que piensen que este producto va a ser ofrecido a un público que lo pueda necesitar por tanto
 muestre el producto de tal manera que se pueda reconocer sus características y particularidades.
 
 ![Brochure IFLAB](./img/brochure-iflab.png)
 
-### Ideación
+## Ideación
 
 En esta face del proyecto queremos plantear lo que queremos hacer, como también las restricciones de funcionamiento y de alcance;
 Para tal fin deseamos responder a los siguientes items:
@@ -74,7 +75,7 @@ Para tal fin deseamos responder a los siguientes items:
 * Requerimientos funcionales
 
 Requerimientos del cliente y alcance
-------------------------------------
+===============
 
 Son los relacionados a aquello que el cliente quiere que suceda con su producto, los cuales permiten jugar
 sin que éste necesariamente sepa como debe suceder internamente, para este paso, puede crear diagrámas que den cuenta
@@ -82,7 +83,6 @@ de como interviene el **"artefacto"** en la necesidad del cliente, como el usuar
 aspectos estéticos y aquello que tiene un valor agregado (experiencia de usuario), como sugerencia **Liste todo aquello que
 permita acotar el alcance del proyecto** para que identifique que partes de eso se pueden realizar en el tiempo disponible
 en el curso y aquello que queda proyectado para una próxima iteración del desarrollo del proyecto en otro espacio-tiempo.
-
 
 ## Herramientas
 
@@ -95,7 +95,8 @@ en el curso y aquello que queda proyectado para una próxima iteración del desa
 * Drawio
 ![Drawio](./img/drawio.png)
 
-### GNU/Linux
+GNU/Linux
+===============
 
 |Comando  |Acción |Ejemplo  |
 |:-------------:|:-------------:|:-----:|
@@ -109,7 +110,8 @@ en el curso y aquello que queda proyectado para una próxima iteración del desa
 |`rm` | Remover un archivo  | rm archivo.txt  |
 
 
-### GIT
+GIT
+===============
 
 INSTALACIÓN DE GIT
 ==================
@@ -206,7 +208,8 @@ git push
 </object>
 </div>
 
-### KiCAD
+KiCAD
+===============
 
 INSTALACIÓN DE KITCAD
 =====================
