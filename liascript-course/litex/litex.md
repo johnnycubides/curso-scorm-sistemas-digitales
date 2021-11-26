@@ -69,7 +69,7 @@ la descarga de los archivos fuente **solo** para los softcore **lm32**, **pico32
                            
 ``` bash
 ./litex_setup.py update
-```
+``` 
 
 **Referencias**
 
@@ -80,10 +80,9 @@ la descarga de los archivos fuente **solo** para los softcore **lm32**, **pico32
  
 ## **Hola LiteX en CL 5A-75E**
 
-
 En éste ejemplo se encenderá el led de usuario de la placa Colorlight 5A-75E y un led externo conectado al pin J1.3 por medio de tokens enviados por el puerto serial; **leds-on** y **leds-off**.
 
-![Ejemplo](https://github.com/unal-digital-electronic/litex-and-softcore-projects/blob/dev-cl-5a-75e-examples/cl-5a-75e-project-example/litex-vexriscv-blink/video/vexriscv-cl-5a-75e.gif)
+!?[Ejemplo](https://github.com/unal-digital-electronic/litex-and-softcore-projects/blob/dev-cl-5a-75e-examples/cl-5a-75e-project-example/litex-vexriscv-blink/video/vexriscv-cl-5a-75e.gif)
 
 El gateware (emulación del hardware) consta de un softcore (vexriscv) el cual es construido con LiteX y sintetizado con herramientas libres como yosis y nextpnr, mientras que el firmware + bios de LiteX es cross-compilado con el compilador de riscv.
 
