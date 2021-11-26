@@ -18,12 +18,12 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
 --{{0}}--
 Desarrollo de proyectos de LITEX y Softcores mediante herramientas Open-Source para el diseño, implementación y pruebas.
 
-{{1}}
+ {{1}}
 ********************************************************************************
 
 **Instalación de Herramientas usando CONDA**
 
---{{1}}--
+                    --{{1}}--
 
 ![GCC](img/conda-fpga-tools.png)
 
@@ -50,7 +50,7 @@ Los comandos a usar son sencillos tanto para instalar, actualizar y ejecutar ent
 **1.2 Instalación de MINICONDA**
 
 Ejecute el siguiente comando y siga las instrucciones del instalador
-```python
+```bash
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
@@ -61,7 +61,7 @@ se recomienda revisar el estado de éste archivo donde miniconda3 agregó las l�
 
 **1.4 Actualizar miniconda**
 
-```python
+```bash
 conda update -n base -c defaults conda
 ```
 
@@ -77,19 +77,19 @@ podría saltarse éste paso teniendo encuenta éste hecho.
 
 Ejecute el siguiente comando para crear el entorno **FPGA**:
 
-```python
+```bash
 conda create --name fpga
 ```
 
 Para activar el entorno creado ejecute el siguiente comando:
 
-```python
+```bash
 conda activate fpga
 ```
 
 **2. Instalación de NEXTPNR, YOSYS y cross-compiladores**
 
-```python
+```bash
 conda install --channel "TimVideos" nextpnr-ecp5
 conda install --channel "TimVideos" nextpnr-ice40
 conda install --channel "TimVideos" gcc-riscv32-elf-newlib
@@ -98,7 +98,7 @@ conda install --channel "TimVideos" iceprog
 
 **Verificación de herramientas instaladas**
 
-```python
+```bash
 yosys -V
 nextpnr-ecp5 -V
 riscv32-unknown-elf-gcc -v
@@ -143,7 +143,7 @@ Se reitera que éste soporte es de prueba y por tanto está en desarrollo, para 
 1. Escoja un un directorio en su PC para instalar LiteX
 2. Descargue el instalador de LiteX como se explica en el repositorio de [LiteX], ejemplo: wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py
 3. Edite el archivo descargado litex_setup.py cambiando la línea referente al repositorio de litex-boards por el repositorio donde se ha agregado las fuentes para la board colorlight 5A-75E
-```python
+```bash
     # ("litex-boards", ("https://github.com/litex-hub/",     False, True)),
     ("litex-boards", ("https://github.com/unal-digital-electronic/",     False, True)),
 ```
@@ -158,7 +158,7 @@ la descarga de los archivos fuente **solo** para los softcore **lm32**, **pico32
 
 **Actualizar LiTeX**
                            
-```python
+```bash
 ./litex_setup.py update
 ``` 
 
@@ -224,7 +224,7 @@ En éste diagrama se puede apreciar la relación de los elementos que se contrui
 
 **1. Construir el gateware y el bios**
 
-```python
+```bash
 make gateware
 ```
 
@@ -237,13 +237,13 @@ de los siguientes métodos:
 
 * Enviar la imagen desde el pc a placa omega2 a través de ssh
 
-```python
+```bash
 make prog-f-o2
 ```
 
 * Programar fpga a través de omega2 por jtag
 
-```python
+```bash
 sh program.sh top-flash.svf
 ```
 
@@ -257,13 +257,13 @@ make firmware
 
 Lanzar el servidor litex:
 
-```python
+```bash
 make litex_term
 ```
 
 Cargar el firmware.bin desde el bios:
 
-```python
+```bash
 serialboot
 ```
 
@@ -272,7 +272,7 @@ serialboot
 
 Ejecutar los tokens:
 
-```python
+```bash
 leds-on
 leds-off
 ```
@@ -283,3 +283,4 @@ leds-off
 
 [litex-hub/fpga_101](https://github.com/litex-hub/fpga_101)
 
+********************************************************************************
