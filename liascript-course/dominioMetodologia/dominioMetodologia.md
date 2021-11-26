@@ -64,7 +64,6 @@ El diseño de arriba hacia abajo toma todo el sistema de software como una entid
 
 ## Diseño de un sistema embebido
 
-
 ![Flujo de diseño de un sistema embebido](./img/flujo_diseno_sistema_embebido.jpg)
 
 
