@@ -1,34 +1,12 @@
-<!--
-
-author: Carlos Camargo, Johnny Cubides
-
-comment: Sesión
-
-script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
-          https://felixhao28.github.io/JSCPP/dist/JSCPP.es5.min.js
-
-
-link: https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
-
-link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
--->
-
 ## Zephyr O.S.
 
---{{0}}--
-
- {{1}}
-********************************************************************************
-
 **Configuración y compilación**
-
-                           --{{1}}--
 
 [Proceso de Instalación de Zephyr](https://docs.zephyrproject.org/latest/getting_started/index.html#getting-started-guide)
 
 [Guía para dar soporte a nuevas boards](https://docs.zephyrproject.org/latest/guides/porting/board_porting.html)
 
-**1. Configuración de variables de entorno**
+**Configuración de variables de entorno**
 
 Las variables de entorno se configuran en el shell(terminal) de nuestro GNU/Linux y pueden ser vistas con el comando `printenv`
 
@@ -39,13 +17,13 @@ Las variables de entorno se configuran en el shell(terminal) de nuestro GNU/Linu
 |ZEPHYR_TOOLCHAIN_VARIANT|Se usa para indicar queremos usar el SDK ofrecido por zephyr o usaremos nuestro propio cross-compilador|
 |CROSS_COMPILE|Si en ZEPHYR_TOOLCHAIN_VARIANT se indica como variante **cross-compile** deberá indicar la ruta del cross-compilador a usar|
 
-**1.1 Ejemplos de configuración de variables de entorno**
+**Ejemplos de configuración de variables de entorno**
 
 **Nota 1**: Usando una configuración similar a la de los siguientes ejemplos, tu proyecto (los archivos fuentes) puede estar ubicado por fuera del `.../zephyrproject/zephyr/` y aún así podrá ser compilado.
 
 **Nota 2**: En realidad para iniciar zephyr puedes omitir estas configuraciones, pero al ir avanzando se hace necesario conocerlas para poder ajustar las herramientas a nuestras requermientos.
 
-**1.1.1 Ejemplo de configuración usando el SDK de Zephyr**
+**Ejemplo de configuración usando el SDK de Zephyr**
 
 ```bash
 export ZEPHYR_BASE=~/zephyrproject/zephyr
@@ -53,7 +31,7 @@ export ZEPHYR_TOOLCHAIN_VARIANT=zephyr
 export ZEPHYR_SDK_INSTALL_DIR=~/zephyr-sdk-0.11.3
 ```
 
-**1.1.2 Ejemplo de configuración donde se usa un cross-compilador externo para riscv32**
+**Ejemplo de configuración donde se usa un cross-compilador externo para riscv32**
 
 **Nota**: El cross-compilador debe estar instalado en el equipo y debes conocer la ruta
 
@@ -105,17 +83,10 @@ Ejemplo
 * Cuando configuramos nuestro proyecto para una board, si el proceso falla, elimina el directorio build creado, haz los ajustes e intena de nuevo; para remover el directorio y su contenido puedes usar el siguiente comando `rm -r build/`
 * Zephyr usa ccache para mantener una copia inmediata de las compilaciones realizadas con el fin de que en cada proceso de compilación no deba hacer todo desde cero, podrás encontrar el caché en `~/.cache/zephyr/`.
 
-********************************************************************************
 
 ## Depurar con Qemu-Riscv32 y GDB
 
- {{2}}
-********************************************************************************
-
 **Compilar para Riscv32**
-
-                           --{{2}}--
-
 
 En el projecto de zephyr existen varios ejemplos; para nuestro interés compilaremos el referente a sincronizaciones el cual se encontrará en el directorio samples. Ejemplo: 
 
@@ -170,7 +141,7 @@ Sin importar cuál proceso de comandos uses tu resultado deberá ser similar al 
 
 ![salida compilada](https://github.com/unal-digital-electronic/litex-and-softcore-projects/blob/dev-tools/synthesis-compilation-and-programming-tools/zephyr/docs/zephyr-compile/salida-compilar-zephyr-quemu-riscv32.png)
 
-## Lanzar la emulación con Qemu-Riscv32 y debug server
+**Lanzar la emulación con Qemu-Riscv32 y debug server**
 
 ![lanzar emulación con qemu y debug server](https://github.com/unal-digital-electronic/litex-and-softcore-projects/blob/dev-tools/synthesis-compilation-and-programming-tools/zephyr/docs/zephyr-compile/qemu-dbgserver.png)
 
@@ -201,14 +172,14 @@ make debugserver
 
 ![salida con el comando make debugserver](https://github.com/unal-digital-electronic/litex-and-softcore-projects/blob/dev-tools/synthesis-compilation-and-programming-tools/zephyr/docs/zephyr-compile/make-debug-server-quemu-riscv32.png)
 
-## Depuración con GDB
+**Depuración con GDB**
 
 El gdb a usar es el dado en el sdk de zephyr, sin embargo, para aprovechar las características de gdb haremos **uso de alguno de los siguientes programas** que nos servirán de interfaz gráfica.
 
 * **[DDD](https://www.gnu.org/software/ddd/)**, instalación: `apt-get install -y ddd`
 * **[gdbgui](https://www.gdbgui.com/installation/)**, instalación: `pip install gdbgui`
 
-### DDD
+**DDD**
 
 ![ddd debugger](https://github.com/unal-digital-electronic/litex-and-softcore-projects/blob/dev-tools/synthesis-compilation-and-programming-tools/zephyr/docs/zephyr-compile/ddd-riscv32.png)
 
@@ -227,7 +198,7 @@ Si tienes problemas con dependencias de python, puedes probar el siguiente coman
 ddd --debugger "~/zephyr-sdk-0.11.3/riscv64-zephyr-elf/bin/riscv64-zephyr-elf-gdb-no-py -ex 'target remote localhost:1234' ./zephyr.elf"
 ```
 
-### gdbgui
+**gdbgui**
 
 ![gdbgui debugger](https://github.com/unal-digital-electronic/litex-and-softcore-projects/blob/dev-tools/synthesis-compilation-and-programming-tools/zephyr/docs/zephyr-compile/gdbgui-riscv32.png)
 
@@ -242,5 +213,4 @@ Si tienes problemas con dependencias de python, puedes probar el siguiente coman
 ```bash
 gdbgui --gdb ~/zephyr-sdk-0.11.3/riscv64-zephyr-elf/bin/riscv64-zephyr-elf-gdb-no-py --gdb-args='-ex "target remote localhost:1234" ./zephyr.elf'
 ```
-********************************************************************************
 
