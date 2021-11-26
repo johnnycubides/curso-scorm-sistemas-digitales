@@ -109,7 +109,6 @@ GNU/Linux
 |`cd ..`  | Subir un nivel en el árbol de directorio||
 |`rm` | Remover un archivo  | rm archivo.txt  |
 
-
 GIT
 ===============
 
