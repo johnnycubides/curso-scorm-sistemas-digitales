@@ -1,5 +1,12 @@
-## Sistemas Embebidos
+<!--
 
+author: Carlos Camargo, Johnny Cubides
+
+comment: Material de apoyo para sistemas emebidos UNAL
+
+-->
+
+## Sistemas Embebidos
 
 Proyecto
 ===============
@@ -84,16 +91,53 @@ aspectos estéticos y aquello que tiene un valor agregado (experiencia de usuari
 permita acotar el alcance del proyecto** para que identifique que partes de eso se pueden realizar en el tiempo disponible
 en el curso y aquello que queda proyectado para una próxima iteración del desarrollo del proyecto en otro espacio-tiempo.
 
+## Creación de PCB
+
+## Esp32 consideraciones
+
+El Esp32 es un SoC muy popular de bajo costo con periféricos como I2C, SPI, UART, ADC, DAC y de comunicación inalámbrica WiFi/Bluetooth.
+
+![esp32 soc](./img/esp32/esp32-soc.jpg) ![esp32 diagrama de bloques](./img/esp32/esp32-diagrama-bloques.png)
+
+Además del encapsulado del esp32 también se puede encontrar en módulos que contienen memorias, parche de antena (o conector para antena externa) y oscilador llamados *wroom* y *wrover* como se ven en la siguiente imagen
+
+![Empaquetados esp32](./img/esp32/esp32-empaquetados.png)
+
+En este punto es importante observar los esquemas circuitales como los empaquetados de los módulos mencionados, por ejemplo observemos esta información para el **wroom**:
+
+![wroom empaquetado](./img/esp32/esp32-wroom-empaquetado-imagen.png)
+![wroom esquematico](./img/esp32/esp32-wroom-schematic.png)
+
+De las anteriores imágen ponga especial identifique donde se encuentra la antena, la memoria flash, el esp32 y el cristal oscilador.
+
+Siguiendo la misma idea, ahora observe el empaquetado y el esquema circuital del módulo **wrover**, observe que este módulo además de tener los mismo componentes del anterior, se le ha agregado
+un chip de SPRAM:
+
+![wrover empaquetado](./img/esp32/esp32-wrover-empaquetado-imagen.jpg)
+![wrover esquematico](./img/esp32/esp32-wrover-schematic.png)
+
+Para el funcionamiento del esp32 en la PCB a construir se requiere un circuito adicional ya que el esp32 se puede configurar para que opere en dos modos principales: **flash** y **boot**.
+
+* **Modo flash**: permite escribir la memoria flash que está en el 
+* **modeo boot**: El esp32 ejecuta el programa que tiene almacenado en la memoria flash
+
+Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
+
+![wroom operación](./img/esp32/wroom-circuito-operacion.png)
+![wrover operación](./img/esp32/wrover-circuito-operacion.png)
+
+Documenttación de referencia
+============================
+
+* [Datasheet esp32 wroom]()
+* [Datasheet esp32 wrover]()
+
 ## Herramientas
 
 * GIT
-![Git](./img/git.png)
 * KiCAD
-![KiCAD](./img/kicad.png)
 * Zephyr
-![Zephyr](./img/zephyr.jpeg)
 * Drawio
-![Drawio](./img/drawio.png)
 
 GNU/Linux
 ===============
@@ -109,8 +153,9 @@ GNU/Linux
 |`cd ..`  | Subir un nivel en el árbol de directorio||
 |`rm` | Remover un archivo  | rm archivo.txt  |
 
-GIT
-===============
+### GIT
+
+![Git](./img/git.png)
 
 INSTALACIÓN DE GIT
 ==================
@@ -197,28 +242,32 @@ git commit -m "comentario del commit"
 git push
 ```
 
-<div style="height:2000px;">
-<!-- insert in the document body -->
-<object data='docs/progit.pdf' 
-        type='application/pdf' 
-        width='100%' 
-        height='100%'>
-<p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="docs/progit.pdf.pdf">Download PDF</a></p>
-</object>
-</div>
+DOCUMENTACIÓN DE REFERENCIA DE GIT
+==================================
 
-KiCAD
-===============
+* [Libro Pro Git en pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/progit.pdf): Aprede a usar Git de manera profesional, el libro es de distribución libre en lenguaje español.
+
+### KiCAD
+
+
+![KiCAD](./img/kicad.png)
 
 INSTALACIÓN DE KITCAD
-=====================
+---------------------
 
 `sudo apt install kicad`
 
 ACCESOS RÁPIDOS
-===============
+---------------
 
 |Comando  |Explicación  |
 |:-------------:|:-------------:|
 | | |
 
+### Zephyr OS
+
+![Zephyr](./img/zephyr.jpeg)
+
+### Drawio
+
+![Drawio](./img/drawio.png)
