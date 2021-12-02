@@ -122,7 +122,7 @@ Normas de diseño IPC
 Resistencias SMD
 ================
 
-* [Resistencias de proposito general SMD pdf]()
+* [Resistencias de proposito general SMD pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/datasheets/general/chip-resistor-smd-2167052.pdf)
 
 Dimensiones resistencias
 ------------------------
@@ -130,6 +130,14 @@ Dimensiones resistencias
 ![resistencia dimensiones](./img/pcbDesing/res/resistencia-dimensones.png)
 
 ![resistencia dimensiones tabla](./img/pcbDesing/res/resistencia-tabla-de-dimension.png)
+
+Resistencia SMD en Kicad
+------------------------
+
+En el caso de que los componentes sean soldados con un cautin se recomienda no usar empaquetados pequeños, la recomendación
+es seleccionar mínimo el empaquetado *0603* con la etiqueta de **handsolder**, observar la siguiente imagen de ejemplo:
+
+![kicad hansolder](./img/pcbDesing/res/asig-resistor-smd-handsolder.png)
 
 
 ## ESP32 consideraciones
