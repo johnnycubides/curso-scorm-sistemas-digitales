@@ -93,7 +93,7 @@ en el curso y aquello que queda proyectado para una próxima iteración del desa
 
 ## Creación de PCB
 
-## Esp32 consideraciones
+## ESP32 consideraciones
 
 El Esp32 es un SoC muy popular de bajo costo con periféricos como I2C, SPI, UART, ADC, DAC y de comunicación inalámbrica WiFi/Bluetooth.
 
@@ -116,6 +116,8 @@ un chip de SPRAM:
 ![wrover empaquetado](./img/esp32/esp32-wrover-empaquetado-imagen.jpg)
 ![wrover esquematico](./img/esp32/esp32-wrover-schematic.png)
 
+### Circuito de operación ESP32
+
 Para el funcionamiento del esp32 en la PCB a construir se requiere un circuito adicional ya que el esp32 se puede configurar para que opere en dos modos principales: **flash** y **boot**.
 
 * **Modo flash**: permite escribir la memoria flash que está en el 
@@ -126,11 +128,16 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 ![wroom operación](./img/esp32/wroom-circuito-operacion.png)
 ![wrover operación](./img/esp32/wrover-circuito-operacion.png)
 
-Documenttación de referencia
-============================
+### Documenttación de referencia
 
-* [Datasheet esp32 wroom]()
-* [Datasheet esp32 wrover]()
+* [Página de documentos técnicos del esp32](https://www.espressif.com/en/support/documents/technical-documents)
+* [Manual técnico del esp32](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
+* [Guia de diseño esp32](https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
+* [Datasheet esp32 **wroom**](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
+* [Datasheet esp32 **wrover**](https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf)
+* [Framework de desarrollo de esp](https://github.com/espressif/esp-idf)
+* [Documentación de uso de esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html)
+
 
 ## Herramientas
 
