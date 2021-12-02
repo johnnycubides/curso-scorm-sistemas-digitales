@@ -96,6 +96,9 @@ en el curso y aquello que queda proyectado para una próxima iteración del desa
 Capacidad de desarrollo de PCB por parte de las empresas
 ========================================================
 
+![pcb capacidad](./img/pcbDesing/capacidad-creacion.png)
+
+
 Es necesario conocer la técnología que usan las empresas en su proceso de fabricación para ahorrar costos,
 conocer sus posibilidades y qué estándares existen.
 
