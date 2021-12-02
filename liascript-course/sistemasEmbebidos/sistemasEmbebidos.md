@@ -93,11 +93,30 @@ en el curso y aquello que queda proyectado para una próxima iteración del desa
 
 ## Creación de PCB
 
+Capacidad de desarrollo de PCB por parte de las empresas
+========================================================
+
+Es necesario conocer la técnología que usan las empresas en su proceso de fabricación para ahorrar costos,
+conocer sus posibilidades y qué estándares existen.
+
+La invitación en este lugar es reconocer por ejemplo:
+* Tamaño mínimo recomendado de la pista (sin costo adicional)
+* Tamaño de vías (perforaciones)
+* Mínimo espacio entre pistas
+* Costos en la creación de PCBs de uno y dos caras
+* Panelización
+
+Estas son las capacidades ofrecidas por algunas empresas:
+
+[Capacidades ofrecidas por JLCPCB](https://jlcpcb.com/capabilities/Capabilities)
+
 Normas de diseño IPC
 ====================
 
 * [Normas IPC comprimido pdf de 41MB](https://drive.google.com/file/d/1sRoVv3UpkkW9lRWvpXItrszYJ7POOIxs/view?usp=sharing)
 * [Normas IPC pdf de 177 MB](https://drive.google.com/file/d/1zWp61wTCGvVhFP5wHKmmkJQWqAea1irN/view?usp=sharing)
+
+
 
 ## ESP32 consideraciones
 
