@@ -98,25 +98,20 @@ Capacidad de desarrollo de PCB por parte de las empresas
 
 ![pcb capacidad](./img/pcbDesing/capacidad-creacion.png)
 
-
 Es necesario conocer la técnología que usan las empresas en su proceso de fabricación para ahorrar costos,
 conocer sus posibilidades y qué estándares existen.
 
 La invitación en este caso es reconocer algunas variables importantes cuando emprendamos el ruteo:
 
 * Tamaño mínimo recomendado de la pista (sin costo adicional)
-
 * Tamaño de vías (perforaciones)
-
 * Mínimo espacio entre pistas
-
 * Costos en la creación de PCBs de uno y dos caras
-
 * Panelización
 
 Estas son las capacidades ofrecidas por algunas empresas:
 
-[Capacidades ofrecidas por JLCPCB](https://jlcpcb.com/capabilities/Capabilities)
+* [Capacidades ofrecidas por JLCPCB](https://jlcpcb.com/capabilities/Capabilities)
 
 Normas de diseño IPC
 ====================
@@ -124,6 +119,16 @@ Normas de diseño IPC
 * [Normas IPC comprimido pdf de 41MB](https://drive.google.com/file/d/1sRoVv3UpkkW9lRWvpXItrszYJ7POOIxs/view?usp=sharing)
 * [Normas IPC pdf de 177 MB](https://drive.google.com/file/d/1zWp61wTCGvVhFP5wHKmmkJQWqAea1irN/view?usp=sharing)
 
+Resistencias SMD
+================
+
+* [Resistencias de proposito general SMD pdf]()
+
+Dimensiones resistencias
+------------------------
+
+![resistencia dimensiones](./img/pcbDesing/res/resistencia-dimensones.png)
+![resistencia dimensiones tabla](./img/pcbDesing/res/resistencia-tabla-de-dimension.png)
 
 
 ## ESP32 consideraciones
