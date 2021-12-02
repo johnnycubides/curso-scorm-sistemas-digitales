@@ -99,7 +99,7 @@ Capacidad de desarrollo de PCB por parte de las empresas
 Es necesario conocer la técnología que usan las empresas en su proceso de fabricación para ahorrar costos,
 conocer sus posibilidades y qué estándares existen.
 
-La invitación en este lugar es reconocer por ejemplo:
+La invitación en este caso es reconocer algunas variables importantes cuando emprendamos el ruteo:
 
 * Tamaño mínimo recomendado de la pista (sin costo adicional)
 
