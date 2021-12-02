@@ -100,6 +100,7 @@ Es necesario conocer la técnología que usan las empresas en su proceso de fabr
 conocer sus posibilidades y qué estándares existen.
 
 La invitación en este lugar es reconocer por ejemplo:
+
 * Tamaño mínimo recomendado de la pista (sin costo adicional)
 * Tamaño de vías (perforaciones)
 * Mínimo espacio entre pistas
