@@ -128,6 +128,7 @@ Dimensiones resistencias
 ------------------------
 
 ![resistencia dimensiones](./img/pcbDesing/res/resistencia-dimensones.png)
+
 ![resistencia dimensiones tabla](./img/pcbDesing/res/resistencia-tabla-de-dimension.png)
 
 
