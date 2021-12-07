@@ -2,6 +2,8 @@
 
 author: Carlos Camargo, Johnny Cubides
 
+email: cicamargoba@unal.edu.co, jgcubidesc@unal.edu.co
+
 comment: Material de apoyo para sistemas emebidos UNAL
 
 -->
@@ -116,8 +118,17 @@ Estas son las capacidades ofrecidas por algunas empresas:
 Normas de diseño IPC
 ====================
 
+Documentación de referencia sobre las normas IPC
+------------------------------------------------
+
 * [Normas IPC comprimido pdf de 41MB](https://drive.google.com/file/d/1sRoVv3UpkkW9lRWvpXItrszYJ7POOIxs/view?usp=sharing)
 * [Normas IPC pdf de 177 MB](https://drive.google.com/file/d/1zWp61wTCGvVhFP5wHKmmkJQWqAea1irN/view?usp=sharing)
+
+Vídeos sobre normas IPC
+-----------------------
+
+Norma IPC 2221 para Circuitos Impresos [Reglas eléctricas que debes seguir]
+!?[Norma IPC](https://www.youtube.com/watch?v=RiP0Z-NhS6M)
 
 Resistencias SMD
 ================
@@ -139,6 +150,35 @@ es seleccionar mínimo el empaquetado *0603* con la etiqueta de **handsolder**, 
 
 ![kicad hansolder](./img/pcbDesing/res/asig-resistor-smd-handsolder.png)
 
+### Componentes y fabricantes de PCBs
+
+Fabricantes Internacionales
+===========================
+
+* [OSH Park (US)](https://oshpark.com/)
+
+* [Eurocircuits (EU)](https://www.eurocircuits.com/)
+
+* [Seeed Studio Fusion Service (China)](https://www.seeedstudio.com/fusion_pcb.html)
+
+* [PCBWay (China)](https://www.pcbway.com/)
+
+* [jlcpcb.com (China)](https://jlcpcb.com/)
+
+* [allpcb.com (China)](https://www.allpcb.com/)
+
+Fabricantes Nacionales
+======================
+
+* [Colcircuitos](https://colcircuitos.com/circuitos-impresos-servicios-integrales/)
+* [Microensamble](https://microensamble.com)
+* [PCBmicrocircuitos](https://pcbmicrocircuitos.com)
+
+Tiendas componentes electrónicos
+================================
+
+* [Digikey](https://www.digikey.com/)
+* [mouser](https://co.mouser.com)
 
 ## ESP32 consideraciones
 
@@ -317,6 +357,20 @@ ACCESOS RÁPIDOS
 |Comando  |Explicación  |
 |:-------------:|:-------------:|
 | | |
+
+Mi primer PCB con kicad
+-----------------------
+
+* [Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/?fbclid=IwAR3OwgRqwc85H-j0YJTUkhBbJpkR1eex80cYIkS15KJx4cIzqhzl-UpF0DQ): Este tutroial en idioma inglés acerca al estudio de la herramienta de diseño *kicad* mientras crea su primera PCB.
+![tutorial primera pcv](./img/pcbDesing/primera-pcb-tutorial.png)
+
+Ejercicios de routeo
+--------------------
+
+
+* [flow free](https://www.bigduckgames.com/flowfree): Para desarrollar la habilidad de routeo, puede realizar hacer uso de la herramienta **flow free** la cualnos reta a pensar la manera correcta de conectar nodos de colores a través de puentes, la herramienta está compilada en distintas tiendas.
+
+![flow free](./img/pcbDesing/flow-free.png)
 
 ### Zephyr OS
 
