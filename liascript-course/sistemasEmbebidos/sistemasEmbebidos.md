@@ -115,8 +115,7 @@ Estas son las capacidades ofrecidas por algunas empresas:
 
 * [Capacidades ofrecidas por JLCPCB](https://jlcpcb.com/capabilities/Capabilities)
 
-Normas de diseño IPC
-====================
+### Normas de diseño IPC
 
 Documentación de referencia sobre las normas IPC
 ------------------------------------------------
@@ -127,7 +126,8 @@ Documentación de referencia sobre las normas IPC
 Vídeos sobre normas IPC
 -----------------------
 
-Norma IPC 2221 para Circuitos Impresos [Reglas eléctricas que debes seguir]
+[Norma IPC 2221 para Circuitos Impresos Reglas eléctricas que debes seguir](https://www.youtube.com/watch?v=RiP0Z-NhS6M)
+
 !?[Norma IPC](https://www.youtube.com/watch?v=RiP0Z-NhS6M)
 
 Resistencias SMD
