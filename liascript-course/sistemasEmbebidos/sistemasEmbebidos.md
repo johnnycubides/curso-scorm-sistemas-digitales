@@ -387,3 +387,15 @@ Ejercicios de routeo
 ### Drawio
 
 ![Drawio](./img/drawio.png)
+
+## Proyectos
+
+* [Telemetría apícola](https://github.com/Norely/Telemetria-apicola)
+* [Termómetro cervercero](https://github.com/Dportela2001/RemoteTempMonitor)
+* [Control de biosistemas](https://github.com/DaryhenViancha/Control-de-biosistemas)
+* [Control de aforo](https://github.com/screinac/controlador-de-aforo)
+* [Cuidador de mascotas](https://github.com/Davidariza99/Proyecto-embebidos)
+* [Dispensador para mascotas](https://github.com/AndresRodriguezUN/Dispensador-de-Comida-para-mascotas)
+* [Cerradura electrónica](https://github.com/CamSP/cerradura-electronica)
+* [Monitor bodega](https://github.com/Grupo-Monitor-Bodega)
+
