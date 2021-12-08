@@ -233,8 +233,10 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 * Zephyr
 * Drawio
 
-GNU/Linux
-===============
+### GNU/Linux
+
+Comando útiles
+==============
 
 |Comando  |Acción |Ejemplo  |
 |:-------------:|:-------------:|:-----:|
@@ -246,6 +248,12 @@ GNU/Linux
 |`cd` | Entrar a un directorio  | cd directorio |
 |`cd ..`  | Subir un nivel en el árbol de directorio||
 |`rm` | Remover un archivo  | rm archivo.txt  |
+
+Rutas Linux
+===========
+
+![linux-path](./img/linux/linux-path.jpeg)
+
 
 ### GIT
 
