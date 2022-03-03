@@ -36,7 +36,7 @@ El dispositivo deberá responder a los requerimientos funcionales y no funcional
 y además tener las siguientes características:
 
 * Desarrollar una PCB a la medida de la necesidad; podrá desarrollar el sistema embebido completo o desarrollar una tarjeta hija para una tarjeta de desarrollo
-* Para las tareas de software se puede hacer uso de *Zephyr OS*, *ChibiOS* o *micropython*; si desea usar micropython deberá ser compilado a la medida de la necesidad
+* Para las tareas de software se puede hacer uso de *Zephyr OS*, *ChibiOS* o *Micropython*; si desea usar Micropython deberá ser compilado a la medida de la necesidad
 * El sistema debe permitir la comunicación con otros dispositivos para monitoreo o control por parte del usuario final (puede ser a través de un medio guiado o no, lo cual depende de la aplicación).
 
 Sobre la caja
@@ -93,7 +93,12 @@ aspectos estéticos y aquello que tiene un valor agregado (experiencia de usuari
 permita acotar el alcance del proyecto** para que identifique que partes de eso se pueden realizar en el tiempo disponible
 en el curso y aquello que queda proyectado para una próxima iteración del desarrollo del proyecto en otro espacio-tiempo.
 
-## Creación de PCB
+Cronograma
+==========
+
+En construcción...
+
+## Fabricación de PCB
 
 Capacidad de desarrollo de PCB por parte de las empresas
 ========================================================
@@ -275,7 +280,7 @@ CONFIGURACIÓN DE GIT
 
 ```bash
 git config --global user.name "Johnny Cubides"
-git config --global user.email jgcubidesc@gmail.com
+git config --global user.email nombre@dominio.com
 git config --global core.editor nvim
 git config --list
 ```
@@ -292,7 +297,7 @@ ssh-keygen -t rsa -b 4096 -C "ETIQUETA"
 > La ETIQUETA puede ser tu correo electrónico
 
 A continuación la terminal te pedirá un nombre para guardar el archivo con la llave,
-ejemplo
+ejemplo:
 
 ```bash
 Enter file in which to save the key (/home/johnny/.ssh/id_rsa): /path/nombre-archivo
@@ -394,12 +399,42 @@ Ejercicios de routeo
 
 ## Proyectos
 
-* [Telemetría apícola](https://github.com/Norely/Telemetria-apicola)
-* [Termómetro cervercero](https://github.com/Dportela2001/RemoteTempMonitor)
-* [Control de biosistemas](https://github.com/DaryhenViancha/Control-de-biosistemas)
-* [Control de aforo](https://github.com/screinac/controlador-de-aforo)
-* [Cuidador de mascotas](https://github.com/Davidariza99/Proyecto-embebidos)
-* [Dispensador para mascotas](https://github.com/AndresRodriguezUN/Dispensador-de-Comida-para-mascotas)
-* [Cerradura electrónica](https://github.com/CamSP/cerradura-electronica)
-* [Monitor bodega](https://github.com/Grupo-Monitor-Bodega)
+Proyectos Sistemas Embebidos UNAL 2022-I
+========================================
+
+**En proceso...**
+
+Proyectos Sistemas Embebidos UNAL 2021-II
+=========================================
+
+Enlaces de los repositorios del proyectos
+-----------------------------------------
+
+* [Github del proyecto: Telemetría apícola](https://github.com/Norely/Telemetria-apicola)
+* [Github del proyecto: Termómetro cervercero](https://github.com/Dportela2001/RemoteTempMonitor)
+* [Github del proyecto: Control de biosistemas](https://github.com/DaryhenViancha/Control-de-biosistemas)
+* [Github del proyecto: Control de aforo](https://github.com/screinac/controlador-de-aforo)
+* [Github del proyecto: Cuidador de mascotas](https://github.com/Davidariza99/Proyecto-embebidos)
+* [Github del proyecto: Dispensador para mascotas](https://github.com/AndresRodriguezUN/Dispensador-de-Comida-para-mascotas)
+* [Github del proyecto: Cerradura electrónica](https://github.com/CamSP/cerradura-electronica)
+* [Github del proyecto: Monitor bodega](https://github.com/Grupo-Monitor-Bodega)
+
+Vídeos de las presentaciones de los proyectos
+---------------------------------------------
+
+!?[Telemetría Apícola](https://youtu.be/vyEqwwPkpSk)
+
+!?[Termómetro cervercero](https://youtu.be/wNGFhHlYesc)
+
+!?[Control de biosistemas](https://youtu.be/OPwyoVEpBv4)
+
+!?[Control de aforo](https://youtu.be/n9p1b5t7SQs)
+
+!?[Cuidador de mascotas](https://youtu.be/NZSnmj3M8_A)
+
+!?[Dispensador para mascotas](https://youtu.be/8CSYblkC2kM)
+
+!?[Cerradura electrónica](https://youtu.be/EMLXIH5TPao)
+
+!?[Monitor bodega](https://youtu.be/-TkDQ2qM4i0)
 
