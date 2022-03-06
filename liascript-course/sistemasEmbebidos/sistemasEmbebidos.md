@@ -230,7 +230,6 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 * [Framework de desarrollo de esp](https://github.com/espressif/esp-idf)
 * [Documentación de uso de esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html)
 
-
 ## Herramientas
 
 * GIT
@@ -262,7 +261,13 @@ Rutas Linux
 MAKE
 ====
 
+```bash
+sudo apt install make
+```
+
 [Tutorial Makefile](https://makefiletutorial.com)
+
+[Makefile pdf en español](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/make.pdf)
 
 ### GIT
 
