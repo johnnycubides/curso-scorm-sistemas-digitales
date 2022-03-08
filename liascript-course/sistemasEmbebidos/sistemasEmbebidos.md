@@ -10,8 +10,10 @@ comment: Material de apoyo para sistemas emebidos UNAL
 
 ## Sistemas Embebidos
 
+![proyecto](./img/projectSE/cronograma.drawio.png)
+
 Proyecto
-===============
+========
 
 ¿Qué queremos hacer?
 ====================
@@ -28,7 +30,7 @@ que esté orientado a la solución de una situación real.
 * **Brochure comercial**
 
 Sobre el sistema embebido
-===============
+=========================
 
 ![ejemplo de sistema embebido](./img/ejemplo-sistema-embebido.png) ![omega modular](./img/omega-modular.jpg)
 
@@ -36,11 +38,11 @@ El dispositivo deberá responder a los requerimientos funcionales y no funcional
 y además tener las siguientes características:
 
 * Desarrollar una PCB a la medida de la necesidad; podrá desarrollar el sistema embebido completo o desarrollar una tarjeta hija para una tarjeta de desarrollo
-* Para las tareas de software se puede hacer uso de *Zephyr OS*, *ChibiOS* o *Micropython*; si desea usar Micropython deberá ser compilado a la medida de la necesidad
+* Para las tareas de software se puede hacer uso de *Zephyr OS* o *Micropython*; si desea usar Micropython deberá ser compilado a la medida de la necesidad
 * El sistema debe permitir la comunicación con otros dispositivos para monitoreo o control por parte del usuario final (puede ser a través de un medio guiado o no, lo cual depende de la aplicación).
 
 Sobre la caja
-===============
+=============
 
 ![piccolo](./img/piccolo.jpg) ![estacion](./img/estacion.jpg)
 
@@ -67,7 +69,7 @@ de proyectos anteriormente mencionados tienen la posibilidad de crear wikis asoc
 también puede hacer uso de un blog o crear páginas web staticas (gitlab y github tienen esa propiedad y por ahora es libre)
 
 Sobre el brochure
-===============
+=================
 
 Queremos que piensen que este producto va a ser ofrecido a un público que lo pueda necesitar por tanto
 muestre el producto de tal manera que se pueda reconocer sus características y particularidades.
@@ -84,9 +86,9 @@ Para tal fin deseamos responder a los siguientes items:
 * Requerimientos funcionales
 
 Requerimientos del cliente y alcance
-===============
+====================================
 
-Son los relacionados a aquello que el cliente quiere que suceda con su producto, los cuales permiten jugar
+Son los relacionados a aquello que el cliente quiere que suceda con su producto, los cuales permiten juzgar
 sin que éste necesariamente sepa como debe suceder internamente, para este paso, puede crear diagrámas que den cuenta
 de como interviene el **"artefacto"** en la necesidad del cliente, como el usuario interactua con el aparato considerando
 aspectos estéticos y aquello que tiene un valor agregado (experiencia de usuario), como sugerencia **Liste todo aquello que
