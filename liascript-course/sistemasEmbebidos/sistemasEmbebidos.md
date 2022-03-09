@@ -8,12 +8,16 @@ comment: Material de apoyo para sistemas emebidos UNAL
 
 -->
 
-## Sistemas Embebidos
+## Sistemas Embebidos UNAL
 
-![proyecto](./img/projectSE/cronograma.drawio.png)
+[Plan de estudios (CDIO) Sistemas Embebidos en pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/camargo-docs/CDIO.pdf)
 
 Proyecto
 ========
+
+A continuación verá un esquema que representa las diferentes fases/tareas del desarrollo del un proyecto en el curso de sistemas embebidos:
+
+![proyecto](./img/projectSE/cronograma.drawio.png)
 
 ¿Qué queremos hacer?
 ====================
