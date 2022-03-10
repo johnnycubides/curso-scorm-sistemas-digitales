@@ -58,7 +58,7 @@ podrá descargar y ajustar a la necesidad.
 Sobre la documentación
 ----------------------
 
-Queremos documentar el proceso de desarrollo, para tal fin puede se requiere hacer uso de:
+Queremos documentar el proceso de desarrollo, para tal fin puede hacer uso de:
 
 * git
 * Wiki
@@ -77,6 +77,8 @@ Sobre el brochure
 
 Queremos que piensen que este producto va a ser ofrecido a un público que lo pueda necesitar por tanto
 muestre el producto de tal manera que se pueda reconocer sus características y particularidades.
+
+Ejemplo de brochure:
 
 ![Brochure IFLAB](./img/brochure-iflab.png)
 
@@ -448,4 +450,6 @@ Vídeos de las presentaciones de los proyectos
 !?[Cerradura electrónica](https://youtu.be/EMLXIH5TPao)
 
 !?[Monitor bodega](https://youtu.be/-TkDQ2qM4i0)
+
+!?[Conclusiones](https://youtu.be/FYKkyEN5acA)
 
