@@ -247,6 +247,10 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 
 ### GNU/Linux
 
+[Apuntes UNIX en PDF]()
+
+[Sistema operativo Linux, teoría y práctica y PDF]()
+
 Comando útiles
 ==============
 
@@ -280,6 +284,11 @@ sudo apt install make
 ### GIT
 
 ![Git](./img/git.png)
+
+DOCUMENTACIÓN DE REFERENCIA DE GIT
+==================================
+
+* [Libro Pro Git en pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/progit.pdf): Aprede a usar Git de manera profesional, el libro es de distribución libre en lenguaje español.
 
 INSTALACIÓN DE GIT
 ==================
@@ -365,11 +374,6 @@ git add .
 git commit -m "comentario del commit"
 git push
 ```
-
-DOCUMENTACIÓN DE REFERENCIA DE GIT
-==================================
-
-* [Libro Pro Git en pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/progit.pdf): Aprede a usar Git de manera profesional, el libro es de distribución libre en lenguaje español.
 
 ### KiCAD
 
