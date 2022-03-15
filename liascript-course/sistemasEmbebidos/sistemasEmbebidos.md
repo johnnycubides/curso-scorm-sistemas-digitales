@@ -247,9 +247,9 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 
 ### GNU/Linux
 
-[Apuntes UNIX en PDF]()
+[Apuntes UNIX en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/unix.pdf)
 
-[Sistema operativo Linux, teoría y práctica y PDF]()
+[Sistema operativo Linux, teoría y práctica y PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/linux.pdf)
 
 Comando útiles
 ==============
