@@ -247,28 +247,67 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 
 ### GNU/Linux
 
+El sistema operativo GNU/Linux es un clone de UNIX, UNIX es el sistema operativo padre de otros sistemas operativos
+actualmente usados por ejemplo MacOS, Solaris, FreeBSD entre otros, conocer de manera general a UNIX es encontrar
+coincidencias en la forma y uso de los sistemas operativos mencionados. A continuación se comparte un
+pdf de 24 páginas que muestra de manera general sus principales características.
+
 [Apuntes UNIX en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/unix.pdf)
 
-[Sistema operativo Linux, teoría y práctica y PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/linux.pdf)
+Llegar por primera vez a un sistema operativo como lo es "Linux" es un reto que requiere esmero y dedicación, se invita a tener la siguiente
+referencia en PDF la cual podrá consultar de vez en cuando, y que a través de las prácticas propuestas, podrá mejorar el desempeño en el uso
+de este gran sistema operativo como lo es GNU/Linux.
+
+[Sistema operativo Linux (teoría y práctica) en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/linux.pdf)
 
 Comando útiles
 ==============
 
+Los comandos presentados en la siguiente tabla se ejecutan en una terminal de Linux.
+
 |Comando  |Acción |Ejemplo  |
 |:-------------:|:-------------:|:-----:|
-|`pwd`  | Posición absoluta actual en el árbol de directorios ||
-|`cat`  | Imprimir en pantalla el contenido de un archivo | cat README.md |
-|`mkdir`  | Crear un directorio en el lugar especificado  | mkdir directorio  |
-|`mkdir -p` | Crear un directorio vacio con su respectivo padre | mkdir -p ./directorioPadre/directorioHijo |
-|`ls` | Listar el contenido de un directorio | ls, ls -ltrh |
-|`cd` | Entrar a un directorio  | cd directorio |
-|`cd ..`  | Subir un nivel en el árbol de directorio||
-|`rm` | Remover un archivo  | rm archivo.txt  |
+|`pwd`  | Posición absoluta actual en el árbol de directorios | `pwd` |
+|`cat`  | Imprimir en pantalla el contenido de un archivo | `cat README.md` |
+|`mkdir`  | Crear un directorio en el lugar especificado  | `mkdir directorio`  |
+|`mkdir -p` | Crear un directorio vacío con su respectivo padre | `mkdir -p ./directorioPadre/directorioHijo` |
+|`ls` | Listar el contenido de un directorio | `ls -ltrh` |
+|`ln -s`| Crea enlaces simbólicos (en Windows accesos directos) para ficheros | `ln -s /path/archivoFuente /path/archivoDestino` |
+|`cd` | Entrar a un directorio  | `cd directorio` |
+|`cd ..`  | Subir un nivel en el árbol de directorio| `cd ../` |
+|`rm` | Remover un archivo  | `rm archivo.txt` |
+|`rm -r`| Remover ficheros de manera recursiva | `rm -r directorio/` |
+|`cp`| Hacer copias de ficheros | `cp path/directorio path/copia` |
+|`mv`| Mover fichero a nuevoPath/`|
+|`mv`| Cambiar el nombre de un fichero | `mv archivo nuevoNombreArchivo` |
+|`grep`| Buscar una coincidencia dentro de los ficheros | `grep -lr "palabraCoincidencia" path/` |
+|`find`| Encontrar un archivo en alguna ruta | `find -iname ./ "parteDelNombreDelArchivoAEncontrar*"`|
 
-Rutas Linux
-===========
+GESTORES DE PAQUETES
+====================
 
-![linux-path](./img/linux/linux-path.jpeg)
+En "Linux" existen maneras distintas para instalar un programa, entre ellas:
+
+* **Compilar desde archivos fuentes**: se requiere tener los archivos fuentes, reglas de compilación pueden estar basadas en [Make](https://es.wikipedia.org/wiki/Make), compiladores y librerías como parte de las dependencias de compilación.
+* **Aplicaciones empaquetadas**: En este caso se obtiene un archivo que se desempaquetará y se instalará en el sistema linux sin requerir el compilador, en el caso de las Distribuciones basadas en "Debian" los paquetes son de extensión **.deb**.
+* **Gestores de paquetes**: Las distribuciones Linux tienen servidores en la nube con las aplicaciones empaquetadas para distintas arquitecturas, a través de un cliente instalado en la computadora instalará el paquete con sus dependencias.
+
+Para el caso de Debian se hace uso de algunos gestores de paquetes que facilitan el proceso de instalación de los programas; tal es el caso de **apt**, **apt-get** o **aptitude**.
+
+A continuación se explica el proceso de uso **apt**:
+
+|Comando| Observación |
+|:-------------:|:-------------:|
+| `apt update` | Actualiza los apuntadores de los sources list para que pueda encontrar los servidores donde están los paquetes de los programas |
+| `apt install paquete` | Permite instalar una aplicación con la opción de aceptar algunas condiciones como por ejemplo instalación de dependencias |
+| `apt install -f` | Tratará de reparar el funcionamiento de una aplicación a través de por ejemplo la instalación de dependencias rotas, sino lo logra, es posible que desinstale la aplicación y se requiera un procedimiento manual |
+| `apt remove paquete` | Desinstala un paquete |
+
+
+SHELL
+=====
+
+En construcción...
 
 MAKE
 ====
@@ -415,6 +454,34 @@ Ejercicios de routeo
 ![Drawio](./img/drawio.png)
 
 ## Proyectos
+
+Plataformas de Crowdfunding
+===========================
+
+Las plataformas de crowdfunding permiten visibilizar e impulsar proyectos
+de emprendimiento artísticos, de desarrollo, de innovación entre otros.
+Allí se han apoyado ideas de desarrollo interesante como han sido:
+
+[Omega2](https://www.kickstarter.com/projects/onion/omega2-5-iot-computer-with-wi-fi-powered-by-linux?lang=es): Sistema embebido que costaba 5 dólares con capacidad de correr Linux y conexión WiFi.
+
+[Mycropython](https://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers): Proyecto que permite programar microcontroladores en el lenguaje Python.
+
+[Cubetto](https://www.kickstarter.com/projects/primotoys/cubetto-hands-on-coding-for-girls-and-boys-aged-3?ref=discovery_category_most_backed): Plataforma de programación de hardware tangible.
+
+[Espruino](https://www.kickstarter.com/projects/gfw/espruino-javascript-for-things?ref=discovery_category_most_backed): Programa microcontroladores con el lenguaje de programación JavaScript.
+
+[Papilio Duo](https://www.kickstarter.com/projects/13588168/papilio-duo-drag-and-drop-fpga-circuit-lab-for-mak?ref=discovery_category_most_backed): Crear circuitos y probar en FPGA de manera gráfica o por bloques.
+
+[Endless](https://www.kickstarter.com/projects/1381437927/endless-computers?ref=discovery_category_most_backed): Computadoras para todo el mundo.
+
+Enlaces a plataformas de crowdfunding
+-------------------------------------
+
+[Kickstarter](https://www.kickstarter.com)
+
+[Indiegogo](https://www.indiegogo.com/)
+
+[Ulule](https://es.ulule.com/)
 
 Proyectos Sistemas Embebidos UNAL 2022-I
 ========================================
