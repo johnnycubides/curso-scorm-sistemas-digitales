@@ -260,6 +260,10 @@ de este gran sistema operativo como lo es GNU/Linux.
 
 [Sistema operativo Linux (teoría y práctica) en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/linux/linux.pdf)
 
+Se recomienta también tener el siguiente libro de referencia escrito en inglés sobre las funciones de Linux.
+
+[How Linux Works What Every Superuser Should Know en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/linux/How Linux Works What Every Superuser Should Know.pdf)
+
 Comando útiles
 ==============
 
