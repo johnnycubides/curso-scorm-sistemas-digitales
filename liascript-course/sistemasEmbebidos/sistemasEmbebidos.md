@@ -284,7 +284,7 @@ Los comandos presentados en la siguiente tabla se ejecutan en una terminal de Li
 |`rm` | Remover un archivo  | `rm archivo.txt` |
 |`rm -r`| Remover ficheros de manera recursiva | `rm -r directorio/` |
 |`cp`| Hacer copias de ficheros | `cp path/directorio path/copia` |
-|`mv`| Mover fichero a nuevoPath/`| `mv archivo pathDestino/` |
+|`mv`| Mover fichero a nuevoPath/ | `mv archivo pathDestino/` |
 |`mv`| Cambiar el nombre de un fichero | `mv archivo nuevoNombreArchivo` |
 |`grep`| Buscar una coincidencia dentro de los ficheros | `grep -lr "palabraCoincidencia" path/` |
 |`find`| Encontrar un archivo en alguna ruta | `find -iname ./ "parteDelNombreDelArchivoAEncontrar*"`|
