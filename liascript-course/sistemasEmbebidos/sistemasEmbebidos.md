@@ -252,16 +252,22 @@ actualmente usados por ejemplo MacOS, Solaris, FreeBSD entre otros, conocer de m
 coincidencias en la forma y uso de los sistemas operativos mencionados. A continuación se comparte un
 pdf de 24 páginas que muestra de manera general sus principales características.
 
-[Apuntes UNIX en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/unix.pdf)
+[Apuntes UNIX en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/linux/unix.pdf)
 
 Llegar por primera vez a un sistema operativo como lo es "Linux" es un reto que requiere esmero y dedicación, se invita a tener la siguiente
 referencia en PDF la cual podrá consultar de vez en cuando, y que a través de las prácticas propuestas, podrá mejorar el desempeño en el uso
 de este gran sistema operativo como lo es GNU/Linux.
 
-[Sistema operativo Linux (teoría y práctica) en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/linux.pdf)
+[Sistema operativo Linux (teoría y práctica) en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/linux/linux.pdf)
 
 Comando útiles
 ==============
+
+Para tener mayor claridad sobre el mundo de los comandos en Linux tenga de referencia el siguiente libro que le permitirá conocer las combinaciones de los comandos y argumentos según su necesidad.
+
+[The Linux Comman Line en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/linux/TLCL-19.01.pdf)
+
+[Sitio oficial del libro](https://linuxcommand.org/index.php)
 
 Los comandos presentados en la siguiente tabla se ejecutan en una terminal de Linux.
 
@@ -278,10 +284,11 @@ Los comandos presentados en la siguiente tabla se ejecutan en una terminal de Li
 |`rm` | Remover un archivo  | `rm archivo.txt` |
 |`rm -r`| Remover ficheros de manera recursiva | `rm -r directorio/` |
 |`cp`| Hacer copias de ficheros | `cp path/directorio path/copia` |
-|`mv`| Mover fichero a nuevoPath/`|
+|`mv`| Mover fichero a nuevoPath/`| `mv archivo pathDestino/` |
 |`mv`| Cambiar el nombre de un fichero | `mv archivo nuevoNombreArchivo` |
 |`grep`| Buscar una coincidencia dentro de los ficheros | `grep -lr "palabraCoincidencia" path/` |
 |`find`| Encontrar un archivo en alguna ruta | `find -iname ./ "parteDelNombreDelArchivoAEncontrar*"`|
+
 
 GESTORES DE PAQUETES
 ====================
