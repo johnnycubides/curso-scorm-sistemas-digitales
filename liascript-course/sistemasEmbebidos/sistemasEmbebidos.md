@@ -104,7 +104,8 @@ en el curso y aquello que queda proyectado para una próxima iteración del desa
 Cronograma
 ==========
 
-En construcción...
+El cronograma que desee diseñar para realizar su proyecto puede ser referenciado con el el diagrama de fases/tareas propuesto
+en esta documentación en [este enlace](#Sistemas-Embebidos-UNAL)
 
 ## Fabricación de PCB
 
@@ -220,7 +221,7 @@ un chip de SPRAM:
 
 Para el funcionamiento del esp32 en la PCB a construir se requiere un circuito adicional ya que el esp32 se puede configurar para que opere en dos modos principales: **flash** y **boot**.
 
-* **Modo flash**: permite escribir la memoria flash que está en el 
+* **Modo flash**: permite escribir la memoria flash que está en él 
 * **modeo boot**: El esp32 ejecuta el programa que tiene almacenado en la memoria flash
 
 Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
@@ -329,7 +330,7 @@ sudo apt install make
 
 [Tutorial Makefile](https://makefiletutorial.com)
 
-[Makefile pdf en español](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/make.pdf)
+[Make en español en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/make.pdf)
 
 ### GIT
 
