@@ -6,6 +6,10 @@ email: cicamargoba@unal.edu.co, jgcubidesc@unal.edu.co
 
 comment: Material de apoyo para sistemas emebidos UNAL
 
+version: 0.2.0
+
+blue: true 
+
 -->
 
 ## Sistemas Embebidos UNAL
@@ -336,13 +340,16 @@ sudo apt install make
 
 ![Git](./img/git.png)
 
-DOCUMENTACIÓN DE REFERENCIA DE GIT
-==================================
+Para conocer la filosofía de GIT se invita revisar el libro llamado Pro Git del cual compartimos el enlace en PDF. Se sugiere revisar el capítulo de *Fundamentos de Git*
 
 * [Libro Pro Git en pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/progit.pdf): Aprede a usar Git de manera profesional, el libro es de distribución libre en lenguaje español.
 
+A continuación se expresan algunas instrucciones vitales que puede usar como especie de receta para iniciarse en el mundo de *Git*
+
 INSTALACIÓN DE GIT
 ==================
+
+Use el siguiente comando en la terminal de Linux para instalar el cliente de Git de línea de comandos.
 
 ```sh
 sudo apt install git
@@ -350,6 +357,8 @@ sudo apt install git
 
 CONFIGURACIÓN DE GIT
 ====================
+
+Nuevamente en la terminal ejecuta los siguientes comandos para ajustar el cliente de Git.
 
 ```bash
 git config --global user.name "Johnny Cubides"
@@ -485,6 +494,10 @@ Allí se han apoyado ideas de desarrollo interesante como han sido:
 [Papilio Duo](https://www.kickstarter.com/projects/13588168/papilio-duo-drag-and-drop-fpga-circuit-lab-for-mak?ref=discovery_category_most_backed): Crear circuitos y probar en FPGA de manera gráfica o por bloques.
 
 [Endless](https://www.kickstarter.com/projects/1381437927/endless-computers?ref=discovery_category_most_backed): Computadoras para todo el mundo.
+
+Si es necesario un poco de inspiración para emprender un proyecto, puede revisar
+los siguientes sitios de crowdfunding, podrá encontrar proyectos que inclusive
+podrá adoptar para emprender su propio proyecto.
 
 Enlaces a plataformas de crowdfunding
 -------------------------------------
