@@ -129,6 +129,26 @@ Arquitectura de un Sistema Embebido
 
 ![Arquitectura de un sistema embebido](./img/sistemas-embebidos/arquitectura-de-un-SE.png)
 
+Arquitectura de un sistema embebido comercial con memoria interna
+=================================================================
+
+![arquitectura de SE comercial con memoria interna](./img/sistemas-embebidos/arquitectura-SE-comerciar-memoria-interna.png)
+
+
+Arquitectura de un sistema embebido comercial con memoria externa
+=================================================================
+
+![arquitectura de SE comercial con memoria externa](./img/sistemas-embebidos/arquitectura-SE-comercial-memoria-external.png)
+
+Flujo de diseño para aplicaciones un sistema embebido
+=====================================================
+
+![Flujo de diseño de software para un SE](./img/sistemas-embebidos/flujo-de-diseno-sw-para-crear-aplicaciones.png)
+
+Ejemplo de flujo de diseno para crear un aplicación en un procedador softcore
+=============================================================================
+
+![flujo de diseño de aplicación en LM32](./img/sistemas-embebidos/flujo-de-diseno-hw-sw-procesador-softcore.png)
 
 ### ESP32 consideraciones
 
