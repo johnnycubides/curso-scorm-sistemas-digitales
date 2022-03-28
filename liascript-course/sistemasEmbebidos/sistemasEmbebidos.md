@@ -94,6 +94,7 @@ Para tal fin deseamos responder a los siguientes items:
 * Descripción
 * Requerimientos del cliente y alcance
 * Requerimientos funcionales
+* Experiencia de usuario
 
 Requerimientos del cliente y alcance
 ====================================
@@ -111,7 +112,74 @@ Cronograma
 El cronograma que desee diseñar para realizar su proyecto puede ser referenciado con el el diagrama de fases/tareas propuesto
 en esta documentación en [este enlace](#Sistemas-Embebidos-UNAL)
 
-## Fabricación de PCB
+## ¿Qué es un sistema embebido?
+
+Metodología de diseño para el área de Sistemas Digitales
+========================================================
+
+![Metodología de diseño para el área de Sistemas Digitales](./img/sistemas-embebidos/metodoliga-de-diseno-SE.png)
+
+Flujo de diseño de un sistema embebebido
+========================================
+
+![Flujo de diseño de un sistema embebido](./img/sistemas-embebidos/flujo-de-diseno-de-un-SE.png)
+
+Arquitectura de un Sistema Embebido
+===================================
+
+![Arquitectura de un sistema embebido](./img/sistemas-embebidos/arquitectura-de-un-SE.png)
+
+
+### ESP32 consideraciones
+
+El Esp32 es un SoC muy popular de bajo costo con periféricos como I2C, SPI, UART, ADC, DAC y de comunicación inalámbrica WiFi/Bluetooth.
+
+![esp32 soc](./img/esp32/esp32-soc.jpg) ![esp32 diagrama de bloques](./img/esp32/esp32-diagrama-bloques.png)
+
+Además del encapsulado del esp32 también se puede encontrar en módulos que contienen memorias, parche de antena (o conector para antena externa) y oscilador llamados *wroom* y *wrover* como se ven en la siguiente imagen
+
+![Empaquetados esp32](./img/esp32/esp32-empaquetados.png)
+
+En este punto es importante observar los esquemas circuitales como los empaquetados de los módulos mencionados, por ejemplo observemos esta información para el **wroom**:
+
+![wroom empaquetado](./img/esp32/esp32-wroom-empaquetado-imagen.png)
+![wroom esquematico](./img/esp32/esp32-wroom-schematic.png)
+
+De las anteriores imágen ponga especial identifique donde se encuentra la antena, la memoria flash, el esp32 y el cristal oscilador.
+
+Siguiendo la misma idea, ahora observe el empaquetado y el esquema circuital del módulo **wrover**, observe que este módulo además de tener los mismo componentes del anterior, se le ha agregado
+un chip de SPRAM:
+
+![wrover empaquetado](./img/esp32/esp32-wrover-empaquetado-imagen.jpg)
+![wrover esquematico](./img/esp32/esp32-wrover-schematic.png)
+
+#### Circuito de operación ESP32
+
+Para el funcionamiento del esp32 en la PCB a construir se requiere un circuito adicional ya que el esp32 se puede configurar para que opere en dos modos principales: **flash** y **boot**.
+
+* **Modo flash**: permite escribir la memoria flash que está en él 
+* **modeo boot**: El esp32 ejecuta el programa que tiene almacenado en la memoria flash
+
+Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
+
+![wroom operación](./img/esp32/wroom-circuito-operacion.png)
+![wrover operación](./img/esp32/wrover-circuito-operacion.png)
+
+#### Documentación de referencia
+
+* [Página de documentos técnicos del esp32](https://www.espressif.com/en/support/documents/technical-documents)
+* [Manual técnico del esp32](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
+* [Guia de diseño esp32](https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
+* [Datasheet esp32 **wroom**](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
+* [Datasheet esp32 **wrover**](https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf)
+* [Framework de desarrollo de esp](https://github.com/espressif/esp-idf)
+* [Documentación de uso de esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html)
+
+
+
+## Diseño y fabricación de PCB
+
+### Fabricación de PCB
 
 Capacidad de desarrollo de PCB por parte de las empresas
 ========================================================
@@ -197,51 +265,6 @@ Tiendas componentes electrónicos
 
 * [Digikey](https://www.digikey.com/)
 * [mouser](https://co.mouser.com)
-
-## ESP32 consideraciones
-
-El Esp32 es un SoC muy popular de bajo costo con periféricos como I2C, SPI, UART, ADC, DAC y de comunicación inalámbrica WiFi/Bluetooth.
-
-![esp32 soc](./img/esp32/esp32-soc.jpg) ![esp32 diagrama de bloques](./img/esp32/esp32-diagrama-bloques.png)
-
-Además del encapsulado del esp32 también se puede encontrar en módulos que contienen memorias, parche de antena (o conector para antena externa) y oscilador llamados *wroom* y *wrover* como se ven en la siguiente imagen
-
-![Empaquetados esp32](./img/esp32/esp32-empaquetados.png)
-
-En este punto es importante observar los esquemas circuitales como los empaquetados de los módulos mencionados, por ejemplo observemos esta información para el **wroom**:
-
-![wroom empaquetado](./img/esp32/esp32-wroom-empaquetado-imagen.png)
-![wroom esquematico](./img/esp32/esp32-wroom-schematic.png)
-
-De las anteriores imágen ponga especial identifique donde se encuentra la antena, la memoria flash, el esp32 y el cristal oscilador.
-
-Siguiendo la misma idea, ahora observe el empaquetado y el esquema circuital del módulo **wrover**, observe que este módulo además de tener los mismo componentes del anterior, se le ha agregado
-un chip de SPRAM:
-
-![wrover empaquetado](./img/esp32/esp32-wrover-empaquetado-imagen.jpg)
-![wrover esquematico](./img/esp32/esp32-wrover-schematic.png)
-
-### Circuito de operación ESP32
-
-Para el funcionamiento del esp32 en la PCB a construir se requiere un circuito adicional ya que el esp32 se puede configurar para que opere en dos modos principales: **flash** y **boot**.
-
-* **Modo flash**: permite escribir la memoria flash que está en él 
-* **modeo boot**: El esp32 ejecuta el programa que tiene almacenado en la memoria flash
-
-Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
-
-![wroom operación](./img/esp32/wroom-circuito-operacion.png)
-![wrover operación](./img/esp32/wrover-circuito-operacion.png)
-
-### Documentación de referencia
-
-* [Página de documentos técnicos del esp32](https://www.espressif.com/en/support/documents/technical-documents)
-* [Manual técnico del esp32](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
-* [Guia de diseño esp32](https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
-* [Datasheet esp32 **wroom**](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
-* [Datasheet esp32 **wrover**](https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf)
-* [Framework de desarrollo de esp](https://github.com/espressif/esp-idf)
-* [Documentación de uso de esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html)
 
 ## Herramientas
 
@@ -338,7 +361,12 @@ sudo apt install make
 
 ### GIT
 
-![Git](./img/git.png)
+![Git](./img/git/git.png)
+
+A continuación se diagrama la funcionalidad del sistema distribuido de control de versiones **git**.
+
+![Funcionalidad del sistema GIT](./img/git/funcionalidad-git.png)
+
 
 Para conocer la filosofía de GIT se invita revisar el libro llamado Pro Git del cual compartimos el enlace en PDF. Se sugiere revisar el capítulo de *Fundamentos de Git*
 
