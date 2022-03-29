@@ -10,6 +10,9 @@ version: 0.2.0
 
 blue: true 
 
+script: ./pdfobject.min.js
+        ./pdfobject.js
+
 -->
 
 ## Sistemas Embebidos UNAL
@@ -217,6 +220,25 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 
 ![Flujo de diseño para frabricación de PCB](./img/pcbDesing/flujo-de-diseno-PCB.png)
 
+### Diseño de esquemático
+
+Con respecto al diseño del esquemático del circuito para un sistema embebido, se plantea el desarrollo en la herramienta KiCAD
+con hojas jerárquicas.
+
+A continuación se comparte un esquemático con un diseño jerárquico el cual permite el estudio de distintas herramientas
+usadas en KiCAD.
+
+[Ejemplo de esquemático para un sistema embebido usando el módulo esp8266 en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/luna-esp8266.pdf)
+
+<div style="height:2000px;">
+<!-- https://pdfobject.com/generator/ -->
+<object data='https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/luna-esp8266.pdf#scrollbar=1&toolbar=1' 
+        type='application/pdf' 
+        width='100%' 
+        height='100%'>
+<p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/luna-esp8266.pdf">Download PDF</a></p>
+</object>
+</div>
 
 ### Fabricación de PCB
 
@@ -406,7 +428,6 @@ A continuación se diagrama la funcionalidad del sistema distribuido de control 
 
 ![Funcionalidad del sistema GIT](./img/git/funcionalidad-git.png)
 
-
 Para conocer la filosofía de GIT se invita revisar el libro llamado Pro Git del cual compartimos el enlace en PDF. Se sugiere revisar el capítulo de *Fundamentos de Git*
 
 * [Libro Pro Git en pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/progit.pdf): Aprede a usar Git de manera profesional, el libro es de distribución libre en lenguaje español.
@@ -501,6 +522,11 @@ git add .
 git commit -m "comentario del commit"
 git push
 ```
+
+MARKDOWN
+========
+
+[Tutorial de markdown](https://www.markdowntutorial.com/es/)
 
 ### KiCAD
 
