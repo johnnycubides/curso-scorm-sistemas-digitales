@@ -114,10 +114,26 @@ en esta documentación en [este enlace](#Sistemas-Embebidos-UNAL)
 
 ## ¿Qué es un sistema embebido?
 
+Antes de definir el sistema embebido, se invita o hacer una revisión de la siguiente presentación del que da una idea sobre los
+[paradigmas de diseño de los SoC](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/otros/nuevos_paradigmas_de_disenio.pdf).
+
+Realizada la ubicación de los paradigmas de diseño se puede aproximar a la definición de los sistemas digitales haciendo lectura del documento
+[Implementación de la Metodologı́a de Transferencia Tecnológica Propuesta en el diseño de Sistemas Embebidos, paginas 1-5, 14-16](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/camargo-docs/Implementacion-metodologia-transferencia-tecnologica-SE.pdf).
+
+También puede acompañar la anterior lectura con el siguiente
+[resumen técnico sobre la metodologia de diseño de sistemas embebidos en las páginas 7-10 del PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/camargo-docs/metodologia-de-diseno-SE-camargo.pdf).
+
 Metodología de diseño para el área de Sistemas Digitales
 ========================================================
 
+Con las lecturas anteriormente recomendadas podrá analizar el siguiente gráfico que se observa en el documento de [CDIO](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/camargo-docs/CDIO.pdf) pagina xx
+que explica como se relaciona los cursos de electrónica digital ofrecidos en la Universidad Nacional de Colombia; podrá ubicar en
+él qué se implementa en el curso de Sistemas embebidos.
+
 ![Metodología de diseño para el área de Sistemas Digitales](./img/sistemas-embebidos/metodoliga-de-diseno-SE.png)
+
+Los siguientes gráficos dan cuenta de los elementos claves en sistemas embebidos que son señalados en las lecturas anterioemente
+recomendadas.
 
 Flujo de diseño de un sistema embebebido
 ========================================
@@ -198,6 +214,9 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 
 
 ## Diseño y fabricación de PCB
+
+![Flujo de diseño para frabricación de PCB](./img/pcbDesing/flujo-de-diseno-PCB.png)
+
 
 ### Fabricación de PCB
 
@@ -488,7 +507,12 @@ git push
 
 ![KiCAD](./img/kicad.png)
 
-INSTALACIÓN DE KITCAD
+Documentación de KiCAD
+----------------------
+
+[Enlace de documentación oficial de kicad](https://docs.kicad.org/)
+
+INSTALACIÓN DE KiCAD
 ---------------------
 
 `sudo apt install kicad`
