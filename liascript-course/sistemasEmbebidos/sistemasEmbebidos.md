@@ -250,7 +250,7 @@ Tenga en cuenta lo siguiente para su diseño
 * Los circuitos Analógicos son distintos a los circuitos digitales y deben desacoplarse para no generar interferencia entre ellos, reconozca métodos para realizar tal procedimiento si lo requiere su diseño.
 * Agregue un LED de energización del sistema embebido
 * Agregue un LED de usuario para hacer el "hello world"
-* Use conectores apropiados para sus periféricos, recuerde que puede ser pin headers, Molez, JST, RJx, Jacks, Grove entre otros.
+* Use conectores apropiados para sus periféricos, recuerde que puede ser pin headers, Molex, JST, RJx, Jacks, Grove entre otros.
 * Tenga presente que algunos componentes pueden potencia y disipar calor, haga las anotaciones para que se refleje esta información en el ruteo.
 * Haga uso de reguladores LDO que son diseñados con propósito de sacar el mejor provecho a sus fuentes de alimentación, consulte la siguiente información de [digikey sobre LDO](https://www.digikey.com/es/articles/use-advanced-ldos-iot-wireless-sensor-power-supply-design)
 
