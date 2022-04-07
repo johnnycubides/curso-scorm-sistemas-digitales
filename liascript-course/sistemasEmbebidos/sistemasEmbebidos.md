@@ -246,12 +246,11 @@ Tenga en cuenta lo siguiente para su diseño
 * Diseñe los agujeros de sujeción del sistema embebido a la caja.
 * Haga uso de las recomendaciones de conexión de los datasheets.
 * Cuando agregue elementos de Bypass como es el caso de los condensadores Ubiquelos junto a los elementos indicados pues deben quedar lo más cerca entre ellos en el ruteo (como se indique en datasheet).
-* No olvide agregar otros sistemas de protección para el sistema en contra de corrientes parásitas, estáticas y demás, hay dispositivos en el mercado construidos para ello, como arreglos de diodos, inductancias
-capacitores, etc.
-* Los ciruitos Analógicos son distintos a los circuitos digitales y deben desacoplarse para no generar interferencia entre ellos, reconozca métodos para realizar tal procedimiento si lo requiere su diseño.
+* No olvide agregar otros sistemas de protección para el sistema en contra de corrientes parásitas, estáticas y demás, hay dispositivos en el mercado construidos para ello, como arreglos de diodos, inductancias capacitores, etc.
+* Los circuitos Analógicos son distintos a los circuitos digitales y deben desacoplarse para no generar interferencia entre ellos, reconozca métodos para realizar tal procedimiento si lo requiere su diseño.
 * Agregue un LED de energización del sistema embebido
 * Agregue un LED de usuario para hacer el "hello world"
-* Use conectores apropiados para sus perifericos, recuerde que puede ser pin headers, Molez, JST, RJx, Jacks, Grove entre otros.
+* Use conectores apropiados para sus periféricos, recuerde que puede ser pin headers, Molez, JST, RJx, Jacks, Grove entre otros.
 * Tenga presente que algunos componentes pueden potencia y disipar calor, haga las anotaciones para que se refleje esta información en el ruteo.
 * Haga uso de reguladores LDO que son diseñados con propósito de sacar el mejor provecho a sus fuentes de alimentación, consulte la siguiente información de [digikey sobre LDO](https://www.digikey.com/es/articles/use-advanced-ldos-iot-wireless-sensor-power-supply-design)
 
@@ -624,14 +623,14 @@ Configuración de permisos del adaptador USB-SERIAL
 Todos estos dispositivos tendrán permisos en el grupo denominado **dialout** lo que debemos hacer es agregar nuestro usuario a este grupo para tal fin ejecute el siguiente comando:
 
 ```bash
-sudo usermod -a -G dialout nombre de usuario
+sudo usermod -a -G dialout nombre_de_usuario
 ```
 
 **Observaciones**:
 
 * Si no sabe cual es su nombre de usuario ejecute en consola el comando `whoami`
 * Si quiere ver los grupos a los que pertenece su usuario ejecute el comando `groups`
-* Si necesita más ayudas puede consultar la [wiki de archlinux] que contiende información adicional e interesante
+* Si necesita más ayudas puede consultar la [wiki de archlinux](https://wiki.archlinux.org/title/Users_and_groups) que contiende información adicional e interesante
 
 Programas para terminales seriales
 ==================================
@@ -663,7 +662,7 @@ minicom -o -b baudrate -D /dev/ttyUSBx
 **Explicación**:
 
 * `-o` mantiene la aplicación funcionando reportando por pantalla si el adaptador USB es desconectado
-* `-b` se refiere al baudrate con el que se desea iniciar la comunicación, típicamente se usan valores como 9600 o 115200 baudios
+* `-b` se refiere al `baudrate` con el que se desea iniciar la comunicación, típicamente se usan valores como 9600 o 115200 baudios
 * `-D` Indica el adaptador USB con el cual se quiere iniciar la comunicación
 
 **Secuencia de comando usando minicom**
@@ -678,7 +677,7 @@ En minicom se debe combinar teclas y hacer secuencias con las mismas para llegar
 
 **Sobre el control de flujo**:
 
-Mencionado anteriormente se puede ubicar este en el menú en el item **Serial port setup** y desde allí con la tecla F deshabilitar (Poner en **No**) el control de hardware **Hardware Flow Control** quedando como sigue::
+Mencionado anteriormente se puede ubicar este en el menú en el item **Serial port setup** y desde allí con la tecla F deshabilitar (poner en **No**) el control de hardware **Hardware Flow Control** quedando como sigue:
 
 ```sh
     +-----[configuration]------+
