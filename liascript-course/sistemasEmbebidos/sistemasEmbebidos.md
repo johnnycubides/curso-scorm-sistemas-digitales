@@ -240,6 +240,21 @@ usadas en KiCAD.
 </object>
 </div>
 
+Tenga en cuenta lo siguiente para su diseño
+===========================================
+
+* Diseñe los agujeros de sujeción del sistema embebido a la caja.
+* Haga uso de las recomendaciones de conexión de los datasheets.
+* Cuando agregue elementos de Bypass como es el caso de los condensadores Ubiquelos junto a los elementos indicados pues deben quedar lo más cerca entre ellos en el ruteo (como se indique en datasheet).
+* No olvide agregar otros sistemas de protección para el sistema en contra de corrientes parásitas, estáticas y demás, hay dispositivos en el mercado construidos para ello, como arreglos de diodos, inductancias
+capacitores, etc.
+* Los ciruitos Analógicos son distintos a los circuitos digitales y deben desacoplarse para no generar interferencia entre ellos, reconozca métodos para realizar tal procedimiento si lo requiere su diseño.
+* Agregue un LED de energización del sistema embebido
+* Agregue un LED de usuario para hacer el "hello world"
+* Use conectores apropiados para sus perifericos, recuerde que puede ser pin headers, Molez, JST, RJx, Jacks, Grove entre otros.
+* Tenga presente que algunos componentes pueden potencia y disipar calor, haga las anotaciones para que se refleje esta información en el ruteo.
+* Haga uso de reguladores LDO que son diseñados con propósito de sacar el mejor provecho a sus fuentes de alimentación, consulte la siguiente información de [digikey sobre LDO](https://www.digikey.com/es/articles/use-advanced-ldos-iot-wireless-sensor-power-supply-design)
+
 ### Fabricación de PCB
 
 Capacidad de desarrollo de PCB por parte de las empresas
@@ -563,6 +578,146 @@ Ejercicios de routeo
 * [flow free](https://www.bigduckgames.com/flowfree): Para desarrollar la habilidad de routeo, puede realizar hacer uso de la herramienta **flow free** la cualnos reta a pensar la manera correcta de conectar nodos de colores a través de puentes, la herramienta está compilada en distintas tiendas.
 
 ![flow free](./img/pcbDesing/flow-free.png)
+
+### Comunicación Serial
+
+Para flashear el sistema embebido, realizar depuraciones, capturar datos del programa o interactuar con algún interprete con RELP o prompt, se requiere acceder a través de un hardware que sirva de intermediario entre
+el HOST (PC) y el sistema embebido.
+
+TODO: Imagen de Adaptador USB-a-SERIAL
+
+Estos adaptadores generalmente permiten la modificación de los niveles lógicos de 1 y 0 evaluados en rangos entre [0-3.3] V o [0-5] V; cuando lo vaya a usar con su sistema embebido verifique que corresponde con los
+niveles de tensión requeridos por el sistema. Entre los adaptadores más famosos se encuentran los siguientes:
+
+* cp2102
+* ch340
+* ft232rl
+
+La flexibilidad del ft232rl
+===========================
+
+Con respecto al ft232rl se destaca la posibilidad de usar sus pines para emular el comportamiento de un JTAG, SPI entre otros, lo que lo hace una gran opción flexible para poder
+comunicarse con diferentes placas, además de tener un excelente relación entre costo y beneficio que supera con creces a los otros adaptadores listados con anterioridad.
+
+Para entender mejor el tema de fléxibilidad se remite ver la documentación de este par de proyectos que pueden hacer uso de este adaptador:
+
+* [openFPGALoader](https://github.com/trabucayre/openFPGALoader)
+* [OpenOCD ft232](https://github.com/openocd-org/openocd/blob/master/src/jtag/drivers/ft232r.c) y [Tutorial de OpenOCD ft232](https://jacobncalvert.com/2020/02/04/jtag-on-the-cheap-with-the-ftdi-ft232r/)
+
+Permisos en la configuración serial
+===================================
+
+En los sistemas Linux es importante recordar que todo los elementos son reconocidos como archivos y que el hardware es reconocido también como un archivo con una etiqueta que lo hace denominar "especial",
+para los dispositivos seriales estos generalmente son reconocidos en el directorio de dispositivos `/dev/` como sigue:
+
+* /dev/ttyUSBx
+* /dev/ttyACMx
+
+Donde **x** representa el número del adaptador el cual puede empezar por **0** y se numeran en orden ascendente si se identifican varios adaptadores USB-SERIALES.
+
+Estos archivos como se indican son especiales y para tener permisos de escritura y de lectura de debe modificar ese argumento que generalmente se hace con `chmod`, pero acá
+mencionaremos una estrategia que hace que el procedimiento sea automatizado cada vez que se conecta un dispositivo serial.
+
+Configuración de permisos del adaptador USB-SERIAL
+==================================================
+
+Todos estos dispositivos tendrán permisos en el grupo denominado **dialout** lo que debemos hacer es agregar nuestro usuario a este grupo para tal fin ejecute el siguiente comando:
+
+```bash
+sudo usermod -a -G dialout nombre de usuario
+```
+
+**Observaciones**:
+
+* Si no sabe cual es su nombre de usuario ejecute en consola el comando `whoami`
+* Si quiere ver los grupos a los que pertenece su usuario ejecute el comando `groups`
+* Si necesita más ayudas puede consultar la [wiki de archlinux] que contiende información adicional e interesante
+
+Programas para terminales seriales
+==================================
+
+Para que estos adaptadores funcionen y se pueda transmitir y recibir información a través de pantalla y comando por teclado existen los **monitores seriales**. A continuación
+se mencionará dos de estos y se explicará brevemente información útil para su funcionamiento.
+
+Monitor Minicom
+---------------
+
+El monitor minicom tiene una alta flexibilidad en su configuración y en sus capacidades, permite transferir archivos a los dispositivo embebidos directamente, configurar atributos en la
+comunicación como lo es la paridad, el baudrate y por ejemplo, el control por hardware, este último es importante reconocerlo en las opciones y desactivarlo ya que da la impresión
+de que la aplicación no funciona siendo un parámetro a controlar nuevamente desde su configuración.
+
+**Instalación**:
+
+Ejecute el siguiente comando:
+
+```bash
+sudo apt install minicom
+```
+
+**Uso**:
+
+```bash
+minicom -o -b baudrate -D /dev/ttyUSBx
+```
+
+**Explicación**:
+
+* `-o` mantiene la aplicación funcionando reportando por pantalla si el adaptador USB es desconectado
+* `-b` se refiere al baudrate con el que se desea iniciar la comunicación, típicamente se usan valores como 9600 o 115200 baudios
+* `-D` Indica el adaptador USB con el cual se quiere iniciar la comunicación
+
+**Secuencia de comando usando minicom**
+
+En minicom se debe combinar teclas y hacer secuencias con las mismas para llegar a algunos lugares, acá se explicará las combinaciones con el símbolo + y la tecla control con el símbolo **^**
+
+**Lista de comandos**
+
+* `^+a z q` finaliza la aplicación
+* `^+a z c` limpia la pantalla
+* `^+a z o` entra al menú de configuraciones de minicom
+
+**Sobre el control de flujo**:
+
+Mencionado anteriormente se puede ubicar este en el menú en el item **Serial port setup** y desde allí con la tecla F deshabilitar (Poner en **No**) el control de hardware **Hardware Flow Control** quedando como sigue::
+
+```sh
+    +-----[configuration]------+
+    | Filenames and paths      |
+    | File transfer protocols  |
+    | **Serial port setup**    |
+    | Modem and dialing        |
+    | Screen and keyboard      |
+    | Save setup as dfl        |
+    | Save setup as..          |
+    | Exit                     |
+    +--------------------------+
+###################################
+    +-----------------------------------------------------------------------+
+    | A -    Serial Device      : /dev/ttyUSB0                              |
+    | B - Lockfile Location     : /var/lock                                 |
+    | C -   Callin Program      :                                           |
+    | D -  Callout Program      :                                           |
+    | E -    Bps/Par/Bits       : 115200 8N1                                |
+    | F - Hardware Flow Control : No                                        |
+    | G - Software Flow Control : No                                        |
+    | H -     RS485 Enable      : No                                        |
+    | I -   RS485 Rts On Send   : No                                        |
+    | J -  RS485 Rts After Send : No                                        |
+    | K -  RS485 Rx During Tx   : No                                        |
+    | L -  RS485 Terminate Bus  : No                                        |
+    | M - RS485 Delay Rts Before: 0                                         |
+    | N - RS485 Delay Rts After : 0                                         |
+    |                                                                       |
+    |    Change which setting?                                              |
+    +-----------------------------------------------------------------------+
+```
+
+Prueba de loopback
+==================
+
+Esta prueba se puede realizar y es importante si lo que se requiere es verificar que el adaptador USB-SERIAL funciona correctamente, esto se
+puede realizar conectando un jumper o conector rápido entre los pines RX y TX del dispositivo, abriendo un Monitor Serial y escribiendo con
+el teclado caracteres, deberá ver en pantalla los caracteres en el orden que los está escribiendo.
 
 ### Zephyr OS
 
