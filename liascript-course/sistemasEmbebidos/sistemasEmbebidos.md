@@ -218,6 +218,26 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 
 ## Diseño y fabricación de PCB
 
+El proceso de diseño y fabricación de es uno de los procesos más importantes que tiene
+un nivel de complejidad importante y de revisión minuciosa, es posible que haya que realizar
+varias iteraciones en cada uno de los pasos en el flujo de diseño. Para dimensionar mejor
+los resultados posibles como los problemas a enfrentar se invita a ver el siguiente
+vídeo y reflexionar sobre cada una de las situaciones mostradas y cómo se podrían enfrentar.
+
+!?[Construimos Un SMARTWATCH (Nada Fácil)](https://youtu.be/GC0GuNWkyHg)
+
+A continuación se ponen algunas preguntas orientadoras para iniciar la discusión y la
+reflexión.
+
+* ¿Cómo dimensionar las capacidades del circuito de energización del sistema?
+* ¿Cuales son las consideraciones de tamaño y de ubicación de los componentes del sistema?
+* ¿Qué tipo de conectores se deben utilizar?
+* ¿Cómo se soldarán los componentes del sistema?
+* ¿Qué cosas se pueden dañar y requieren sistemas de protección?
+
+Finalmente se comparte el flujo de diseño que le permitirá además de indagar, ubicarse
+en el proceso de diseño y fabricación y los detalles a tener en cuenta.
+
 ![Flujo de diseño para frabricación de PCB](./img/pcbDesing/flujo-de-diseno-PCB.png)
 
 ### Diseño de esquemático
@@ -230,22 +250,13 @@ usadas en KiCAD.
 
 [Ejemplo de esquemático para un sistema embebido usando el módulo esp8266 en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/luna-esp8266.pdf)
 
-<div style="height:2000px;">
-<!-- https://pdfobject.com/generator/ -->
-<object data='https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/luna-esp8266.pdf#scrollbar=1&toolbar=1' 
-        type='application/pdf' 
-        width='100%' 
-        height='100%'>
-<p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/luna-esp8266.pdf">Download PDF</a></p>
-</object>
-</div>
-
 Tenga en cuenta lo siguiente para su diseño
 ===========================================
 
+* Realice un diseño jerárquico.
 * Diseñe los agujeros de sujeción del sistema embebido a la caja.
 * Haga uso de las recomendaciones de conexión de los datasheets.
-* Cuando agregue elementos de Bypass como es el caso de los condensadores Ubiquelos junto a los elementos indicados pues deben quedar lo más cerca entre ellos en el ruteo (como se indique en datasheet).
+* Cuando agregue elementos de Bypass como es el caso de los condensadores ubicarlos junto a los elementos indicados pues deben quedar lo más cerca entre ellos en el ruteo (como se indique en datasheet).
 * No olvide agregar otros sistemas de protección para el sistema en contra de corrientes parásitas, estáticas y demás, hay dispositivos en el mercado construidos para ello, como arreglos de diodos, inductancias capacitores, etc.
 * Los circuitos Analógicos son distintos a los circuitos digitales y deben desacoplarse para no generar interferencia entre ellos, reconozca métodos para realizar tal procedimiento si lo requiere su diseño.
 * Agregue un LED de energización del sistema embebido
@@ -276,6 +287,34 @@ Estas son las capacidades ofrecidas por algunas empresas:
 
 * [Capacidades ofrecidas por JLCPCB](https://jlcpcb.com/capabilities/Capabilities)
 
+Fabricantes Internacionales de PCB
+==================================
+
+* [OSH Park (US)](https://oshpark.com/)
+
+* [Eurocircuits (EU)](https://www.eurocircuits.com/)
+
+* [Seeed Studio Fusion Service (China)](https://www.seeedstudio.com/fusion_pcb.html)
+
+* [PCBWay (China)](https://www.pcbway.com/)
+
+* [jlcpcb.com (China)](https://jlcpcb.com/)
+
+* [allpcb.com (China)](https://www.allpcb.com/)
+
+Fabricantes Nacionales de PCB
+=============================
+
+* [Colcircuitos](https://colcircuitos.com/circuitos-impresos-servicios-integrales/)
+* [Microensamble](https://microensamble.com)
+* [PCBmicrocircuitos](https://pcbmicrocircuitos.com)
+
+Tiendas componentes electrónicos
+================================
+
+* [Digikey](https://www.digikey.com/)
+* [mouser](https://co.mouser.com)
+
 ### Normas de diseño IPC
 
 Documentación de referencia sobre las normas IPC
@@ -290,6 +329,8 @@ Vídeos sobre normas IPC
 [Norma IPC 2221 para Circuitos Impresos Reglas eléctricas que debes seguir](https://www.youtube.com/watch?v=RiP0Z-NhS6M)
 
 !?[Norma IPC](https://www.youtube.com/watch?v=RiP0Z-NhS6M)
+
+### Recomendaciones sobre el ruteo
 
 Resistencias SMD
 ================
@@ -310,36 +351,6 @@ En el caso de que los componentes sean soldados con un cautin se recomienda no u
 es seleccionar mínimo el empaquetado *0603* con la etiqueta de **handsolder**, observar la siguiente imagen de ejemplo:
 
 ![kicad hansolder](./img/pcbDesing/res/asig-resistor-smd-handsolder.png)
-
-### Componentes y fabricantes de PCBs
-
-Fabricantes Internacionales
-===========================
-
-* [OSH Park (US)](https://oshpark.com/)
-
-* [Eurocircuits (EU)](https://www.eurocircuits.com/)
-
-* [Seeed Studio Fusion Service (China)](https://www.seeedstudio.com/fusion_pcb.html)
-
-* [PCBWay (China)](https://www.pcbway.com/)
-
-* [jlcpcb.com (China)](https://jlcpcb.com/)
-
-* [allpcb.com (China)](https://www.allpcb.com/)
-
-Fabricantes Nacionales
-======================
-
-* [Colcircuitos](https://colcircuitos.com/circuitos-impresos-servicios-integrales/)
-* [Microensamble](https://microensamble.com)
-* [PCBmicrocircuitos](https://pcbmicrocircuitos.com)
-
-Tiendas componentes electrónicos
-================================
-
-* [Digikey](https://www.digikey.com/)
-* [mouser](https://co.mouser.com)
 
 ## Herramientas
 
