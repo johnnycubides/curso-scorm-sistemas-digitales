@@ -218,11 +218,11 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 
 ## Diseño y fabricación de PCB
 
-El proceso de diseño y fabricación de es uno de los procesos más importantes que tiene
+El proceso de diseño y fabricación es uno de los procesos que tiene
 un nivel de complejidad importante y de revisión minuciosa, es posible que haya que realizar
 varias iteraciones en cada uno de los pasos en el flujo de diseño. Para dimensionar mejor
 los resultados posibles como los problemas a enfrentar se invita a ver el siguiente
-vídeo y reflexionar sobre cada una de las situaciones mostradas y cómo se podrían enfrentar.
+vídeo y reflexionar sobre cada una de las situaciones mostradas.
 
 !?[Construimos Un SMARTWATCH (Nada Fácil)](https://youtu.be/GC0GuNWkyHg)
 
@@ -594,7 +594,7 @@ Ejercicios de routeo
 Para flashear el sistema embebido, realizar depuraciones, capturar datos del programa o interactuar con algún interprete con RELP o prompt, se requiere acceder a través de un hardware que sirva de intermediario entre
 el HOST (PC) y el sistema embebido.
 
-TODO: Imagen de Adaptador USB-a-SERIAL
+![ft232rl](./img/ft232rl.jpg)
 
 Estos adaptadores generalmente permiten la modificación de los niveles lógicos de 1 y 0 evaluados en rangos entre [0-3.3] V o [0-5] V; cuando lo vaya a usar con su sistema embebido verifique que corresponde con los
 niveles de tensión requeridos por el sistema. Entre los adaptadores más famosos se encuentran los siguientes:
@@ -701,7 +701,7 @@ Mencionado anteriormente se puede ubicar este en el menú en el item **Serial po
     | Save setup as..          |
     | Exit                     |
     +--------------------------+
-###################################
+
     +-----------------------------------------------------------------------+
     | A -    Serial Device      : /dev/ttyUSB0                              |
     | B - Lockfile Location     : /var/lock                                 |
@@ -720,6 +720,56 @@ Mencionado anteriormente se puede ubicar este en el menú en el item **Serial po
     |                                                                       |
     |    Change which setting?                                              |
     +-----------------------------------------------------------------------+
+```
+
+Monitor Picocom
+---------------
+
+**Instalación**:
+
+```bash
+sudo apt install picocom
+```
+
+**Uso**:
+
+```bash
+picocom /dev/ttyUSBx baudrate
+```
+
+**Explicación**:
+
+* `-b` se refiere al `baudrate` con el que se desea iniciar la comunicación, típicamente se usan valores como 9600 o 115200 baudios
+
+**Lista de comandos**:
+
+* `^+a, ^+x` finaliza la aplicación.
+* `^+a, ^+h` muestra el menú de opciones.
+
+**Menú de opciones**:
+
+```bash
+*** Picocom commands (all prefixed by [C-a])
+
+*** [C-x] : Exit picocom
+*** [C-q] : Exit without reseting serial port
+*** [C-b] : Set baudrate
+*** [C-u] : Increase baudrate (baud-up)
+*** [C-d] : Decrease baudrate (baud-down)
+*** [C-i] : Change number of databits
+*** [C-j] : Change number of stopbits
+*** [C-f] : Change flow-control mode
+*** [C-y] : Change parity mode
+*** [C-p] : Pulse DTR
+*** [C-t] : Toggle DTR
+*** [C-g] : Toggle RTS
+*** [C-|] : Send break
+*** [C-c] : Toggle local echo
+*** [C-w] : Write hex
+*** [C-s] : Send file
+*** [C-r] : Receive file
+*** [C-v] : Show port settings
+*** [C-h] : Show this message
 ```
 
 Prueba de loopback
