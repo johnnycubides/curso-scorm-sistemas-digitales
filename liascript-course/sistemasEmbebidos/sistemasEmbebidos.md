@@ -240,6 +240,21 @@ en el proceso de diseño y fabricación y los detalles a tener en cuenta.
 
 ![Flujo de diseño para frabricación de PCB](./img/pcbDesing/flujo-de-diseno-PCB.png)
 
+### Normas de diseño IPC
+
+Documentación de referencia sobre las normas IPC
+------------------------------------------------
+
+* [Normas IPC comprimido pdf de 41MB](https://drive.google.com/file/d/1sRoVv3UpkkW9lRWvpXItrszYJ7POOIxs/view?usp=sharing)
+* [Normas IPC pdf de 177 MB](https://drive.google.com/file/d/1zWp61wTCGvVhFP5wHKmmkJQWqAea1irN/view?usp=sharing)
+
+Vídeos sobre normas IPC
+-----------------------
+
+[Norma IPC 2221 para Circuitos Impresos Reglas eléctricas que debes seguir](https://www.youtube.com/watch?v=RiP0Z-NhS6M)
+
+!?[Norma IPC](https://www.youtube.com/watch?v=RiP0Z-NhS6M)
+
 ### Diseño de esquemático
 
 Con respecto al diseño del esquemático del circuito para un sistema embebido, se plantea el desarrollo en la herramienta KiCAD
@@ -263,7 +278,86 @@ Tenga en cuenta lo siguiente para su diseño
 * Agregue un LED de usuario para hacer el "hello world"
 * Use conectores apropiados para sus periféricos, recuerde que puede ser pin headers, Molex, JST, RJx, Jacks, Grove entre otros.
 * Tenga presente que algunos componentes pueden requerir mucha potencia y disipar calor, haga las anotaciones para que se refleje esta información en el ruteo.
-* Haga uso de reguladores LDO que son diseñados con propósito de sacar el mejor provecho a sus fuentes de alimentación, consulte la siguiente información de [digikey sobre LDO](https://www.digikey.com/es/articles/use-advanced-ldos-iot-wireless-sensor-power-supply-design)
+* Haga uso de reguladores LDO que son diseñados con el  propósito de sacar el mejor provecho a sus fuentes de alimentación, consulte la siguiente información de [digikey sobre LDO](https://www.digikey.com/es/articles/use-advanced-ldos-iot-wireless-sensor-power-supply-design)
+* Aunque estos sistemas por definición son diseñados a la medida, puede agregar algún puerto que le de flexibilidad al sistema, por ejemplo, un puerto adicional de i2c o de spi, podría permitirle agregar sensores y actuadores  que puede incorporar a la hora de verificar y validar los requerimientos funcionales y no funcionales si en principio no fueron satisfechos, de hecho, en esta etapa donde se crea el primer demo, suele ser estratégico tener esta flexibilidad. 
+
+### Recomendaciones sobre el footprint
+
+Resistencias SMD
+================
+
+* [Resistencias de proposito general SMD pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/datasheets/general/chip-resistor-smd-2167052.pdf)
+
+Dimensiones resistencias
+------------------------
+
+![resistencia dimensiones](./img/pcbDesing/res/resistencia-dimensones.png)
+
+![resistencia dimensiones tabla](./img/pcbDesing/res/resistencia-tabla-de-dimension.png)
+
+Resistencia SMD en Kicad
+------------------------
+
+En el caso de que los componentes sean soldados con un cautin se recomienda no usar empaquetados pequeños, la recomendación
+es seleccionar mínimo el empaquetado *0603* con la etiqueta de **handsolder**, observar la siguiente imagen de ejemplo:
+
+![kicad hansolder](./img/pcbDesing/res/asig-resistor-smd-handsolder.png)
+
+### Recomendaciones sobre el ruteo
+
+El ruteo consisten en crear los caminos de conexión de los diferentes componentes teniendo en cuenta
+el esquemático eléctrico
+
+Tenga en cuenta lo siguiente para el ruteo
+==========================================
+
+* Use una capa para general los márgenes de su sistema, así podrá ubicar los componentes en el espacio delimitado
+* Las empresas de fabricación de PCB usan unos valores estandar para el tamaño de estas, por ejemplo, en algunas empresas si la placa es de un tamaño de 10cm x 10cm puede obtener un descuento considerable. 
+* Ubique los componetes de conexión en lugares accesibles, generalmente son ubicados en los laterales de la placa
+* Recordando las recomendaciones del fabricante de un dispositivo haga el ejercicio de ubicación, por ejemplo, un módulo esp32 hace indicaciones sobre su huella para favorecer su optimo funcionamiento.
+* Si tiene componentes que disipan calor, revise el datasheet y ubique el componente dando el espacio suficiente o el footprint necesario para tal fin.
+* También cuenta con capas de corte en kicad, las puede usar por ejemplo si desea separar zonas de tensión DC de bajo voltaje con las zonas AC de alta baja tensión (110 V o 220 V).
+* Los componentes se ubican en sectores para separarlos según su funcionalidad: (potencia, comunicación, alta frecuencia, digitales, análogicos, instrumentación) tenga en cuenta las recomendaciones de las normas.
+* Haga uso de máximo dos caras de conexión en la PCB (cara frontal y cara trasera) 
+* Haga uso de componentes SMD (soldadura superficial) de manera general, para casos específicos haga uso de THD (True Hold), ejemplo: resistencias, condensadores y otros chips en montaje SMD, resistencias de calor y conectore s THD.
+* Si hace uso de componentes THD, haga los caminos por la cara trasera ya que estos componentes se ubican generalmente en la cara frontal dejando como lugar de soldadura la cara trasera.
+* Trate de ubicar todos los componentes SMD y THD en la cara frontal; lo anterior tiene como beneficio que cuando se construyen placas en serie es un factor para reducir costos.
+* Recuerde las recomendaciones que realizó en el esquemático que diseño, por ejemplo, la ubicación cercana de los elementos usados como bypass y protecciones
+* Tenga en cuenta que existen rutas que son usadas para compartir energía y otras para compartir información, al identificarlas, tenga presente los tamaños de esas rutas, es decir, no es lo mismo una pista que sirve para transportar unos micro-amperios, que aquellas rutas destinadas a circular por ellas un amperio.
+* Del mismo modo que pasa con las pistas, debe tener las consideraciones necesarias para las vías; mientras que las pistas son aquellas que unen componentes en una cara, las vías son aquellos puentes eléctricos que unen las caras, las vías son cilindros huecos entre ellas.
+* Así como fue pensado en el esquemático, la serigrafía indica qué componente va en cada huella, de ese modo, mueva la serigrafía de cada footprint en un lugar visible, el cual no genere ambigüedades al momento de ubicar un componente, piense que habrá una persona diferente a usted que pondrá los componentes y que es necesario tener un marcado limpio de los footprint para no equivocarse al soldar.
+* La serigrafía cumple un papel importante, por ejemplo, si tenemos un puerto de conexión para la programación a través de conectores rápidos, cada pin debe estar marcado inequívocamente, por ejemplo, indicaciones de polarización de la placa para no quemar componentes, construya placas donde se expliquen sus entradas, salidas, enlace a la documentación e indicaciones.
+* Rutee las conexiones correspondientes a señales y potencia, con respecto a GND no realice ningún ruteo.
+* El ruteo de GND se hace a través de la creación de zonas en las caras frontal y trasera, si existen zonas de GND que quedan aisladas como islas de otras zonas GND haga uso de la creación de vías para interconectar zonas entre caras.
+* Evite la creación de placas paralelas que se puedan comportar como capacitores, para este caso, haga uso también de vías para fortaleces la referencia de GND. 
+* Tenga presenta la ubicación adecuada de los agujeros de sujeción; estos agujeros permitirán empotrar el sistema a la caja. 
+
+Recomendaciones con relación a las vías y pistas
+================================================
+
+Como se mencionó en las recomendaciones de ruteo, se tienen los siguientes elementos de conexión:
+
+* Vias: Permite a través de cilindros huecos conectar diferentes caras de una PCB.
+* Pistas: Conecta distintos componentes de una misma cara.
+
+Estas configuraciones son posibles en KiCad como se muestra a continuación, a demás, estos valores pueden
+ser usados como referencia para sus propios diseños:
+
+Creación de clases para vias y pistas
+-------------------------------------
+
+![clases vias y pistas](./img/pcbDesing/kicad-vias-tracks/netclass.png)
+
+
+Creación manual de vías y pistas
+--------------------------------
+
+![clases vias y pistas](./img/pcbDesing/kicad-vias-tracks/vias-trakcs-manual.png)
+
+Modificación de vías y tracks cuando ya se hayan realizado
+----------------------------------------------------------
+
+Cuando hayan realizado el ruteo de las pistas y quieran cambiar el tamaño a todas según las clases pueden hacer uso de la explicación en [este enlace](https://electronics.stackexchange.com/questions/378394/update-tracks-on-board-to-reflect-new-design-rules-kicad) y kicad las cambiará todas automáticamente
 
 ### Fabricación de PCB
 
@@ -315,42 +409,7 @@ Tiendas componentes electrónicos
 * [Digikey](https://www.digikey.com/)
 * [mouser](https://co.mouser.com)
 
-### Normas de diseño IPC
 
-Documentación de referencia sobre las normas IPC
-------------------------------------------------
-
-* [Normas IPC comprimido pdf de 41MB](https://drive.google.com/file/d/1sRoVv3UpkkW9lRWvpXItrszYJ7POOIxs/view?usp=sharing)
-* [Normas IPC pdf de 177 MB](https://drive.google.com/file/d/1zWp61wTCGvVhFP5wHKmmkJQWqAea1irN/view?usp=sharing)
-
-Vídeos sobre normas IPC
------------------------
-
-[Norma IPC 2221 para Circuitos Impresos Reglas eléctricas que debes seguir](https://www.youtube.com/watch?v=RiP0Z-NhS6M)
-
-!?[Norma IPC](https://www.youtube.com/watch?v=RiP0Z-NhS6M)
-
-### Recomendaciones sobre el ruteo
-
-Resistencias SMD
-================
-
-* [Resistencias de proposito general SMD pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/datasheets/general/chip-resistor-smd-2167052.pdf)
-
-Dimensiones resistencias
-------------------------
-
-![resistencia dimensiones](./img/pcbDesing/res/resistencia-dimensones.png)
-
-![resistencia dimensiones tabla](./img/pcbDesing/res/resistencia-tabla-de-dimension.png)
-
-Resistencia SMD en Kicad
-------------------------
-
-En el caso de que los componentes sean soldados con un cautin se recomienda no usar empaquetados pequeños, la recomendación
-es seleccionar mínimo el empaquetado *0603* con la etiqueta de **handsolder**, observar la siguiente imagen de ejemplo:
-
-![kicad hansolder](./img/pcbDesing/res/asig-resistor-smd-handsolder.png)
 
 ## Herramientas
 
