@@ -237,7 +237,8 @@ Documentación técnica ESP32
 * [Framework de desarrollo de esp](https://github.com/espressif/esp-idf)
 * [Documentación de uso de esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html)
 
-1. `*` En la página 62 se observa información sobre el estado inicial de algunos pines, para tenerlo en cuenta si los llegara a usar en su diseño.
+**NOTAS**:
+`*` En la página 62 se observa información sobre el estado inicial de algunos pines (pull up o pull down en wake up), para tenerlo en cuenta si los llegara a usar en su diseño.
 
 Esquemáticos de referencia tarjetas de desarrollo con ESP32
 ===========================================================
