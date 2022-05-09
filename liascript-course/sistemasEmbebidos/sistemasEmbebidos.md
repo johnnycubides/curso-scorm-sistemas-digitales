@@ -238,6 +238,7 @@ Documentación técnica ESP32
 * [Documentación de uso de esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html)
 
 **NOTAS**:
+
 `*` En la página 62 se observa información sobre el estado inicial de algunos pines (pull up o pull down en wake up), para tenerlo en cuenta si los llegara a usar en su diseño.
 
 Esquemáticos de referencia tarjetas de desarrollo con ESP32
