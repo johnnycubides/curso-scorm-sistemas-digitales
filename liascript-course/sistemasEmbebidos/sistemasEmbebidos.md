@@ -228,7 +228,7 @@ Pinout ESP32 WROVER
 
 Documentación técnica ESP32
 ===========================
-
+* [Datasheet esp32 `*`](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 * [Página de documentos técnicos del esp32](https://www.espressif.com/en/support/documents/technical-documents)
 * [Manual técnico del esp32](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
 * [Guia de diseño esp32](https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
@@ -236,6 +236,8 @@ Documentación técnica ESP32
 * [Datasheet esp32 **wrover**](https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf)
 * [Framework de desarrollo de esp](https://github.com/espressif/esp-idf)
 * [Documentación de uso de esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html)
+
+1. `*` En la página 62 se observa información sobre el estado inicial de algunos pines, para tenerlo en cuenta si los llegara a usar en su diseño.
 
 Esquemáticos de referencia tarjetas de desarrollo con ESP32
 ===========================================================
