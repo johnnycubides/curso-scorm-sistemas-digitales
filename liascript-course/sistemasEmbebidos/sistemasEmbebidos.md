@@ -226,6 +226,9 @@ Pinout ESP32 WROVER
 
 #### Documentación de referencia
 
+Documentación técnica ESP32
+===========================
+
 * [Página de documentos técnicos del esp32](https://www.espressif.com/en/support/documents/technical-documents)
 * [Manual técnico del esp32](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
 * [Guia de diseño esp32](https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
@@ -234,7 +237,17 @@ Pinout ESP32 WROVER
 * [Framework de desarrollo de esp](https://github.com/espressif/esp-idf)
 * [Documentación de uso de esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html)
 
+Esquemáticos de referencia tarjetas de desarrollo con ESP32
+===========================================================
 
+* [Ai-Thinker NodeMCU esp32 wroom](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/schematics-esp32-ref/Ai-Thinker_NodeMCU-esp32-wroom.png)
+* [LiyGo esp32 wrover](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/schematics-esp32-ref/LilyGo-esp32-wrover.pdf)
+* [Wemos esp32 wroom](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/schematics-esp32-ref/wemos-esp32-wroom.png)
+* [Father esp32 wroom](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/schematics-esp32-ref/feather-esp32-wroom.png)
+* [Esp32-cam v1.6](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/schematics-esp32-ref/ESP32_CAM_V1.6.pdf)
+* [M5Stack esp32 soc](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/schematics-esp32-ref/m5stack-esp32-soc.pdf)
+* [Sparkfun esp32 soc](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/schematics-esp32-ref/sparkfun-esp32-soc.pdf)
+* [tft esp32 soc](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/schematics-esp32-ref/tft-esp32-soc.pdf)
 
 ## Diseño y fabricación de PCB
 
