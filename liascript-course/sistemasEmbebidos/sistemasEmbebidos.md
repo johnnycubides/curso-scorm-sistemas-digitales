@@ -204,6 +204,26 @@ Circuito requerido para poner en operación los módulos *wrover* o *wroom*:
 ![wroom operación](./img/esp32/wroom-circuito-operacion.png)
 ![wrover operación](./img/esp32/wrover-circuito-operacion.png)
 
+#### Pinout ESP32 (Soc y módulos)
+
+Pinout ESP32 SOC
+=================
+
+![pinout esp32 soc](./img/esp32/esp32-soc-pinout.jpg)
+
+Pinout ESP32 WROOM
+==================
+
+![pinout esp32 wroom](./img/esp32/esp32-wroom-pinout.png)
+
+Pinout ESP32 WROVER
+===================
+
+![esp32 pinout wrover1](./img/esp32/esp32-wrover-pinout1.jpeg)
+![esp32 pinout wrover2](./img/esp32/esp32-wrover-pinout2.png)
+
+
+
 #### Documentación de referencia
 
 * [Página de documentos técnicos del esp32](https://www.espressif.com/en/support/documents/technical-documents)
