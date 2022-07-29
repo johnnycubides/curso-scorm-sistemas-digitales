@@ -917,10 +917,37 @@ Enlaces a plataformas de crowdfunding
 
 [Ulule](https://es.ulule.com/)
 
+Proyectos Sistemas Embebidos UNAL 2022-II
+=========================================
+
+**En proceso...**
+
 Proyectos Sistemas Embebidos UNAL 2022-I
 ========================================
 
-**En proceso...**
+> [Acceso Laboratorio (Github y Wiki)](https://github.com/jdpulidoca/accesso-laboratorio/wiki)
+> Como primer idea se plantea un sistema para acceder a un laboratorio. Se tienen como condiciones que el acceso sea por medio del carnet universitario, donde al acercar el carnet al dispositivo que se diseñara, este desbloqueará la puerta y mostrara los datos en pantalla de la persona que desea ingresar al laboratorio. Este dispositivo activara y desactivara un electroimán que será el encargado de mantener la puerta bloqueada.
+
+> [AudioPlayer ESP32 (Github y Wiki)](https://github.com/alejandromz/AudioPlayer-ESP32/wiki)
+> La motivación principal del proyecto es desarrollar un sistema capaz de leer audiolibros a una persona de la tercera edad, que no tiene smartphone ni mucha afinidad por la tecnología. Para lograr esto, nos propusimos crear un sistema embebido que tenga una interfaz de usuario detallada pero fácil de usar con botones físicos, una recolección de audiolibros de la nube que no requiera que el usuario los de descargue manualmente y un sistema de audio que cuente con un buen sonido. El esquema general de lo que se quiere lograr se puede ver a continuación.
+
+> [EasyRun (Github y Wiki)](https://github.com/felipeg86/Easyrun/wiki)
+> Sistema de automatización de préstamo de bicicletas dentro del campus de la Universidad Nacional de Colombia, incorporando la conexión entre estaciones y facilitando el proceso que a la fecha se implementa. El sistema tiene como objetivo principal reducir los tiempos en el uso del servicio, especialmente en los puntos de préstamo y entrega, además de permitir un control sobre la trazabilidad de cada bicicleta.
+
+> [SIMAP (Pagina web)](https://juarubianopo.github.io/SIMAP/)
+> SIMAP es un sistema para el monitoreo de piscicultura de tilapia, el cual busca monitorear el proceso de crianza de los peces en sus etapas tempranas de desarrollo, puesto que en estas existe un mayor riesgo e incertidumbre por el alto índice de mortalidad 1. El sistema permite mantener el control de las principales variables que afectan el bienestar de las tilapias en un estanque de agua, como lo son: la temperatura, el nivel de turbidez y el PH del agua. Lo anterior con el fin, de mejorar la producción de tilapias lo que puede ofrecer mejoras en el proceso y las ventas.
+
+> [Mocap (Github y Wiki)](https://github.com/edcorreamo/Mocap/wiki)
+> Nuestro proyecto de traje de captura de movimiento pretende ser usado para la industria de los videojuegos, sobre todo par a desarrolladoras independiente que desee incrementar sus capacidades en creación de animaciones en 3D.
+
+> [SAfe and Sounad (Github y Wiki)](https://github.com/dviracachas/Safe-and-Sound/wiki/1.-Home)
+> El intercomunicador Safe & Sound es un producto para motociclistas que buscan comunicarse con sus pasajeros o hacer uso de funciones de audio por medio de su teléfono celular, como lo puede ser recibir indicaciones de alguna aplicación de mapas. Además, es un producto que busca la seguridad del usuario, emitiendo alertas de velocidad e implementando detección de accidentes para realizar llamadas de emergencia haciendo uso del teléfono.
+
+> [Rocket bldc control (Github y Wiki)](https://github.com/omdvelasquezpi/BLDC_Motor_Controller/wiki/1.-Home)
+> Este repositorio documenta el desarrollo de un sistema de monitorización de parámetros de un motor DC sin escobillas, tales como, la temperatura de la batería, la corriente de entrada, el estado de carga de la batería, entre otros, utilizando un sistema embebido con una ESP32. El desarrollo del proyecto se realiza para la asignatura de Sistemas Embebidos en la Universidad Nacional de Colombia
+
+> [Security shield crew (Github y WiFi)](https://github.com/jsebastiandleon/Security-Shield-Project/wiki)
+> Security Shield Crew es un proyecto de domótica orientado a la seguridad en un hogar, compuesto por un sistema embebido modular que permite la verificación del estado de seguridad del lugar. Está compuesto por cuatro módulos, cada uno orientado a la detección, procesamiento y alerta de eventos riesgosos que puedan comprometer la seguridad del usuario, así como también la del lugar de residencia. Cada uno de estos módulos tienen una alimentación independiente y se interconectan mediante la red WiFi del lugar, siendo ubicados en lugares específicos que pueden ser o no escogidos libremente por el usuario.
 
 Proyectos Sistemas Embebidos UNAL 2021-II
 =========================================
