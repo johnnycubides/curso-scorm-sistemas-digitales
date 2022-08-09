@@ -49,7 +49,7 @@ El dispositivo deberá responder a los requerimientos funcionales y no funcional
 y además tener las siguientes características:
 
 * Desarrollar una PCB a la medida de la necesidad; podrá desarrollar el sistema embebido completo o desarrollar una tarjeta hija para una tarjeta de desarrollo
-* Para las tareas de software se puede hacer uso de *Zephyr OS* o *Micropython*; si desea usar Micropython deberá ser compilado a la medida de la necesidad
+* Para las tareas de software se puede hacer uso de *Zephyr OS* o *Riot OS*.
 * El sistema debe permitir la comunicación con otros dispositivos para monitoreo o control por parte del usuario final (puede ser a través de un medio guiado o no, lo cual depende de la aplicación).
 
 Sobre la caja
