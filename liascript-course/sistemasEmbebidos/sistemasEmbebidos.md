@@ -984,4 +984,3 @@ Vídeos de las presentaciones de los proyectos
 !?[Monitor bodega](https://youtu.be/-TkDQ2qM4i0)
 
 !?[Conclusiones](https://youtu.be/FYKkyEN5acA)
-
