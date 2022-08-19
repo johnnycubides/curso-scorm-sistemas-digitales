@@ -72,7 +72,7 @@ Queremos documentar el proceso de desarrollo, para tal fin puede hacer uso de:
 
 En primer lugar GIT es un sistema de gestión de versiones para proyectos de cualquier tipo que
 permite seguirle la pista a nuestro proyectos de manera colaborativa; puede hacer uso de gestores
-de repositorios de proyectos como *gitlab*, *github*, *bitbucket* o cualquier otro que conozca.
+de repositorios de proyectos como *gitlab*, *codeberg*, *github*, *bitbucket* o cualquier otro que conozca.
 
 Con respecto a la Wiki, en realidad puede ser en cualquier lugar siempre y cuando muestre el proceso
 realizado del proyecto como también el producto terminado con algún demo; los gestores de repositorios
@@ -553,7 +553,16 @@ Para conocer la filosofía de GIT se invita revisar el libro llamado Pro Git del
 
 * [Libro Pro Git en pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/progit.pdf): Aprede a usar Git de manera profesional, el libro es de distribución libre en lenguaje español.
 
-A continuación se expresan algunas instrucciones vitales que puede usar como especie de receta para iniciarse en el mundo de *Git*
+Gestores de proyectos basados en git
+====================================
+
+[gitlab](https://gitlab.com)
+
+[Codeberg](https://codeberg.org)
+
+[bitbucket](https://bitbucket.org)
+
+[github](https://github.com)
 
 INSTALACIÓN DE GIT
 ==================
