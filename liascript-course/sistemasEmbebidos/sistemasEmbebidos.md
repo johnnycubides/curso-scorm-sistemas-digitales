@@ -545,13 +545,16 @@ sudo apt install make
 
 ![Git](./img/git/git.png)
 
+![pro git](img/git/progit.png)
+[Libro Pro Git en pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/progit.pdf): Aprende a usar Git de manera profesional, el libro es de distribución libre en lenguaje español. Se sugiere revisar el capítulo de *Fundamentos de Git*
+
+![Sistema de control de versiones](img/git/sistema-control-versiones.png)
+[Presentación Sistemas de Control de Versions en pdf](https://drive.google.com/file/d/1xYYug4mAsCQQd0_0NbWc1zHmfEUP4K40/view?usp=sharing): Presentación del programa *Misión TIC 2022* la cual explica lo básico para comprender la filosofía de GIT
+
+
 A continuación se diagrama la funcionalidad del sistema distribuido de control de versiones **git**.
 
 ![Funcionalidad del sistema GIT](./img/git/funcionalidad-git.png)
-
-Para conocer la filosofía de GIT se invita revisar el libro llamado Pro Git del cual compartimos el enlace en PDF. Se sugiere revisar el capítulo de *Fundamentos de Git*
-
-* [Libro Pro Git en pdf](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/books/progit.pdf): Aprede a usar Git de manera profesional, el libro es de distribución libre en lenguaje español.
 
 Gestores de proyectos basados en git
 ====================================
