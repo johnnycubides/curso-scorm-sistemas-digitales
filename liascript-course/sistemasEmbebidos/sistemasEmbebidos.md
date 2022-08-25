@@ -141,6 +141,14 @@ recomendadas.
 Flujo de diseño de un sistema embebebido
 ========================================
 
+EBI: External Bus Interface
+
+ICE: In-circuit emulation
+
+MMU: Memory Management Unit
+
+PLL: Phase-Locked Loops 
+
 ![Flujo de diseño de un sistema embebido](./img/sistemas-embebidos/flujo-de-diseno-de-un-SE.png)
 
 Arquitectura de un Sistema Embebido
@@ -168,6 +176,22 @@ Ejemplo de flujo de diseno para crear un aplicación en un procedador softcore
 =============================================================================
 
 ![flujo de diseño de aplicación en LM32](./img/sistemas-embebidos/flujo-de-diseno-hw-sw-procesador-softcore.png)
+
+### Diagrama de bloques de un sistema embebido
+
+![Ejemplo 1](img/sistemas-embebidos/ejemplo1.jpg)
+
+![Ejemplo 1.1](img/sistemas-embebidos/ejemplo1.1.jpg)
+
+### Placas de desarrollo de referencia
+
+![Arduino UNO](img/samples-SE/arduino-uno.png)
+
+![Pro mini arduino](img/samples-SE/pro-mini.png)
+
+![Nucleo 767zi](img/samples-SE/nucleo767zi.png)
+
+![Nodemcu esp32 wrover](img/samples-SE/nodemcu-esp32-wrover.png)
 
 ### ESP32 consideraciones
 
