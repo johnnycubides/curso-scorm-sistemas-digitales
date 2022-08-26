@@ -915,6 +915,11 @@ el teclado caracteres, deberá ver en pantalla los caracteres en el orden que lo
 
 ![Zephyr](./img/zephyr.jpeg)
 
+![Helloworld esp32](https://gitlab.com/johnnycubides/zephyros-esp32-sample/-/raw/main/helloworld/img/esp32-output-serial-helloworld.png)
+
+
+[Ejemplos de Zephyr O.S. con el esp32](https://gitlab.com/johnnycubides/zephyros-esp32-sample)
+
 ### Drawio
 
 ![Drawio](./img/drawio.png)
@@ -948,6 +953,8 @@ Enlaces a plataformas de crowdfunding
 -------------------------------------
 
 [Kickstarter](https://www.kickstarter.com)
+
+[Crowsupply](https://www.crowdsupply.com/)
 
 [Indiegogo](https://www.indiegogo.com/)
 
