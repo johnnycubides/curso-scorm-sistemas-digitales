@@ -723,10 +723,12 @@ Ejercicios de routeo
 
 ### Comunicación Serial
 
+![diagrama de comunicación serial](img/serial/serial.jpg)
+
 Para flashear el sistema embebido, realizar depuraciones, capturar datos del programa o interactuar con algún interprete con RELP o prompt, se requiere acceder a través de un hardware que sirva de intermediario entre
 el HOST (PC) y el sistema embebido.
 
-![ft232rl](./img/ft232rl.jpg)
+![ft232rl](img/serial/ft232rl.jpg)
 
 Estos adaptadores generalmente permiten la modificación de los niveles lógicos de 1 y 0 evaluados en rangos entre [0-3.3] V o [0-5] V; cuando lo vaya a usar con su sistema embebido verifique que corresponde con los
 niveles de tensión requeridos por el sistema. Entre los adaptadores más famosos se encuentran los siguientes:
