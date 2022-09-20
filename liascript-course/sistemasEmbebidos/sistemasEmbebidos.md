@@ -911,18 +911,29 @@ Esta prueba se puede realizar y es importante si lo que se requiere es verificar
 puede realizar conectando un jumper o conector rápido entre los pines RX y TX del dispositivo, abriendo un Monitor Serial y escribiendo con
 el teclado caracteres, deberá ver en pantalla los caracteres en el orden que los está escribiendo.
 
+### Lenguaje C
+
+![Libro de Informática Aplicada, Programación en Lenguaje C](img/lenguaje-c/iap-lenguaje-c.png)
+[Libro de Informática Aplicada, Programación en Lenguaje](https://drive.google.com/file/d/1b6z0_CLI_A4EJrgdMQnLrgDULxg94FOX/view?usp=sharing)
+
 ### Zephyr OS
 
-![Zephyr](./img/zephyr.jpeg)
+![Zephyr](./img/zephyr-os/zephyr.jpeg)
+
+[Documentación oficial de Zephyr OS](https://docs.zephyrproject.org/latest/)
+
+[Cómo iniciarse con Zephyr OS](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)
+
+[Iniciarse con Zephyr OS y esp32: receta y ejemplos](https://gitlab.com/johnnycubides/zephyros-esp32-sample)
 
 ![Helloworld esp32](https://gitlab.com/johnnycubides/zephyros-esp32-sample/-/raw/main/helloworld/img/esp32-output-serial-helloworld.png)
 
+### Riot OS
 
-[Ejemplos de Zephyr O.S. con el esp32](https://gitlab.com/johnnycubides/zephyros-esp32-sample)
+### Herramientas para realizar esquemas o diagramas
 
-### Drawio
-
-![Drawio](./img/drawio.png)
+* [Drawio](https://github.com/jgraph/drawio-desktop/releases)
+* [Pencil Project](https://pencil.evolus.vn/)
 
 ## Proyectos
 
