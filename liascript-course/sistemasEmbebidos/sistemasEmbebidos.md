@@ -710,16 +710,15 @@ ACCESOS RÁPIDOS
 Mi primer PCB con kicad
 -----------------------
 
-* [Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/?fbclid=IwAR3OwgRqwc85H-j0YJTUkhBbJpkR1eex80cYIkS15KJx4cIzqhzl-UpF0DQ): Este tutroial en idioma inglés acerca al estudio de la herramienta de diseño *kicad* mientras crea su primera PCB.
 ![tutorial primera pcv](./img/pcbDesing/primera-pcb-tutorial.png)
+[Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/?fbclid=IwAR3OwgRqwc85H-j0YJTUkhBbJpkR1eex80cYIkS15KJx4cIzqhzl-UpF0DQ): Este tutroial en idioma inglés acerca al estudio de la herramienta de diseño *kicad* mientras crea su primera PCB.
 
 Ejercicios de routeo
 --------------------
 
-
-* [flow free](https://www.bigduckgames.com/flowfree): Para desarrollar la habilidad de routeo, puede realizar hacer uso de la herramienta **flow free** la cualnos reta a pensar la manera correcta de conectar nodos de colores a través de puentes, la herramienta está compilada en distintas tiendas.
-
 ![flow free](./img/pcbDesing/flow-free.png)
+[flow free](https://www.bigduckgames.com/flowfree): Para desarrollar la habilidad de routeo, puede realizar hacer uso de la herramienta **flow free** la cualnos reta a pensar la manera correcta de conectar nodos
+de colores a través de puentes, la herramienta está compilada en distintas tiendas.
 
 ### Comunicación Serial
 
@@ -915,8 +914,24 @@ el teclado caracteres, deberá ver en pantalla los caracteres en el orden que lo
 
 ### Lenguaje C
 
+Libros
+======
+
 ![Libro de Informática Aplicada, Programación en Lenguaje C](img/lenguaje-c/iap-lenguaje-c.png)
 [Libro de Informática Aplicada, Programación en Lenguaje](https://drive.google.com/file/d/1b6z0_CLI_A4EJrgdMQnLrgDULxg94FOX/view?usp=sharing)
+
+Ejemplo de C
+============
+
+[c-code-snippet](https://gitlab.com/johnnycubides/c-code-snippet): Se trata de algunos ejemplos de implementación sobre técnicas en el lenguaje de **programación C**
+
+Lenguaje C y ASN desde 0
+========================
+
+Se recomienda revisar este play list sobre la programación de vídeo juegos realizado con C y Ensamblador; estos vídeos permiten
+conocer características del lenguaje y su interacción con el hardware las cuales son importantes para la programación de los sistemas embebidos.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmxqg54iaXriqr7SZbrGgr535DIYjRmkV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Zephyr OS
 
@@ -931,6 +946,27 @@ el teclado caracteres, deberá ver en pantalla los caracteres en el orden que lo
 ![Helloworld esp32](https://gitlab.com/johnnycubides/zephyros-esp32-sample/-/raw/main/helloworld/img/esp32-output-serial-helloworld.png)
 
 ### Riot OS
+
+![riot os](img/riot-os/riotos.png)
+
+[Repositorio de gitlab sobre ejemplos realizados con esp32 y riot os](https://gitlab.com/johnnycubides/riot-esp32-examples)
+
+[Riot docs](https://doc.riot-os.org/)
+
+[Get started with Riot](https://doc.riot-os.org/getting-started.html)
+
+[Create app](https://doc.riot-os.org/creating-an-application.html)
+
+[Perifericos en Riot](https://doc.riot-os.org/group__drivers__periph.html)
+
+[Agregando boards](https://doc.riot-os.org/porting-boards.html)
+
+examples:
+
+* https://www.hackster.io/ichatz/control-external-led-using-riot-os-b626da
+* https://riot-os.github.io/riot-course/slides/03-riot-basics/
+* https://riot-os.github.io/riot-course/
+
 
 ### Herramientas para realizar esquemas o diagramas
 
