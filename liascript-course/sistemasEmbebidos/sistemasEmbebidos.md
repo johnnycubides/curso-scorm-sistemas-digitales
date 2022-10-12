@@ -912,7 +912,11 @@ Esta prueba se puede realizar y es importante si lo que se requiere es verificar
 puede realizar conectando un jumper o conector rápido entre los pines RX y TX del dispositivo, abriendo un Monitor Serial y escribiendo con
 el teclado caracteres, deberá ver en pantalla los caracteres en el orden que los está escribiendo.
 
-### Lenguaje C
+### Lenguajes de programación
+
+* [The Algorithms](https://github.com/TheAlgorithms) Técnicas-algoritmos sobre soluciones de problemas en diferentes lenguajes de programación.
+
+#### Lenguaje C
 
 Libros
 ======
@@ -933,7 +937,17 @@ conocer características del lenguaje y su interacción con el hardware las cual
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmxqg54iaXriqr7SZbrGgr535DIYjRmkV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Zephyr OS
+#### Lenguaje Rust
+
+* [Libro online de programación en Rust](https://doc.rust-lang.org/book/)
+* [Rust code snippet](https://gitlab.com/johnnycubides/rust-code-snippet)
+* [Aprende Rust libro online en español](https://goyox86.github.io/elpr/)
+* [Rust en español fácil](https://www.jmgaguilera.com/rust_facil/actualizaciones.html)
+* [Libro online sistemas emebebidos en Rust](https://doc.rust-lang.org/stable/embedded-book/)
+
+### Sistemas Operativos
+
+#### Zephyr OS
 
 ![Zephyr](./img/zephyr-os/zephyr.jpeg)
 
@@ -945,7 +959,7 @@ conocer características del lenguaje y su interacción con el hardware las cual
 
 ![Helloworld esp32](https://gitlab.com/johnnycubides/zephyros-esp32-sample/-/raw/main/helloworld/img/esp32-output-serial-helloworld.png)
 
-### Riot OS
+#### Riot OS
 
 ![riot os](img/riot-os/riotos.png)
 
