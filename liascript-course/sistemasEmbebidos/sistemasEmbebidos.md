@@ -955,11 +955,18 @@ conocer características del lenguaje y su interacción con el hardware las cual
 
 ![Zephyr](./img/zephyr-os/zephyr.jpeg)
 
+Ejemplos de ZEPHYR OS implementados en el esp32
+-----------------------------------------------
+
+[Iniciarse con Zephyr OS y esp32: receta y ejemplos](https://gitlab.com/johnnycubides/zephyros-esp32-sample)
+
+Documentación de referencia de ZEPHYR OS
+----------------------------------------
+
 [Documentación oficial de Zephyr OS](https://docs.zephyrproject.org/latest/)
 
 [Cómo iniciarse con Zephyr OS](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)
 
-[Iniciarse con Zephyr OS y esp32: receta y ejemplos](https://gitlab.com/johnnycubides/zephyros-esp32-sample)
 
 ![Helloworld esp32](https://gitlab.com/johnnycubides/zephyros-esp32-sample/-/raw/main/helloworld/img/esp32-output-serial-helloworld.png)
 
@@ -967,7 +974,13 @@ conocer características del lenguaje y su interacción con el hardware las cual
 
 ![riot os](img/riot-os/riotos.png)
 
+Ejemplos de RIOT OS implementados en el esp32
+---------------------------------------------
+
 [Repositorio de gitlab sobre ejemplos realizados con esp32 y riot os](https://gitlab.com/johnnycubides/riot-esp32-examples)
+
+Documentación de referencia de RIOT OS
+--------------------------------------
 
 [Riot docs](https://doc.riot-os.org/)
 
