@@ -979,7 +979,9 @@ el teclado caracteres, deberá ver en pantalla los caracteres en el orden que lo
 
 ### Lenguajes de programación
 
-* [The Algorithms](https://github.com/TheAlgorithms) Técnicas-algoritmos sobre soluciones de problemas en diferentes lenguajes de programación.
+* [The Algorithms](https://github.com/TheAlgorithms): Técnicas-algoritmos sobre soluciones de problemas en diferentes lenguajes de programación.
+
+* [youcode](https://you.com/code): Motor de búsqueda enfocado a código.
 
 #### Lenguaje C
 
