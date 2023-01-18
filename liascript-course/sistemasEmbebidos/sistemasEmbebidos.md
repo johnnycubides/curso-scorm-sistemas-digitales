@@ -426,6 +426,7 @@ Tenga en cuenta lo siguiente para el ruteo
 ==========================================
 
 * Use una capa para general los márgenes de su sistema, así podrá ubicar los componentes en el espacio delimitado
+* Agregue los modelos 3D de los componentes, esto le permite observar la disposición de los componentes en la PCB, los tamaños y podrá ajustar la disposición de los componentes para que puedan cumplir el propósito.
 * Las empresas de fabricación de PCB usan unos valores estandar para el tamaño de estas, por ejemplo, en algunas empresas si la placa es de un tamaño de 10cm x 10cm puede obtener un descuento considerable. 
 * Ubique los componetes de conexión en lugares accesibles, generalmente son ubicados en los laterales de la placa
 * Recordando las recomendaciones del fabricante de un dispositivo haga el ejercicio de ubicación, por ejemplo, un módulo esp32 hace indicaciones sobre su huella para favorecer su optimo funcionamiento.
@@ -445,7 +446,7 @@ Tenga en cuenta lo siguiente para el ruteo
 * El ruteo de GND se hace a través de la creación de zonas en las caras frontal y trasera, si existen zonas de GND que quedan aisladas como islas de otras zonas GND haga uso de la creación de vías para interconectar zonas entre caras.
 * Evite la creación de placas paralelas que se puedan comportar como capacitores, para este caso, haga uso también de vías para fortaleces la referencia de GND. 
 * Tenga presenta la ubicación adecuada de los agujeros de sujeción; estos agujeros permitirán empotrar el sistema a la caja. 
-* Los agujeros de sujeción deberán estar acoplados tanto al GND de la placa como al chasis de la caja contenedora para no generar diferencias de potencial que pongan en riesgo al usuario.
+* Los agujeros de sujeción deben estar conectados al GND del sistema emebebido para que cuando sea sujetada la PCB a la carcasa tengan el mismo potencial y disminuya los riesgos para el usuario final.
 
 Recomendaciones con relación a las vías y pistas
 ================================================
@@ -1015,11 +1016,18 @@ conocer características del lenguaje y su interacción con el hardware las cual
 
 ![Zephyr](./img/zephyr-os/zephyr.jpeg)
 
+Ejemplos de ZEPHYR OS implementados en el esp32
+-----------------------------------------------
+
+[Iniciarse con Zephyr OS y esp32: receta y ejemplos](https://gitlab.com/johnnycubides/zephyros-esp32-sample)
+
+Documentación de referencia de ZEPHYR OS
+----------------------------------------
+
 [Documentación oficial de Zephyr OS](https://docs.zephyrproject.org/latest/)
 
 [Cómo iniciarse con Zephyr OS](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)
 
-[Iniciarse con Zephyr OS y esp32: receta y ejemplos](https://gitlab.com/johnnycubides/zephyros-esp32-sample)
 
 ![Helloworld esp32](https://gitlab.com/johnnycubides/zephyros-esp32-sample/-/raw/main/helloworld/img/esp32-output-serial-helloworld.png)
 
@@ -1027,7 +1035,13 @@ conocer características del lenguaje y su interacción con el hardware las cual
 
 ![riot os](img/riot-os/riotos.png)
 
+Ejemplos de RIOT OS implementados en el esp32
+---------------------------------------------
+
 [Repositorio de gitlab sobre ejemplos realizados con esp32 y riot os](https://gitlab.com/johnnycubides/riot-esp32-examples)
+
+Documentación de referencia de RIOT OS
+--------------------------------------
 
 [Riot docs](https://doc.riot-os.org/)
 
@@ -1087,6 +1101,13 @@ Enlaces a plataformas de crowdfunding
 [Indiegogo](https://www.indiegogo.com/)
 
 [Ulule](https://es.ulule.com/)
+
+Plataformas de Chacharreo/Hackeo
+-------------------------------
+
+[Hackster](https://www.hackster.io)
+
+[Hackaday](https://hackaday.com)
 
 Proyectos Sistemas Embebidos UNAL 2023-I
 =========================================
