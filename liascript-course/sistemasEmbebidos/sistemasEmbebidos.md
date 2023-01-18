@@ -22,7 +22,7 @@ script: ./pdfobject.min.js
 Proyecto
 ========
 
-A continuación verá un esquema que representa las diferentes fases/tareas del desarrollo del un proyecto en el curso de sistemas embebidos:
+A continuación verá un esquema que representa las diferentes fases/tareas del desarrollo de un proyecto en el curso de sistemas embebidos:
 
 ![proyecto](./img/projectSE/cronograma.drawio.png)
 
@@ -48,8 +48,8 @@ Sobre el sistema embebido
 El dispositivo deberá responder a los requerimientos funcionales y no funcionales
 y además tener las siguientes características:
 
-* Desarrollar una PCB a la medida de la necesidad; podrá desarrollar el sistema embebido completo o desarrollar una tarjeta hija para una tarjeta de desarrollo
-* Para las tareas de software se puede hacer uso de *Zephyr OS* o *Riot OS*
+* Desarrollar una PCB a la medida de la necesidad; podrá desarrollar el sistema embebido completo o desarrollar una tarjeta hija para una tarjeta de desarrollo.
+* Para las tareas de software se puede hacer uso de *Zephyr OS* o *Riot OS*.
 * El sistema debe permitir la comunicación con otros dispositivos para monitoreo o control por parte del usuario final (puede ser a través de un medio guiado o no, lo cual depende de la aplicación).
 
 Sobre la caja
@@ -77,7 +77,7 @@ de repositorios de proyectos como *gitlab*, *codeberg*, *github*, *bitbucket* o 
 Con respecto a la Wiki, en realidad puede ser en cualquier lugar siempre y cuando muestre el proceso
 realizado del proyecto como también el producto terminado con algún demo; los gestores de repositorios
 de proyectos anteriormente mencionados tienen la posibilidad de crear wikis asociadas al proyecto, pero
-también puede hacer uso de un blog o crear páginas web staticas (gitlab y github tienen esa propiedad y por ahora es libre)
+también puede hacer uso de un blog o crear páginas web staticas (gitlab y github tienen esa propiedad y por ahora es libre).
 
 Sobre el brochure
 =================
@@ -89,35 +89,60 @@ Ejemplo de brochure:
 
 ![Brochure IFLAB](./img/brochure-iflab.png)
 
-## Ideación
+## Planificación del proyecto
+
+Ideación
+========
 
 En esta face del proyecto queremos plantear lo que queremos hacer, como también las restricciones de funcionamiento y de alcance;
-Para tal fin deseamos responder a los siguientes items:
+para tal fin deseamos responder a los siguientes items:
 
-* Descripción
+* Descripción del producto a realizar
 * Requerimientos del cliente y alcance
 * Requerimientos funcionales
 * Experiencia de usuario
 
-Requerimientos del cliente y alcance
-====================================
+Los requerimientos del cliente y alcance es aquello que el cliente quiere que suceda con su producto; estos permitirán al cliente juzgar
+el producto sin que necesariamente éste sepa cómo opera internamente, para este paso, puede crear diagramas que den cuenta
+de cómo interviene el **"artefacto"** en la necesidad del cliente, del como el usuario interactúa con el aparato considerando
+aspectos estéticos y de la "experiencia de usuario", lo anterior, como valor agregado del producto.
 
-Son los relacionados a aquello que el cliente quiere que suceda con su producto, los cuales permiten juzgar
-sin que éste necesariamente sepa como debe suceder internamente, para este paso, puede crear diagrámas que den cuenta
-de como interviene el **"artefacto"** en la necesidad del cliente, como el usuario interactua con el aparato considerando
-aspectos estéticos y aquello que tiene un valor agregado (experiencia de usuario), como sugerencia **Liste todo aquello que
-permita acotar el alcance del proyecto** para que identifique que partes de eso se pueden realizar en el tiempo disponible
+Como sugerencia **Liste todo aquello que permita acotar el alcance del proyecto** para que identifique que partes de eso se pueden realizar en el tiempo disponible
 en el curso y aquello que queda proyectado para una próxima iteración del desarrollo del proyecto en otro espacio-tiempo.
 
-Cronograma
-==========
+Algunos ejemplos:
 
-El cronograma que desee diseñar para realizar su proyecto puede ser referenciado con el el diagrama de fases/tareas propuesto
-en esta documentación en [este enlace](#Sistemas-Embebidos-UNAL)
+![eje1](img/ejemplos-ideacion/eje1/ej1.1.jpg) ![eje1](img/ejemplos-ideacion/eje1/eje1.0.png) ![eje1](img/ejemplos-ideacion/eje1/ej1.2.jpg) ![eje1](img/ejemplos-ideacion/eje1/ej1.3.png) ![eje1](img/ejemplos-ideacion/eje1/ej1.4.png) ![eje1](img/ejemplos-ideacion/eje1/eje1.5.png)
+
+![eje2](img/ejemplos-ideacion/eje2/eje2.1.JPG) ![eje2](img/ejemplos-ideacion/eje2/eje2.2.png) ![eje2](img/ejemplos-ideacion/eje2/eje2.3.png) ![eje2](img/ejemplos-ideacion/eje2/eje2.4.png)
+
+![eje3](img/ejemplos-ideacion/eje3/eje3.1.png) ![eje3](img/ejemplos-ideacion/eje3/eje3.2.png)
+
+Roadmap
+=======
+
+![jira-roadmap](img/jira/jira-roadmap-example.png) ![jira-example](img/jira/jira-software-example.jpg)
+
+La hoja de ruta que desee diseñar para realizar su proyecto puede ser referenciado con el diagrama de fases/tareas propuesto
+en esta documentación en [este enlace](#Sistemas-Embebidos-UNAL), La hoja de ruta le permitirá reconocer tareas a realizar, roles
+y responsabilidades, como también ajustar los tiempos de alcance proyectados al semestre académico.
+
+Se recomienda que la hoja de ruta sea realizada bajo parámetros de metodologías ágiles de desarrollo y 
+sistematizado a través de una herramienta que permita realizar seguimiento al desarrollo; hay distintas herramientas en linea que podrá
+usar para tal fin, use aquella que pueda sacarle más provecho, a continuación se listan varias de ellas:
+
+* [Github projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)
+* [Jira](https://www.atlassian.com/es/software/jira)
+* [Notion](https://www.notion.so/)
+* [Trello](https://www.atlassian.com/es/software/trello)
+* [Kanboard](https://kanboard.org/)
+
+Se requiere compartir el roadmap (puede ser en un tablero Kanban) para que el profesor pueda hacerle seguimiento al proceso de desarrollo
+del proyecto y pueda ser orientarlo por ejemplo sobre correcciones en la implementación del mismo.
 
 ## ¿Qué es un sistema embebido?
 
-Antes de definir el sistema embebido, se invita o hacer una revisión de la siguiente presentación del que da una idea sobre los
+Antes de definir el sistema embebido, se invita a hacer una revisión de la siguiente presentación la cual da una idea sobre los
 [paradigmas de diseño de los SoC](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/otros/nuevos_paradigmas_de_disenio.pdf).
 
 Realizada la ubicación de los paradigmas de diseño se puede aproximar a la definición de los sistemas digitales haciendo lectura del documento
@@ -129,7 +154,7 @@ También puede acompañar la anterior lectura con el siguiente
 Metodología de diseño para el área de Sistemas Digitales
 ========================================================
 
-Con las lecturas anteriormente recomendadas podrá analizar el siguiente gráfico que se observa en el documento de [CDIO](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/camargo-docs/CDIO.pdf) pagina xx
+Con las lecturas anteriormente recomendadas podrá analizar el siguiente gráfico que se observa en el documento de [CDIO](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/camargo-docs/CDIO.pdf) pagina 7
 que explica como se relaciona los cursos de electrónica digital ofrecidos en la Universidad Nacional de Colombia; podrá ubicar en
 él qué se implementa en el curso de Sistemas embebidos.
 
@@ -139,7 +164,17 @@ Los siguientes gráficos dan cuenta de los elementos claves en sistemas embebido
 recomendadas.
 
 Flujo de diseño de un sistema embebebido
-========================================
+----------------------------------------
+
+![Flujo de diseño de un sistema embebido](./img/sistemas-embebidos/flujo-de-diseno-de-un-SE.png)
+
+Arquitectura de un Sistema Embebido
+-----------------------------------
+
+![Arquitectura de un sistema embebido](./img/sistemas-embebidos/arquitectura-de-un-SE.png)
+
+Arquitectura de un sistema embebido comercial con memoria interna
+-----------------------------------------------------------------
 
 EBI: External Bus Interface
 
@@ -149,41 +184,55 @@ MMU: Memory Management Unit
 
 PLL: Phase-Locked Loops 
 
-![Flujo de diseño de un sistema embebido](./img/sistemas-embebidos/flujo-de-diseno-de-un-SE.png)
-
-Arquitectura de un Sistema Embebido
-===================================
-
-![Arquitectura de un sistema embebido](./img/sistemas-embebidos/arquitectura-de-un-SE.png)
-
-Arquitectura de un sistema embebido comercial con memoria interna
-=================================================================
-
 ![arquitectura de SE comercial con memoria interna](./img/sistemas-embebidos/arquitectura-SE-comerciar-memoria-interna.png)
 
 
 Arquitectura de un sistema embebido comercial con memoria externa
-=================================================================
+-----------------------------------------------------------------
+
+EBI: External Bus Interface
+
+ICE: In-circuit emulation
+
+MMU: Memory Management Unit
+
+PLL: Phase-Locked Loops 
 
 ![arquitectura de SE comercial con memoria externa](./img/sistemas-embebidos/arquitectura-SE-comercial-memoria-external.png)
 
-Flujo de diseño para aplicaciones un sistema embebido
-=====================================================
-
-![Flujo de diseño de software para un SE](./img/sistemas-embebidos/flujo-de-diseno-sw-para-crear-aplicaciones.png)
-
-Ejemplo de flujo de diseno para crear un aplicación en un procedador softcore
-=============================================================================
+Flujo de diseño de software para la creación de aplicaciones en un procesador softcore
+--------------------------------------------------------------------------------------
 
 ![flujo de diseño de aplicación en LM32](./img/sistemas-embebidos/flujo-de-diseno-hw-sw-procesador-softcore.png)
 
-### Diagrama de bloques de un sistema embebido
+Flujo de diseño de software para la creación de aplicaciones en un sistema embebido
+-----------------------------------------------------------------------------------
+
+![Flujo de diseño de software para un SE](./img/sistemas-embebidos/flujo-de-diseno-sw-para-crear-aplicaciones.png)
+
+### Ejemplo de diagrama de bloques de un sistema embebido
+
+Este ejemplo pretende mostrar la importancia de diseñar a través de un esquema de cajas negras donde no se señala en primer lugar una
+tecnología ni tampoco un protocolo de comunicación entre los diferentes módulos; sí se puede observar que los módulos tendrán alguna
+responsabilidad con respecto a la entrada o salida de información como también el tema de suministro energético.
 
 ![Ejemplo 1](img/sistemas-embebidos/ejemplo1.jpg)
+
+La implementación de una tecnología dependerá de otros criterios, como puede ser el caso, de requerimientos mecánicos, eléctricos, económicos, compatibilidad
+electromagnética, cumplimiento de normas, requerimientos no funcionales entre otros. En el siguiente diagrama se puede apreciar la selección de una computadora Omega2
+la cual ya cuenta con periféricos que se pueden usar para diferentes protocolos de comunicación, lo que hace que los demás módulos sean definidos (sensores y actuadores),
+pero lo anterior puede cambiar si se hiciera uso de una FPGA.
+
+En este punto es importante que construya un diagrama de caja negra que represente las entradas y salidas de información del sistema embebido que desea diseñar
+para recibir orientación frente a la selección de la tecnología a usar como también de los protocolos de comunicación.
 
 ![Ejemplo 1.1](img/sistemas-embebidos/ejemplo1.1.jpg)
 
 ### Placas de desarrollo de referencia
+
+La finalidad de presentar estas placas de desarrollo es que reconozca los diferentes módulos, periféricos, protocolos de comunicación e interfaces que se tienen en cuenta en
+la implementación de estas tarjetas de desarrollo comerciales, así, en el momento de diseñar el esquema circuital de su sistema embebido pueda hacer uso de algunos
+patrones que le facilitarán el uso de su sistema embebido al integrarlo con otros módulos (Conectores, cajas, shields, entre otros).
 
 ![Arduino UNO](img/samples-SE/arduino-uno.png)
 
@@ -321,10 +370,14 @@ Vídeos sobre normas IPC
 Con respecto al diseño del esquemático del circuito para un sistema embebido, se plantea el desarrollo en la herramienta KiCAD
 con hojas jerárquicas.
 
-A continuación se comparte un esquemático con un diseño jerárquico el cual permite el estudio de distintas herramientas
+A continuación se comparte algunos esquemáticos con un diseño jerárquico el cual permite el estudio de distintas herramientas
 usadas en KiCAD.
 
-[Ejemplo de esquemático para un sistema embebido usando el módulo esp8266 en PDF](https://github.com/johnnycubides/curso-scorm-sistemas-digitales/raw/main/ref-docs/example-schematics/luna-esp8266.pdf)
+[Ejemplo de esquematico tarjeta de desarrollo Onion Medialab](https://raw.githubusercontent.com/johnnycubides/onion-medialab/master/docs/chip_media.pdf)
+
+[Ejemplo de esquemático de tarjeta de desarrollo Droidstamp](https://gitlab.com/johnnycubides/droidstamp/-/blob/master/docs/i.mx233stamp.pdf)
+
+[Ejemplo de esquemático para un sistema embebido usando el módulo esp8266 en PDF](https://gitlab.com/catalejo_team/catalejo-dev/catalejo-luna-v1/-/blob/hw/hw/luna-esp8266/luna-esp12f-v4/luna-esp12f-v4.pdf)
 
 Tenga en cuenta lo siguiente para su diseño
 ===========================================
@@ -392,6 +445,7 @@ Tenga en cuenta lo siguiente para el ruteo
 * El ruteo de GND se hace a través de la creación de zonas en las caras frontal y trasera, si existen zonas de GND que quedan aisladas como islas de otras zonas GND haga uso de la creación de vías para interconectar zonas entre caras.
 * Evite la creación de placas paralelas que se puedan comportar como capacitores, para este caso, haga uso también de vías para fortaleces la referencia de GND. 
 * Tenga presenta la ubicación adecuada de los agujeros de sujeción; estos agujeros permitirán empotrar el sistema a la caja. 
+* Los agujeros de sujeción deberán estar acoplados tanto al GND de la placa como al chasis de la caja contenedora para no generar diferencias de potencial que pongan en riesgo al usuario.
 
 Recomendaciones con relación a las vías y pistas
 ================================================
@@ -401,8 +455,7 @@ Como se mencionó en las recomendaciones de ruteo, se tienen los siguientes elem
 * Vias: Permite a través de cilindros huecos conectar diferentes caras de una PCB.
 * Pistas: Conecta distintos componentes de una misma cara.
 
-Estas configuraciones son posibles en KiCad como se muestra a continuación, a demás, estos valores pueden
-ser usados como referencia para sus propios diseños:
+Estas configuraciones son posibles en KiCad como se muestra a continuación.
 
 Creación de clases para vias y pistas
 -------------------------------------
@@ -467,17 +520,28 @@ Fabricantes Nacionales de PCB
 Tiendas componentes electrónicos
 ================================
 
+Internacionales
+---------------
+
 * [Digikey](https://www.digikey.com/)
 * [mouser](https://co.mouser.com)
 
+Nacionales
+----------
 
+* [Sigmaelectronica](https://www.sigmaelectronica.net/)
+
+* [Controldinamico](https://www.controldinamico.com/)
+
+* [Electronilab](https://electronilab.co/)
+
+* [Mactronica](https://www.mactronica.com.co/)
+
+* [Yorobotics](yorobotics.co/)
 
 ## Herramientas
 
-* GIT
-* KiCAD
-* Zephyr
-* Drawio
+En las siguientes páginas obtendrá información útil en relación de distintas herramientas usadas en los procesos de fabricación del sistema embebidos.
 
 ### GNU/Linux
 
@@ -1024,10 +1088,38 @@ Enlaces a plataformas de crowdfunding
 
 [Ulule](https://es.ulule.com/)
 
-Proyectos Sistemas Embebidos UNAL 2022-II
+Proyectos Sistemas Embebidos UNAL 2023-I
 =========================================
 
 **En proceso...**
+
+Proyectos Sistemas Embebidos UNAL 2022-II
+=========================================
+
+> [Smash Rows (Github y Wiki)](https://github.com/Diegoapp55/Proyecto-Sistemas-Embebidos-Smash-Rows/wiki/Smash-Rows)
+> Este proyecto busca atacar una problemática conocida en el sector de la salud pública como lo es la gran cantidad de tiempo gastado en las enormes filas que se forman para reclamar medicamentos a las puertas de los centros de distribución de medicamentos mediante un sistema embebido que hace un primer registro de forma rápida del paciente, reconoce su formula médica e informa sí dicho tipo y cantidad de medicamento se encuentra disponible en el lugar. De ser así, el sistema embebido se encargara de, automáticamente, registrar y efectuar la entrega de medicamentos de bajo riesgo al paciente.
+
+> [Amiplanta (Github y Wiki)](https://github.com/daguilar43/proyectoEmbebidos/wiki)
+> Amiplanta es una maceta inteligente que busca facilitar el cuidado de las plantas permitiendo la interacción entre la planta y el usuario de manera divertida y amigable mediante una pantalla interactiva que muestra las emociones de la planta dependiendo de sus necesidades.
+
+> [Gabinete de autocultivo (Github y Wiki)](https://github.com/JuanJesusRR/Proyecto_Embebidos-GabineteCultivo/wiki)
+> Desarrollo del prototipo de un gabinete que permita modificar las condiciones del ambiente interno a las mas optimas para el buen cuidado de una planta impatiens hawkeri (Guinea), obteniendo cierto grado de control sobre variables como la humedad y temperatura del aire, humedad de la tierra y exposición a la luz solar y que se puedan expandir las funcionalidades del producto hacia varios tipos de plantas como ornamentales, medicinales y de consumo.
+
+> [SmartBike (Github y Wiki)](https://github.com/DAROGRA/SmartBike/wiki/WIKI-SMART-BIKE)
+> La bicicleta es considerada un transporte eficiente y amigable con el medio ambiente, debido a esto en ciudades como Bogotá se ha convertido en el medio de transporte principal para muchas personas, llamando la atención tanto de criminales que buscan aprovecharse del amplio mercado, como de las empresas que buscan brindar soluciones en seguridad y comodidad. Sin embargo, las soluciones mencionadas anteriormente suelen ser costosas, además de estar integradas de forma forzada con un modelo de bicicleta en específicas, por ello el proyecto SmartBike busca brindar una alternativa económica para los usuarios de bicicleta, permitiendoles otorgar a una bicicleta normal las caracteríscas de una inteligente.
+
+> [Wally (Wiki)](https://ltherreraro.github.io/Wally/)
+> [(Github)](https://github.com/ltherreraro/Wally)
+> Es un projecto embebido para recolectar basura cuyo objetivo es detectar desechos a través de una cámara controlada por el modulo esp32cam y el control de movimientos junto con los sensores son controlados por la RP2040, el firmare se basa se zephyr OS.
+
+> [Hidroponía (Github y Wiki)](https://github.com/danrodriguezto/SistemaEmbebidoHidroponia/)
+> Se plantea construir un cultivo vertical de hidroponia que reduzca el espacio utilizado para un cultivo y que cuente con un sistema de monitoreo que cuente con sensores previamente calibrados que midan variables importantes para el sostenimiento del cultivo, estos sensores enviaran información que sera procesada y a partir de esto se enviaran alertas al telefono movil del usuario haciendo así interactivo el proceso de producir su alimento. También se pretende que esta dispositivo pueda ser usado por cualquier persona incluso si no conoce sobre hidroponia por medio de avisos informativos-educativos.
+
+> [Compostaje (Github y Wiki)](https://github.com/dani0421/Compostaje)
+> Desarrollar un sistema embebido que permita darle un manejo óptimo a los desechos organicos de manera cómoda y sencilla, con el fin de poder ser implementado por cualquier usuario de manera doméstica.
+
+>  [Quadruped-bot (Github y Wiki)](https://github.com/manperezca/quadruped/wiki)
+> Este es el repositorio del proyecto de la asignatura Sistemas Embebidos del semestre 2022-II (Universidad Nacional de Colombia - Sede Bogotá). A continuación se mostrará el proyecto de un robot cuadrúpedo de SoC, donde a partir de un microprocesador y diferentes periféricos se realizan operaciones que permiten el movimiento del robot.
 
 Proyectos Sistemas Embebidos UNAL 2022-I
 ========================================
