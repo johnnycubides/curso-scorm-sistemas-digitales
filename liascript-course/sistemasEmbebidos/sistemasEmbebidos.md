@@ -112,7 +112,7 @@ en el curso y aquello que queda proyectado para una próxima iteración del desa
 
 Algunos ejemplos:
 
-![eje1](img/ejemplos-ideacion/eje1/ej1.1.jpg) ![eje1](img/ejemplos-ideacion/eje1/eje1.0.png) ![eje1](img/ejemplos-ideacion/eje1/ej1.2.jpg) ![eje1](img/ejemplos-ideacion/eje1/ej1.3.png) ![eje1](img/ejemplos-ideacion/eje1/ej1.4.png) ![eje1](img/ejemplos-ideacion/eje1/eje1.5.png)
+![eje1](img/ejemplos-ideacion/eje1/ej1.1.jpg) ![eje1](img/ejemplos-ideacion/eje1/eje1.2.png) ![eje1](img/ejemplos-ideacion/eje1/ej1.0.jpg) ![eje1](img/ejemplos-ideacion/eje1/ej1.3.png) ![eje1](img/ejemplos-ideacion/eje1/ej1.4.png) ![eje1](img/ejemplos-ideacion/eje1/eje1.5.png)
 
 ![eje2](img/ejemplos-ideacion/eje2/eje2.1.JPG) ![eje2](img/ejemplos-ideacion/eje2/eje2.2.png) ![eje2](img/ejemplos-ideacion/eje2/eje2.3.png) ![eje2](img/ejemplos-ideacion/eje2/eje2.4.png)
 
