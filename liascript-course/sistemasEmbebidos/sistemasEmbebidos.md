@@ -1004,6 +1004,16 @@ conocer características del lenguaje y su interacción con el hardware las cual
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmxqg54iaXriqr7SZbrGgr535DIYjRmkV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+#### Lenguaje ASM
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmxqg54iaXrhNw1EMGJBSTWHzSTSyzims" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### Forth
+
+[Starting FORTH](https://www.forth.com/starting-forth/)
+
+[FlashForth](https://flashforth.com/index.html)
+
 #### Lenguaje Rust
 
 * [Libro online de programación en Rust](https://doc.rust-lang.org/book/)
@@ -1067,6 +1077,16 @@ examples:
 * [Drawio](https://github.com/jgraph/drawio-desktop/releases)
 * [Pencil Project](https://pencil.evolus.vn/)
 * [Excalidraw](https://excalidraw.com/)
+
+## Historia
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xK32lQpzQnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_f71BHguJqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0LqS4kArQ-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m-8G1Yixb34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Proyectos
 
